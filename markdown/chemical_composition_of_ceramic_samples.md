@@ -1,29 +1,31 @@
 # Chemical Composition of Ceramic Samples
 
-**Summary:** Classify ceramic samples based on their chemical composition from energy dispersive X-ray fluorescence.
+**Summary:** Classify ceramic samples based on their chemical composition from energy dispersive X-ray fluorescence. We hope to identify chemical elements that are strongest explanatory variables to classify samples into different cultural eras and kilns.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Chemical Composition of Ceramic Samples |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
 | **Associated Tasks** | Classification, Clustering |
-| **Number of Instances** | 88 |
-| **Number of Features** | 19 |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Multivariate |
 | **Date Donated** | 2019-01-28 |
-| **Source** | UCI Machine Learning Repository |
+| **Feature Type** | Real |
+| **Labeled** | Yes |
+| **Missing Values** | No |
+| **Name** | Chemical Composition of Ceramic Samples |
+| **Number of Features** | 19 |
+| **Number of Instances** | 88 |
+| **Source** | UCI |
+| **Time Series** | No |
 
-## Dataset Information
+## Description
 
-The energy dispersive X-ray fluorescence (EDXRF) was used to determine the chemical composition of celadon body and glaze in Longquan kiln (at Dayao County) and Jingdezhen kiln. Forty typical shards in four cultural eras were selected to investigate the raw materials and firing technology. We hope to identify chemical elements that are strongest explanatory variables to classify samples into different cultural eras and kilns.
+The energy dispersive X-ray fluorescence (EDXRF) was used to determine the chemical composition of celadon body and glaze in Longquan kiln (at Dayao County) and Jingdezhen kiln. Forty typical shards in four cultural eras were selected to investigate the raw materials and firing technology.
+
+We hope to identify chemical elements that are strongest explanatory variables to classify samples into different cultural eras and kilns.
 
 ## Tags
 
-Ceramic analysis, Chemical composition, X-ray fluorescence, Material science, Historical ceramics
+Ceramics, Chemical composition, Classification, Clustering, Cultural Heritage, Material Science, X-ray fluorescence
 
 ## References
 

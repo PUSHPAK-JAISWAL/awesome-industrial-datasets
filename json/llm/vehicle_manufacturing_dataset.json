@@ -1,0 +1,29 @@
+{
+  "Name": "Vehicle Manufacturing Dataset",
+  "Labeled": "Likely",
+  "Time Series": "No",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about this dataset is not available from the provided source.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Vehicle manufacturing",
+    "Automotive industry",
+    "Manufacturing processes",
+    "Production data",
+    "Industrial data"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset"
+    }
+  ]
+}

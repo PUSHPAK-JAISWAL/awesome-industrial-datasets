@@ -1,0 +1,29 @@
+{
+  "Name": "Green House Gas Produce by Different Industry",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Likely Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Likely Regression",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset likely contains data about greenhouse gas emissions from various industries.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Greenhouse gas emissions",
+    "Industry data",
+    "Environmental impact",
+    "Climate change",
+    "Emission sources"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/rafsunahmad/green-house-gas-produce-by-different-industry"
+    }
+  ]
+}

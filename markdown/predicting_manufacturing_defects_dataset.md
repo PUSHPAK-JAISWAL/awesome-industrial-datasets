@@ -1,33 +1,34 @@
 # Predicting Manufacturing Defects Dataset
 
-**Summary:** Insights into Factors Influencing Defect Rates and Production Efficiency.
+**Summary:** Dataset for predicting manufacturing defects.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Predicting Manufacturing Defects Dataset |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
 | **Associated Tasks** | Classification |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
+| **Name** | Predicting Manufacturing Defects Dataset |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-This dataset provides insights into factors influencing defect rates in a manufacturing environment. Each record represents various metrics crucial for predicting high or low defect occurrences in production processes.
-The dataset focuses on defect instances more because they do not occur often. However, non-defect instances were added too for this reason the dataset is imbalanced, consider balancing it before proceeding with machine learning techniques.
+This dataset is for predicting manufacturing defects.
+
+More information can be found on Kaggle.
 
 ## Tags
 
-Manufacturing defects, Quality control, Predictive modeling, Industrial data, Process optimization
+Defect prediction, Industrial application, Kaggle dataset, Manufacturing, Predictive modeling, Quality control
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset)
+- [Kaggle](https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset)
 
 [⬅️ Back to Index](../README.md)

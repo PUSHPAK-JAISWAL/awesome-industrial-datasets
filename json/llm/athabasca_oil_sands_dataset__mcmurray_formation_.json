@@ -1,0 +1,31 @@
+{
+  "Name": "Athabasca Oil Sands Dataset (McMurray Formation)",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Alberta Geological Survey",
+  "Summary": "Information about the Athabasca Oil Sands Dataset (McMurray Formation) is not available on the provided webpage.",
+  "Description": "Information about the Athabasca Oil Sands Dataset (McMurray Formation) is not available on the provided webpage.",
+  "Additional Tags": [
+    "Athabasca Oil Sands",
+    "McMurray Formation",
+    "Geological Data",
+    "Oil Sands",
+    "Alberta",
+    "Canada",
+    "Petroleum Geology"
+  ],
+  "References": [
+    {
+      "Text": "Alberta Geological Survey",
+      "Link": "https://ags.aer.ca/publication/spe-006"
+    }
+  ]
+}

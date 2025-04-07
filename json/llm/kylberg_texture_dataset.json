@@ -1,0 +1,31 @@
+{
+  "Name": "Kylberg Texture Dataset",
+  "Labeled": "No",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Univariate, Image",
+  "Feature Type": "Integer",
+  "Associated Tasks": "Classification, Segmentation, Recognition",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "kylberg.org",
+  "Summary": "This is a comprehensive texture dataset consisting of images with varying textures. It is suitable for research in texture analysis, image processing, and machine learning.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Texture analysis",
+    "Image dataset",
+    "Pattern recognition",
+    "Computer vision",
+    "Image processing",
+    "Texture classification",
+    "Kylberg dataset"
+  ],
+  "References": [
+    {
+      "Text": "Kylberg Texture Dataset",
+      "Link": "https://kylberg.org/kylberg-texture-dataset-v-1-0/"
+    }
+  ]
+}

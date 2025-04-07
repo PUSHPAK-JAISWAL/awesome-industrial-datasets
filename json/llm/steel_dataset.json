@@ -1,0 +1,28 @@
+{
+  "Name": "Steel Dataset",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about the Steel Dataset is available on Kaggle.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Steel industry",
+    "Manufacturing",
+    "Material science",
+    "Kaggle dataset"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/nimapourmoradi/steel-dataset"
+    }
+  ]
+}

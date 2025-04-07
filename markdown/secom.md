@@ -1,36 +1,36 @@
 # SECOM
 
-**Summary:** Data from a semi-conductor manufacturing process.
+**Summary:** Data from a semi-conductor manufacturing process. The dataset represents a selection of features where each example represents a single production entity with associated measured features and the labels represent a simple pass/fail yield for in house line testing, and associated date time stamp.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | SECOM |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | Yes |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
 | **Associated Tasks** | Classification, Causal-Discovery |
-| **Number of Instances** | 1567 |
-| **Number of Features** | 591 |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Multivariate |
 | **Date Donated** | 2008-11-18 |
+| **Feature Type** | Real |
+| **Labeled** | Yes |
+| **Missing Values** | Yes |
+| **Name** | SECOM |
+| **Number of Features** | 591 |
+| **Number of Instances** | 1567 |
 | **Source** | UCI Machine Learning Repository |
+| **Time Series** | No |
 
-## Dataset Information
+## Description
 
-Key facts: Data Structure: The data consists of 2 files—the dataset file SECOM consisting of 1567 examples, each with 591 features, forming a 1567 x 591 matrix, and a labels file containing the classifications and date-time stamp for each example.
+A complex modern semi-conductor manufacturing process is normally under consistent surveillance via the monitoring of signals/variables collected from sensors and or process measurement points. However, not all of these signals are equally valuable in a specific monitoring system. The measured signals contain a combination of useful information, irrelevant information as well as noise. It is often the case that useful information is buried in the latter two. Engineers typically have a much larger number of signals than are actually required.
 
-As with any real-life data situations, this data contains null values, varying in intensity depending on the individual features. This needs to be taken into consideration when investigating the data, either through pre-processing or within the technique applied.
+Using feature selection techniques it is desired to rank features according to their impact on the overall yield for the product; causal relationships may also be considered with a view to identifying the key features.
 
-The data is represented in a raw text file, each line representing an individual example, and the features separated by spaces. The null values are represented by the 'NaN' value as per MATLAB.
+Key facts: Data Structure: The data consists of 2 files the dataset file SECOM consisting of 1567 examples each with 591 features a 1567 x 591 matrix and a labels file containing the classifications and date time stamp for each example. As with any real life data situations this data contains null values varying in intensity depending on the individuals features. This needs to be taken into consideration when investigating the data either through pre-processing or within the technique applied.
 
 ## Tags
 
-Manufacturing, Semi-conductor, Process optimization, Feature selection, Industrial data
+Classification, Feature selection, Manufacturing process data, Process monitoring, Semiconductor manufacturing, Sensor data, Yield prediction
 
 ## References
 
-- [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/secom)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SECOM)
 
 [⬅️ Back to Index](../README.md)

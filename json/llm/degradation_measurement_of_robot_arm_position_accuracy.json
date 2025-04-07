@@ -1,0 +1,39 @@
+{
+  "Name": "Degradation Measurement of Robot Arm Position Accuracy",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Prognostics",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "2017-10-05",
+  "Source": "NIST",
+  "Summary": "Data collected on a UR robot to measure the degradation of robot arm position accuracy for robot system health assessment. The data sets provide both the robot high level TCP positional health data and the controller level components\u2019 detail information.",
+  "Description": "A grid moment of the universal robot (UR5*) is planned. The tool center positions (TCP) (x,y,z) of the robot are measured by a 7-D measurement system developed at NIST. Differences are compared from the nominal positions to the measured positions. Controller level sensing data are also collected from each joint, to understand the influences of position degradation from temperature, payload, and speed. \n\nController level information provides clues about the root causes of the robot performance degradation, by providing information about the actual and joint positions, velocities, currents, accelerations, torques, and temperatures.\n\nThe data sets can help to build the matrix of robot health monitoring algorithms and tools, support the research of robot prognostic, and health management (PHM), and support the validation and verification of the industrial PHM implementation.",
+  "Additional Tags": [
+    "Robot arm",
+    "Position accuracy",
+    "Health assessment",
+    "Prognostics and health management (PHM)",
+    "Controller data",
+    "Temperature effects",
+    "Payload effects"
+  ],
+  "References": [
+    {
+      "Text": "NIST",
+      "Link": "https://www.nist.gov/el/intelligent-systems-division-73500/degradation-measurement-robot-arm-position-accuracy"
+    },
+    {
+      "Text": "Degradation Analysis for Industrial Robot Systems",
+      "Link": "https://www.nist.gov/publications/accuracy-degradation-analysis-industrial-robot-systems"
+    },
+    {
+      "Text": "Quick Positional Health Assessment for Industrial Robot Prognostics and Health Management",
+      "Link": "https://www.nist.gov/publications/quick-positional-health-assessment-industrial-robot-prognostics-and-health-management"
+    }
+  ]
+}

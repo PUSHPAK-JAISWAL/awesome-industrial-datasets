@@ -1,0 +1,30 @@
+{
+  "Name": "CNC Mill Tool Wear",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Likely",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Dataset related to CNC Mill Tool Wear.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "CNC mill",
+    "Tool wear detection",
+    "Manufacturing",
+    "Industrial application",
+    "Machine learning",
+    "Predictive maintenance"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill"
+    }
+  ]
+}

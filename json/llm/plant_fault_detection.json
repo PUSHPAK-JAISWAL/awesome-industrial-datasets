@@ -1,0 +1,35 @@
+{
+  "Name": "Plant Fault Detection",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Fault Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "PHM Society",
+  "Summary": "This dataset is related to the PHM 2015 data challenge, focusing on plant fault detection.",
+  "Description": "This repository contains data for the PHM 2015 data challenge. The challenge likely involves using machine learning techniques for the detection and classification of faults in a plant or industrial setting. \n\nThe data is likely multivariate and time-series, originating from real-world sensors and systems. The specific details of the data, such as the number of instances and features, are not explicitly provided on the page but can probably be found on the challenge official website. \n\nThe dataset and challenge are organized by the PHM Society.",
+  "Additional Tags": [
+    "PHM 2015 data challenge",
+    "Fault detection",
+    "Industrial plant monitoring",
+    "Sensor data",
+    "Time-series analysis",
+    "Machine learning competition",
+    "Prognostics and Health Management"
+  ],
+  "References": [
+    {
+      "Text": "PHM Society",
+      "Link": "https://www.phmsociety.org/events/conference/phm/15/data-challenge"
+    },
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/robot007/PHM15"
+    }
+  ]
+}

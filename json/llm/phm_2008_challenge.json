@@ -1,0 +1,30 @@
+{
+  "Name": "PHM 2008 Challenge",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "NASA",
+  "Summary": "Information about the PHM 2008 Challenge dataset.",
+  "Description": "This page provides access to the PHM 2008 Challenge dataset. \n\nUnfortunately, the provided HTML content contains very limited information about the dataset itself. Further investigation is needed to fill out this information.",
+  "Additional Tags": [
+    "PHM Challenge",
+    "NASA Data",
+    "Open Data",
+    "Challenge dataset",
+    "Research dataset",
+    "Engineering"
+  ],
+  "References": [
+    {
+      "Text": "NASA's Open Data Portal",
+      "Link": "https://data.nasa.gov/Raw-Data/PHM-2008-Challenge/nk8v-ckry/data"
+    }
+  ]
+}

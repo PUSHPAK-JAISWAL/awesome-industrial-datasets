@@ -1,0 +1,36 @@
+# Water Distribution (WADI) Dataset
+
+**Summary:** The webpage indicates a suspicious attempt from the device and does not provide information on the Water Distribution (WADI) Dataset. Consequently, details about the dataset are not available.
+
+| Parameter | Value |
+| --- | --- |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
+| **Name** | Water Distribution (WADI) Dataset |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
+| **Source** | Singapore University of Technology and Design (SUTD) |
+| **Time Series** | Information not available |
+
+## Description
+
+The provided webpage content indicates a potential security issue. The message states that the page may not be viewable due to a 'suspicious attempt' detected from the user's device.
+
+It suggests reporting the error to the IT Service Desk at SUTD, providing details such as IP address, date and time, full URL, a description of the triggering activity, and the error code.
+
+Due to this error message, no information about the Water Distribution (WADI) Dataset is available from the given content.
+
+## Tags
+
+Cybersecurity, Dataset error, Industrial control system, Network security, SCADA, SUTD iTrust, Water distribution
+
+## References
+
+- [SUTD iTrust Labs](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)
+
+[⬅️ Back to Index](../README.md)

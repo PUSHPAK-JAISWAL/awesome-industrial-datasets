@@ -1,0 +1,30 @@
+{
+  "Name": "Quality Prediction in a Mining Process",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification, Regression",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Dataset for quality prediction in a mining process.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Mining process",
+    "Quality prediction",
+    "Industrial data",
+    "Process optimization",
+    "Resource management",
+    "Multivariate data"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process"
+    }
+  ]
+}

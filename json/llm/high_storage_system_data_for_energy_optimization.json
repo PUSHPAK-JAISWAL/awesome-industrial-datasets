@@ -1,0 +1,30 @@
+{
+  "Name": "High Storage System Data for Energy Optimization",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Optimization, Energy Prediction",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset is for high storage system data for energy optimization.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Energy optimization",
+    "Storage systems",
+    "Energy consumption",
+    "Kaggle dataset",
+    "Optimization problems",
+    "High storage system"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization"
+    }
+  ]
+}

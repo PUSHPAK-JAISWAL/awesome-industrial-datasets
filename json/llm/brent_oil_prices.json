@@ -1,0 +1,31 @@
+{
+  "Name": "Brent Oil Prices",
+  "Labeled": "No",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Time Series Analysis",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains Brent oil prices.",
+  "Description": "This dataset provides historical data on Brent oil prices.\n\nFurther details about the dataset and its specific attributes are not available from the provided HTML content.",
+  "Additional Tags": [
+    "Oil prices",
+    "Brent crude",
+    "Financial data",
+    "Commodity prices",
+    "Energy market",
+    "Economic indicators",
+    "Time series data"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/mabusalah/brent-oil-prices"
+    }
+  ]
+}

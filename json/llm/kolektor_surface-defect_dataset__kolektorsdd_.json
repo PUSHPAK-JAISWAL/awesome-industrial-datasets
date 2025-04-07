@@ -1,0 +1,47 @@
+{
+  "Name": "Kolektor Surface-Defect Dataset (KolektorSDD)",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image, Defect Detection",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification, Object Detection, Segmentation",
+  "Number of Instances": "399",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "ViCoS Lab",
+  "Summary": "The dataset is constructed from images of defective production items that were provided and annotated by Kolektor Group d.o.o.. The images were captured in a controlled industrial environment in a real-world case.",
+  "Description": "The dataset is constructed from images of defective production items that were provided and annotated by Kolektor Group d.o.o.. The images were captured in a controlled industrial environment in a real-world case.\n\nThe dataset consists of 399 images, with 52 images containing visible defects and 347 images without any defect. The original images have a width of 500 pixels and a height ranging from 1240 to 1270 pixels. For training and evaluation, the images should be resized to 512 x 1408 pixels.\n\nFor each item, the defect is only visible in at least one image, while two items have defects on two images, which means there were 52 images where the defects are visible. The remaining 347 images serve as negative examples with non-defective surfaces.",
+  "Additional Tags": [
+    "Surface defect detection",
+    "Industrial inspection",
+    "Image classification",
+    "Object detection",
+    "Segmentation",
+    "Manufacturing defects",
+    "Real-world data"
+  ],
+  "References": [
+    {
+      "Text": "ViCoS Lab - KolektorSDD",
+      "Link": "https://www.vicos.si/resources/kolektorsdd/"
+    },
+    {
+      "Text": "DOWNLOAD HERE with fine annotations (for JIM2019 paper)",
+      "Link": "https://go.vicos.si/kolektorsdd"
+    },
+    {
+      "Text": "DOWNLOAD HERE with box annotations (for ICPR2021 and COMIND 2021 papers)",
+      "Link": "https://go.vicos.si/kolektorsddboxes"
+    },
+    {
+      "Text": "KolektorSDD-training-splits.zip",
+      "Link": "https://data.vicos.si/datasets/KSDD/KolektorSDD-training-splits.zip"
+    },
+    {
+      "Text": "KolektorSDD-dilate=5-tensorflow.zip",
+      "Link": "https://data.vicos.si/datasets/KSDD/KolektorSDD-dilate=5-tensorflow.zip"
+    }
+  ]
+}

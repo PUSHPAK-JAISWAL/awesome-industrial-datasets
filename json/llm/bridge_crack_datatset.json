@@ -1,0 +1,31 @@
+{
+  "Name": "Bridge Crack Dataset",
+  "Labeled": "Likely Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Image Data",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification, Object Detection, Image Segmentation",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "This dataset contains images of bridge cracks for use in surface defect detection. It supports development of machine learning algorithms for detecting cracks in bridges.",
+  "Description": "This dataset is available on GitHub and contains images related to bridge cracks. It can be used for surface defect detection, specifically for detecting and classifying cracks in bridge structures. The repository supports the development of Machine Learning-based approaches and algorithms for specific problems.\n\nThe dataset is part of a larger project on surface defect detection.\n\nThe ultimate goal is to prevent production losses, reduce maintenance costs, environmental accidents, and human casualties.",
+  "Additional Tags": [
+    "Image data",
+    "Bridge cracks",
+    "Surface defect detection",
+    "Civil Engineering",
+    "Structural Health Monitoring",
+    "Computer Vision",
+    "Image segmentation"
+  ],
+  "References": [
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/Charmve/Surface-Defect-Detection/tree/master/Bridge_Crack_Image"
+    }
+  ]
+}

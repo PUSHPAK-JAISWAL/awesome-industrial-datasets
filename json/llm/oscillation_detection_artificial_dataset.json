@@ -1,0 +1,35 @@
+{
+  "Name": "Oscillation detection artificial dataset",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Synthetic",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification, Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "UFRGS",
+  "Summary": "Dataset used by the authors\u2019 previous work on a technique for oscillation detection based on Machine Learning.",
+  "Description": "This dataset is an oscillation detection artificial dataset (ODADS).\n\nIt was used in previous work on a machine learning technique for oscillation detection.\n\nYou can download it from the provided link.",
+  "Additional Tags": [
+    "Oscillation detection",
+    "Machine learning",
+    "Artificial dataset",
+    "Time-series analysis",
+    "Industrial process monitoring",
+    "Fault detection",
+    "Process control"
+  ],
+  "References": [
+    {
+      "Text": "UFRGS Repository",
+      "Link": "https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/"
+    },
+    {
+      "Text": "Download",
+      "Link": "https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo"
+    }
+  ]
+}

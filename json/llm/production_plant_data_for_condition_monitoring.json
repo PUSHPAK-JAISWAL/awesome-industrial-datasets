@@ -1,0 +1,31 @@
+{
+  "Name": "Production Plant Data for Condition Monitoring",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This is a production plant data set for condition monitoring.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Production plant",
+    "Condition monitoring",
+    "Industrial data",
+    "Manufacturing",
+    "Sensor data",
+    "Machine learning",
+    "Predictive maintenance"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/inIT-OWL/production-plant-data-for-condition-monitoring"
+    }
+  ]
+}

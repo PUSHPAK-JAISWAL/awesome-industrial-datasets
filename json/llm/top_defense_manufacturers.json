@@ -1,0 +1,31 @@
+{
+  "Name": "Top Defense Manufacturers",
+  "Labeled": "Information not available",
+  "Time Series": "No",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about top defense manufacturers.",
+  "Description": "Information regarding the dataset about the top defense manufacturers is not available in the provided HTML content.",
+  "Additional Tags": [
+    "Defense industry",
+    "Manufacturing",
+    "Companies",
+    "Defense contractors",
+    "Aerospace",
+    "Military",
+    "Government"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/surajjha101/top-defense-manufacturers"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Name": "Road Surface Cracks Dataset",
+  "Labeled": "Yes",
+  "Time Series": "Information not available",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Object Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "This dataset contains images of road surfaces with cracks, intended for developing machine learning models for crack detection and classification.",
+  "Description": "This dataset contains images of road surfaces with cracks. It is intended to support the development of machine learning-based approaches for detecting and classifying cracks in road surfaces.\n\nThe dataset is hosted on GitHub and available for public use. However, the GitHub page does not provide a detailed description of the dataset's characteristics, such as the number of images, resolution, or labeling scheme.\n\nMore information may be found within the repository's files or associated research papers.",
+  "Additional Tags": [
+    "Road surface",
+    "Crack detection",
+    "Image analysis",
+    "Computer vision",
+    "Defect detection",
+    "Transportation infrastructure"
+  ],
+  "References": [
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/cuilimeng/CrackForest-dataset"
+    }
+  ]
+}

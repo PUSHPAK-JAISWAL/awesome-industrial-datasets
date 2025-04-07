@@ -1,0 +1,39 @@
+{
+  "Name": "UK-DALE dataset",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, NILM",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "2017-04-01",
+  "Source": "Jack Kelly's website",
+  "Summary": "This dataset records the power demand from five houses, including whole-house mains power and individual appliance power every six seconds. In three of the houses, whole-house voltage and current are recorded at 16 kHz.",
+  "Description": "The UK-DALE dataset records the power demand from five houses. In each house, both the whole-house mains power demand and the power demand from individual appliances are recorded every six seconds. In three of the five houses (houses 1, 2, and 5), the whole-house voltage and current are also recorded at 16 kHz.\n\nThe dataset is available in several formats, including ZIPPED CSV files, an HDF5 version for use with NILMTK, and FLAC files for the 16 kHz voltage and current data. The most recent release is for April 2017 and includes 4.3 years of data for house 1.\n\nGas and electricity utility meter readings for house 1 are also available. The 16 kHz data is stored as a sequence of stereo FLAC files, with one channel representing whole-house voltage and the other representing whole-house current.",
+  "Additional Tags": [
+    "Energy disaggregation",
+    "Appliance-level energy data",
+    "Smart meters",
+    "Power demand",
+    "Voltage and current data",
+    "NILM",
+    "Residential energy consumption"
+  ],
+  "References": [
+    {
+      "Text": "Jack Kelly's website",
+      "Link": "http://jack-kelly.com/data/"
+    },
+    {
+      "Text": "UKERC EDC",
+      "Link": "http://data.ukedc.rl.ac.uk/simplebrowse/edc/efficiency/residential/EnergyConsumption/Domestic/UK-DALE-2017/UK-DALE-FULL-disaggregated/ukdale.zip"
+    },
+    {
+      "Text": "Scientific Data Paper",
+      "Link": "http://www.nature.com/sdata"
+    }
+  ]
+}

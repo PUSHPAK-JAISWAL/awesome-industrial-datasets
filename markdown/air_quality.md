@@ -4,29 +4,34 @@
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Air Quality |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | Yes |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Feature Type** | Real |
 | **Associated Tasks** | Regression |
-| **Number of Instances** | 9358 |
-| **Number of Features** | 15 |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Multivariate, Time-Series |
 | **Date Donated** | 2016-03-22 |
+| **Feature Type** | Real, Integer, Categorical, Date |
+| **Labeled** | Likely |
+| **Missing Values** | Yes |
+| **Name** | Air Quality |
+| **Number of Features** | 15 |
+| **Number of Instances** | 9358 |
 | **Source** | UCI Machine Learning Repository |
+| **Time Series** | Yes |
 
-## Dataset Information
+## Description
 
-The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level,within an Italian city. Data were recorded from March 2004 to February 2005 (one year)representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses. Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2)  and were provided by a co-located reference certified analyzer. Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value. This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.
+The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level,within an Italian city. Data were recorded from March 2004 to February 2005 (one year)representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses.
+
+Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2)  and were provided by a co-located reference certified analyzer. Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value.
+
+This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.
 
 ## Tags
 
-Air quality monitoring, Sensor data, Pollution levels, Time-series analysis, Environmental data
+Air quality monitoring, Chemical sensors, Gas concentration, Hourly data, Italian city, Metal oxide sensors, Pollution data
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
+- [On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario](https://www.semanticscholar.org/paper/a90a54a39ff934772df57771a0012981f355949d)
 
 [⬅️ Back to Index](../README.md)

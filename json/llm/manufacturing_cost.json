@@ -1,0 +1,29 @@
+{
+  "Name": "Manufacturing cost",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about the manufacturing cost dataset is not available on the webpage.",
+  "Description": "Information about the manufacturing cost dataset is not available on the webpage.\n\nNo details regarding the dataset's features, characteristics, or specific applications are provided.\n\nThe provided HTML code only contains the basic structure of a webpage with a title. It lacks any descriptive content about the dataset itself.",
+  "Additional Tags": [
+    "Manufacturing",
+    "Cost analysis",
+    "Production costs",
+    "Industrial data",
+    "Kaggle dataset"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/vinicius150987/manufacturing-cost"
+    }
+  ]
+}

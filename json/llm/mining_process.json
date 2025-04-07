@@ -1,0 +1,30 @@
+{
+  "Name": "Mining Process",
+  "Labeled": "Likely",
+  "Time Series": "No",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Prediction",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset is related to quality prediction in a mining process.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Mining process",
+    "Quality prediction",
+    "Industrial process",
+    "Kaggle dataset",
+    "Prediction tasks",
+    "Process optimization"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/edumagalhaes/quality-prediction-in-a-mining-process"
+    }
+  ]
+}

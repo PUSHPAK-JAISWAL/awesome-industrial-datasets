@@ -1,0 +1,30 @@
+{
+  "Name": "CWRU Bearing Data",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Regression",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Case Western Reserve University",
+  "Summary": "This dataset comes from the Bearing Data Center at Case Western Reserve University.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Bearing fault diagnosis",
+    "Rotating machinery",
+    "Vibration analysis",
+    "Sensor data",
+    "Mechanical engineering",
+    "Condition monitoring"
+  ],
+  "References": [
+    {
+      "Text": "CWRU Bearing Data Center",
+      "Link": "https://csegroups.case.edu/bearingdatacenter"
+    }
+  ]
+}

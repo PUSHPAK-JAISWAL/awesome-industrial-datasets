@@ -1,0 +1,29 @@
+{
+  "Name": "Business and Industry Reports",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about business and industry reports.",
+  "Description": "Information about business and industry reports.\n\nMore information is not available on the provided webpage.",
+  "Additional Tags": [
+    "Business reports",
+    "Industry reports",
+    "Kaggle datasets",
+    "Market analysis",
+    "Economic data"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/census/business-and-industry-reports"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Name": "Degradation of a Cutting Blade",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains information about the degradation of an industrial component (cutting blade) over one year.",
+  "Description": "This dataset provides data related to the degradation of a cutting blade over the course of one year. \n\nFurther details regarding the specific measurements, variables, and experimental setup are not available from the provided HTML content.",
+  "Additional Tags": [
+    "Industrial component",
+    "Cutting blade",
+    "Degradation analysis",
+    "Sensor data",
+    "Manufacturing",
+    "Kaggle dataset",
+    "One year data"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/inIT-OWL/one-year-industrial-component-degradation"
+    }
+  ]
+}

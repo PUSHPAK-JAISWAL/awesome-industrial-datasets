@@ -1,0 +1,30 @@
+{
+  "Name": "AITEX",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "AITEX",
+  "Summary": "Information not available",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "AITEX",
+    "Textile Technology Institute",
+    "Research Data",
+    "Industrial Data",
+    "Unknown Application",
+    "Spain Research"
+  ],
+  "References": [
+    {
+      "Text": "AITEX",
+      "Link": "https://www.aitex.es/afid/"
+    }
+  ]
+}

@@ -1,32 +1,32 @@
 # Green House Gas Produce by Different Industry
 
-**Summary:** Since 2010, Different Type of Gas Release by Different Industry in the World.
+**Summary:** This dataset likely contains data about greenhouse gas emissions from various industries.
 
 | Parameter | Value |
 | --- | --- |
+| **Associated Tasks** | Likely Regression |
+| **Data Source** | Likely Real |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
 | **Name** | Green House Gas Produce by Different Industry |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
-| **Associated Tasks** | Analysis |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Likely |
 
-## Dataset Information
+## Description
 
-Green house is a very big problem in the world. It's increasing the temperature of the world. These happen because of different types of gas release by different industries in the world. This dataset contain data of different industry and types of gas release by those industry in different region in the earth. This dataset also contain some ISO test to measure the effect.
+Information not available
 
 ## Tags
 
-Environmental data, Greenhouse gases, Industry emissions, Sustainability, Emission tracking
+Climate change, Emission sources, Environmental impact, Greenhouse gas emissions, Industry data
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/rafsunahmad/green-house-gas-produce-by-different-industry)
+- [Kaggle](https://www.kaggle.com/datasets/rafsunahmad/green-house-gas-produce-by-different-industry)
 
 [⬅️ Back to Index](../README.md)

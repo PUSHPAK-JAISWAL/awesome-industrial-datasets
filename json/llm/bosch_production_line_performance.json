@@ -1,0 +1,31 @@
+{
+  "Name": "Bosch Production Line Performance",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Likely",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Integer, Categorical",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Dataset related to Bosch Production Line Performance, used for a Kaggle competition.",
+  "Description": "This dataset was used for a Kaggle competition focused on improving efficiency in Bosch's production lines. The goal was to predict internal failures using machine learning techniques. \n\nFurther details about the dataset's specific attributes and characteristics are not available from the provided HTML content. \n\n More information can be found on the Kaggle competition page.",
+  "Additional Tags": [
+    "Production line",
+    "Manufacturing",
+    "Machine failure prediction",
+    "Classification problem",
+    "Industrial data",
+    "Kaggle competition",
+    "Bosch"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/c/bosch-production-line-performance/overview"
+    }
+  ]
+}

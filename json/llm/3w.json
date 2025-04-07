@@ -1,0 +1,31 @@
+{
+  "Name": "3W",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Likely",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "Promotes development of ML algorithms for early detection and classification of undesirable events in offshore oil wells.",
+  "Description": "This repository supports the 3W Project, which aims to promote experimentation and development of Machine Learning-based approaches and algorithms for specific problems related to detection and classification of undesirable events that occur in offshore oil wells.\n\nThe name **3W** was chosen because this dataset is composed of instances from ***3*** different sources and which contain undesirable events that occur in oil ***W***ells.",
+  "Additional Tags": [
+    "Oil and Gas",
+    "Fault detection",
+    "Multivariate data",
+    "Sensor data",
+    "Time-series analysis",
+    "Oil wells",
+    "Machine learning benchmark"
+  ],
+  "References": [
+    {
+      "Text": "GitHub",
+      "Link": "https://github.com/petrobras/3W/"
+    }
+  ]
+}

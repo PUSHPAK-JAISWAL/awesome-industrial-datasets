@@ -1,0 +1,29 @@
+{
+  "Name": "Wind Turbine Scada Dataset",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This is the Wind Turbine Scada Dataset from Kaggle.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Wind turbine",
+    "SCADA data",
+    "Energy",
+    "Renewable energy",
+    "Turbine monitoring"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset"
+    }
+  ]
+}

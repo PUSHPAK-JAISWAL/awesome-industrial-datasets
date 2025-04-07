@@ -1,0 +1,31 @@
+{
+  "Name": "Large Scale Image Dataset of Wood Surface Defects",
+  "Labeled": "Likely",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Image",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification, Defect Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This is a large-scale image dataset of wood surface defects.",
+  "Description": "Information not available\n\nInformation not available\n\nInformation not available",
+  "Additional Tags": [
+    "Wood surface",
+    "Defect detection",
+    "Image dataset",
+    "Computer vision",
+    "Manufacturing",
+    "Material inspection",
+    "Surface anomaly detection"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/nomihsa965/large-scale-image-dataset-of-wood-surface-defects"
+    }
+  ]
+}

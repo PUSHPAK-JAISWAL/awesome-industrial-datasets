@@ -1,0 +1,35 @@
+{
+  "Name": "Turbofan engine degradation simulation data set",
+  "Labeled": "Likely",
+  "Time Series": "Yes",
+  "Data Source": "Synthetic",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Prognostics",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "2010-09-22",
+  "Source": "NASA",
+  "Summary": "Engine degradation simulation was carried out using C-MAPSS tool. Four different sets were simulated under different combinations of operational conditions and fault modes.",
+  "Description": "Run-to-failure data: Engine degradation simulation was carried out using C-MAPSS tool. Four different sets were simulated under different combinations of operational conditions and fault modes. Several sensor channels were recorded to characterize fault evolution.\n\nThe data set was provided by the Prognostics CoE at NASA Ames. The set is in text format and has been zipped including a readme file. \n\nPHM08 Challenge Dataset is now publicly available at the NASA Prognostics Respository.",
+  "Additional Tags": [
+    "Turbofan engine",
+    "Degradation simulation",
+    "C-MAPSS",
+    "Prognostics",
+    "Sensor data",
+    "Fault modes",
+    "Run-to-failure data"
+  ],
+  "References": [
+    {
+      "Text": "NASA Ames Prognostics Data Repository",
+      "Link": "http://ti.arc.nasa.gov/project/prognostic-data-repository"
+    },
+    {
+      "Text": "Download",
+      "Link": "https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/"
+    }
+  ]
+}

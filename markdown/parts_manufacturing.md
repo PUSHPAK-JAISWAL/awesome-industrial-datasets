@@ -1,39 +1,32 @@
 # Parts Manufacturing
 
-**Summary:** A dataset containing measures of parts produced by 20 operators.
+**Summary:** Parts Manufacturing Industry Dataset.
 
 | Parameter | Value |
 | --- | --- |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
 | **Name** | Parts Manufacturing |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
-| **Associated Tasks** | Classification, Regression |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-This dataset contains details of 500 parts produced by each one of the 20 operators of an industry in one period of time. The perfect measures were not included in the context. Each operator has a different training background.
-
-Columns:
-Item_No
-Length
-Width
-Height
-Operator
+Information not available
 
 ## Tags
 
-Manufacturing, Industrial data, Quality control, Component measurements, Production optimization
+Industry data, Kaggle dataset, Manufacturing, Parts manufacturing
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/gabrielsantello/parts-manufacturing-industry-dataset)
+- [Kaggle](https://www.kaggle.com/datasets/gabrielsantello/parts-manufacturing-industry-dataset)
 
 [⬅️ Back to Index](../README.md)

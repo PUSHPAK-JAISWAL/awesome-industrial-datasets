@@ -1,36 +1,34 @@
 # Brent Oil Prices
 
-**Summary:** Daily historical Brent Oil Prices available on the U.S. Energy Information Admin.
+**Summary:** This dataset contains Brent oil prices.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Brent Oil Prices |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | No |
+| **Associated Tasks** | Regression, Time Series Analysis |
+| **Data Source** | Real |
 | **Dataset Characteristics** | Time-Series |
+| **Date Donated** | Information not available |
 | **Feature Type** | Real |
-| **Associated Tasks** | Regression, Forecasting |
-| **Number of Instances** | INA |
-| **Number of Features** | 2 |
-| **Date Donated** | INA |
+| **Labeled** | No |
+| **Missing Values** | Information not available |
+| **Name** | Brent Oil Prices |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Yes |
 
-## Dataset Information
+## Description
 
-The crude oil price movements are subject to diverse influencing factors. This dataset was retrieved from the U.S. Energy Information Administration: Europe Brent Spot Price FOB (Dollars per Barrel)
+This dataset provides historical data on Brent oil prices.
 
-## Content
-
-The aim of this dataset and work is to predict future Crude Oil Prices based on the historical data available in the dataset. The data contains daily Brent oil prices from 17th of May 1987 until the 13th of November 2022.
+Further details about the dataset and its specific attributes are not available from the provided HTML content.
 
 ## Tags
 
-Brent oil, Crude oil prices, Economic indicators, Market analysis, Financial markets
+Brent crude, Commodity prices, Economic indicators, Energy market, Financial data, Oil prices, Time series data
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/mabusalah/brent-oil-prices)
+- [Kaggle](https://www.kaggle.com/datasets/mabusalah/brent-oil-prices)
 
 [⬅️ Back to Index](../README.md)

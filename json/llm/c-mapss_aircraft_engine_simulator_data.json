@@ -1,0 +1,31 @@
+{
+  "Name": "C-MAPSS Aircraft Engine Simulator Data",
+  "Labeled": "Information not available",
+  "Time Series": "Likely",
+  "Data Source": "Synthetic",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "NASA",
+  "Summary": "This dataset was generated with the C-MAPSS simulator, a tool for the simulation of realistic large commercial turbofan engine data.",
+  "Description": "C-MAPSS and C-MAPSS40K ARE CURRENTLY UNAVAILABLE FOR DOWNLOAD. \n\nGlenn Research Center management is reviewing the availability requirements for these software packages. We are working with Center management to get the review completed and issues resolved in a timely manner. We will post updates on this website when the issues are resolved. We apologize for any inconvenience. Please contact Jonathan Litt, jonathan.s.litt@nasa.gov, if you have any questions in the meantime.",
+  "Additional Tags": [
+    "Aircraft engine",
+    "Simulator data",
+    "Engine performance",
+    "Sensor data",
+    "Prognostics",
+    "Turbofan engine data",
+    "Synthetic Data"
+  ],
+  "References": [
+    {
+      "Text": "NASA's Open Data Portal",
+      "Link": "https://data.nasa.gov/dataset/C-MAPSS-Aircraft-Engine-Simulator-Data/xaut-bemq/about_data"
+    }
+  ]
+}

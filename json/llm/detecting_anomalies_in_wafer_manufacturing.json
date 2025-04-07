@@ -1,0 +1,31 @@
+{
+  "Name": "Detecting Anomalies in Wafer Manufacturing",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Anomaly Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset is used for detecting anomalies in wafer manufacturing.",
+  "Description": "This dataset appears to be focused on anomaly detection within the context of wafer manufacturing. \n\nFurther information about the dataset characteristics, such as the number of instances, features, or specific details about the data collection process, is not available from the provided HTML content. It is likely a multivariate dataset based on the context of wafer manufacturing.\n\nThe dataset can likely be used for classification and anomaly detection tasks.",
+  "Additional Tags": [
+    "Wafer manufacturing",
+    "Anomaly detection",
+    "Manufacturing process",
+    "Defect detection",
+    "Industrial data",
+    "Semiconductor industry",
+    "Quality control"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/arbazkhan971/anomaly-detection"
+    }
+  ]
+}

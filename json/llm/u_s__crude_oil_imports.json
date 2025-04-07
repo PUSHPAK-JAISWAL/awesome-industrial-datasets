@@ -1,0 +1,31 @@
+{
+  "Name": "U.S. Crude Oil Imports",
+  "Labeled": "Likely No",
+  "Time Series": "Likely Yes",
+  "Data Source": "Likely Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Likely Time Series Analysis, Forecasting",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset likely contains information about U.S. crude oil imports.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Crude oil",
+    "U.S. imports",
+    "Energy data",
+    "Time series data",
+    "Economic indicators",
+    "Commodity market",
+    "Petroleum industry"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/alistairking/u-s-crude-oil-imports"
+    }
+  ]
+}

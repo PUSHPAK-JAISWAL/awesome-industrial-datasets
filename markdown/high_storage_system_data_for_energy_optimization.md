@@ -1,36 +1,32 @@
 # High Storage System Data for Energy Optimization
 
-**Summary:** This dataset involves energy consumption data from a high storage system, aiming at optimizing energy use through detailed monitoring and predictive analytics.
+**Summary:** This dataset is for high storage system data for energy optimization.
 
 | Parameter | Value |
 | --- | --- |
+| **Associated Tasks** | Optimization, Energy Prediction |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
 | **Name** | High Storage System Data for Energy Optimization |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | INA |
-| **Missing Values** | Yes |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Feature Type** | Real, Integer |
-| **Associated Tasks** | Regression, Clustering |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-The dataset includes detailed measurements from a high storage system aimed at energy optimization. It contains multiple sensor readings and operational parameters that are crucial for developing energy-efficient strategies.
-
-## Application Context
-
-The data is particularly useful for tasks aimed at reducing energy consumption and enhancing system efficiency. The focus is on applying machine learning techniques to predict and optimize energy usage patterns within industrial settings.
+Information not available
 
 ## Tags
 
-Energy optimization, High storage systems, Predictive analytics, Sensor data, Industrial energy efficiency
+Energy consumption, Energy optimization, High storage system, Kaggle dataset, Optimization problems, Storage systems
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization)
+- [Kaggle](https://www.kaggle.com/datasets/inIT-OWL/high-storage-system-data-for-energy-optimization)
 
 [⬅️ Back to Index](../README.md)

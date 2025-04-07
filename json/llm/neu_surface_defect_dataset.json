@@ -1,0 +1,31 @@
+{
+  "Name": "NEU Surface Defect Dataset",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Univariate, Image",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification, Defect Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Northeastern University, China",
+  "Summary": "This dataset is used for surface defect detection, likely containing images of steel or metal surfaces with various types of defects.",
+  "Description": "Information not available\n\nInformation not available\n\nInformation not available",
+  "Additional Tags": [
+    "Surface defect detection",
+    "Steel defect images",
+    "Image classification",
+    "Industrial inspection",
+    "Metal surface defects",
+    "Computer vision",
+    "Texture analysis"
+  ],
+  "References": [
+    {
+      "Text": "NEU Surface Defect Dataset",
+      "Link": "http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html"
+    }
+  ]
+}

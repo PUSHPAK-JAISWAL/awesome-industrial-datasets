@@ -1,0 +1,39 @@
+{
+  "Name": "Control loop datasets",
+  "Labeled": "Likely",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "Yes",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "UFRGS",
+  "Summary": "The datasets contain raw and processed data collected from an oil and gas company, and an artificial dataset for oscillation detection based on Machine Learning.",
+  "Description": "The page provides access to industrial datasets related to control loops. These datasets include:\n\nSISO-RAW: Raw data collected in two and a half days from an oil and gas company with non-constant sampling time.\n\nSISO-SEL: Selected fragments from the SISO-RAW dataset.\n\nSISO-SAMP: Constant sampling time from the SISO-SEL dataset. \n\nThere is also an oscillation detection artificial dataset (ODADS) used by the authors\u2019 previous work on a technique for oscillation detection based on Machine Learning.",
+  "Additional Tags": [
+    "Industrial control loops",
+    "Oil and gas data",
+    "Process monitoring",
+    "Oscillation detection",
+    "Machine learning",
+    "Time-series data",
+    "Process control"
+  ],
+  "References": [
+    {
+      "Text": "GIMSCOP Datasets",
+      "Link": "https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/"
+    },
+    {
+      "Text": "Download SISO Datasets",
+      "Link": "https://drive.google.com/open?id=1hnsj85dSJz344UyxbYcUlFi08xfhMALJ"
+    },
+    {
+      "Text": "Download ODADS Dataset",
+      "Link": "https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo"
+    }
+  ]
+}

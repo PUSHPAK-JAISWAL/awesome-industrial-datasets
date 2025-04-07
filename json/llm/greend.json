@@ -1,0 +1,35 @@
+{
+  "Name": "GreenD",
+  "Labeled": "No",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Time Series Analysis",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "2014-10-31",
+  "Source": "SourceForge",
+  "Summary": "GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.",
+  "Description": "GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.\n\nWe expect to regularly provide snapshots of the dataset as more data is recorded and measurement platforms deployed.\n\nThe GREEND dataset is free to use in research and commercial applications. If you want to access the data, please fill out the brief form at http://goo.gl/rtXjxT which will eventually provide you with the credentials to open the dataset archive.",
+  "Additional Tags": [
+    "Energy consumption",
+    "Household energy data",
+    "Power measurements",
+    "Austria",
+    "Italy",
+    "Energy profiles",
+    "Device-level data"
+  ],
+  "References": [
+    {
+      "Text": "SourceForge",
+      "Link": "https://sourceforge.net/projects/greend/"
+    },
+    {
+      "Text": "GREEND Web Site",
+      "Link": "https://greend.sourceforge.io"
+    }
+  ]
+}

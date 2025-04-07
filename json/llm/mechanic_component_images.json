@@ -1,0 +1,31 @@
+{
+  "Name": "Mechanic Component Images",
+  "Labeled": "Likely",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Image",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains images of mechanic components, both normal and defected, intended for use in image classification tasks.",
+  "Description": "This dataset contains images of mechanic components, which are classified as either 'normal' or 'defected'.\n\nIt is designed for use in image classification problems, specifically to train models to distinguish between normal and defected mechanic components using image data.\n\nFurther information about the data collection process, specific component types, and image resolution is not available from the provided HTML content.",
+  "Additional Tags": [
+    "Image classification",
+    "Mechanic components",
+    "Defect detection",
+    "Normal vs Defected",
+    "Image data",
+    "Machine learning",
+    "Computer vision"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/satishpaladi11/mechanic-component-images-normal-defected"
+    }
+  ]
+}

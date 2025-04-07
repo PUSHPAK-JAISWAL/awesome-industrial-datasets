@@ -1,0 +1,31 @@
+{
+  "Name": "Chemical Production India 2013 to 2020",
+  "Labeled": "Information not available",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Time-Series",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Regression, Time Series Analysis",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains chemical production data from India spanning 2013 to 2020.",
+  "Description": "This dataset provides information about chemical production in India from 2013 to 2020.\n\nFurther details about the specific chemicals, production processes, or variables included in the dataset are not available from the provided webpage content.\n\nMore in-depth information would be needed to perform better analysis of the data.",
+  "Additional Tags": [
+    "Chemical industry",
+    "Production data",
+    "India",
+    "Manufacturing",
+    "Economic indicators",
+    "Time series data",
+    "Kaggle dataset"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/timontunes/chemicalproduction2013to2020"
+    }
+  ]
+}

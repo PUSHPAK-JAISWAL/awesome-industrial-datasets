@@ -1,0 +1,31 @@
+{
+  "Name": "Panasonic 18650PF Li-ion Battery Data",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "2018-06-21",
+  "Source": "Mendeley Data",
+  "Summary": "This dataset contains tests performed on a Panasonic 18650PF Li-ion battery at the University of Wisconsin-Madison. It includes HPPC, drive cycles, and impedance spectroscopy tests performed at five different temperatures.",
+  "Description": "The included tests were performed at the University of Wisconsin-Madison by Dr. Phillip Kollmeyer. If this data is utilized for any purpose, it should be appropriately referenced.\n\nThe tests can be used to test Neural Network and Kalman Filter State of Charge algorithms, or to develop battery models, and are intended to be a reference so researchers can compare their algorithm and model performance for a standard data set.\n\nFor the tests, a brand new 2.9Ah Panasonic 18650PF cell was tested in an 8 cu.ft. thermal chamber with a 25 amp, 18 volt Digatron Firing Circuits Universal Battery Tester channel. A series of tests, including HPPC, drive cycles, and impedance spectroscopy, were performed at five different temperatures. The battery was charged after each test at a 1C rate to 4.2V, 50mA cut off, with battery temperature 12degC or greater). See the readme file for additional details.",
+  "Additional Tags": [
+    "Li-ion battery",
+    "Battery data",
+    "Electrochemical impedance spectroscopy",
+    "Drive cycle",
+    "State of Charge estimation",
+    "Kalman filtering",
+    "Neural networks"
+  ],
+  "References": [
+    {
+      "Text": "Mendeley Data",
+      "Link": "https://data.mendeley.com/datasets/wykht8y7tg/1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Name": "NASA Bearing Dataset",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains bearing sensor data collected by NASA.",
+  "Description": "This dataset was collected by NASA.\n\nUnfortunately, this is all the information available on the page. More context would be needed to fully describe the dataset.",
+  "Additional Tags": [
+    "Bearing data",
+    "Sensor data",
+    "Vibration analysis",
+    "Rotating machinery",
+    "Fault detection",
+    "Predictive maintenance"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset"
+    }
+  ]
+}

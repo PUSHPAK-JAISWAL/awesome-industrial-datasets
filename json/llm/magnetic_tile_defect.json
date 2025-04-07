@@ -1,0 +1,30 @@
+{
+  "Name": "Magnetic Tile Defect",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Univariate, Image",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification, Defect Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "This dataset contains images of magnetic tiles with and without defects, suitable for training machine learning models for defect detection and classification.",
+  "Description": "This repository hosts a dataset of magnetic tile images intended for use in training machine learning models. The dataset is designed to facilitate the development of defect detection and classification systems.\n\nThe images capture various types of magnetic tiles, some exhibiting defects and others being defect-free. This variety allows for the training of robust models capable of distinguishing between normal and defective tiles.\n\nDue to the limited information provided on the GitHub page, further details regarding the number of images, specific defect types, and acquisition methods are unavailable.",
+  "Additional Tags": [
+    "Magnetic tiles",
+    "Defect detection",
+    "Image classification",
+    "Industrial inspection",
+    "Manufacturing quality control",
+    "Computer vision"
+  ],
+  "References": [
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/abin24/Magnetic-tile-defect-datasets"
+    }
+  ]
+}

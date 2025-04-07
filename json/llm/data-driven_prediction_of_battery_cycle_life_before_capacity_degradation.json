@@ -1,0 +1,31 @@
+{
+  "Name": "Data-driven prediction of battery cycle life before capacity degradation",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Regression",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Matr.io",
+  "Summary": "Dataset for data-driven prediction of battery cycle life before capacity degradation.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Battery cycle life",
+    "Capacity degradation",
+    "Energy storage",
+    "Electrochemical data",
+    "Predictive modeling",
+    "Materials science",
+    "Regression analysis"
+  ],
+  "References": [
+    {
+      "Text": "Experimental Data Platform",
+      "Link": "https://data.matr.io/1/projects/5c48dd2bc625d700019f3204"
+    }
+  ]
+}

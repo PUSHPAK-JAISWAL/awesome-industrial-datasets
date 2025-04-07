@@ -1,0 +1,29 @@
+{
+  "Name": "Solar Power Generation Data",
+  "Labeled": "No",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about solar power generation.",
+  "Description": "Information about solar power generation is provided.",
+  "Additional Tags": [
+    "Solar power",
+    "Energy generation",
+    "Renewable energy",
+    "Power data",
+    "Kaggle dataset"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/anikannal/solar-power-generation-data"
+    }
+  ]
+}

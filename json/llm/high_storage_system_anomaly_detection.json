@@ -1,0 +1,31 @@
+{
+  "Name": "High Storage System Anomaly Detection",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Anomaly Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Data for energy optimization of a high storage system. This dataset can be used for anomaly detection tasks.",
+  "Description": "This dataset appears to contain data related to a high storage system, with the aim of optimizing energy consumption. It is intended for use in anomaly detection tasks, suggesting that the dataset contains normal operational data as well as instances of anomalies or unusual behavior within the storage system.\n\nFurther details regarding the specifics of the data, such as the collection frequency, the nature of the measured parameters, or the exact context of the high storage system, are not provided in the given HTML content.\n\nThe anomaly detection focus implies the existence of labeled or potentially label-able anomalies within the dataset, which could be useful for training and evaluating machine learning models.",
+  "Additional Tags": [
+    "High storage system",
+    "Energy optimization",
+    "Anomaly detection",
+    "Kaggle dataset",
+    "System monitoring",
+    "Operational data",
+    "Unusual behavior"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "WM811K Wafer Maps",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "MIR Lab",
+  "Summary": "This dataset is good for wafer map classification tasks. It has been used in several papers published by MIR lab.",
+  "Description": "The WM811K Wafer Maps dataset, also referred to as MIR-WM811K, is designed for wafer map classification.\n\nIt has been used in several papers published by MIR lab. One such paper is titled \"Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets,\" published in IEEE Transactions on Semiconductor Manufacturing, vol. 28, no. 1, pp. 1-12, Feb. 2015.",
+  "Additional Tags": [
+    "Wafer map",
+    "Failure pattern recognition",
+    "Semiconductor manufacturing",
+    "Classification",
+    "MIR Lab",
+    "Pattern Recognition",
+    "Similarity Ranking"
+  ],
+  "References": [
+    {
+      "Text": "MIR Corpora",
+      "Link": "http://mirlab.org/dataSet/public/"
+    },
+    {
+      "Text": "IEEE Transactions on Semiconductor Manufacturing, vol. 28, no. 1, pp. 1-12, Feb. 2015",
+      "Link": "https://doi.org/10.1109/TSM.2014.2364237"
+    }
+  ]
+}

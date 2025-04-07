@@ -1,0 +1,6 @@
+requests
+openai
+beautifulsoup4
+dotenv
+pandas
+tabulate

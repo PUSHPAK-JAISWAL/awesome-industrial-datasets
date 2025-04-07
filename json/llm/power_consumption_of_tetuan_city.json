@@ -1,0 +1,35 @@
+{
+  "Name": "Power Consumption of Tetouan City",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real, Integer",
+  "Associated Tasks": "Regression",
+  "Number of Instances": "52417",
+  "Number of Features": "6",
+  "Date Donated": "2023-08-13",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "This dataset is related to power consumption of three different distribution networks of Tetouan city which is located in north Morocco.",
+  "Description": "This dataset is related to power consumption of three different distribution networks of Tetouan city which is located in north Morocco.\n\nThe variables include DateTime, Temperature, Humidity, Wind Speed, general diffuse flows, diffuse flows, and Zone power consumption for three zones.",
+  "Additional Tags": [
+    "Power consumption",
+    "Time series analysis",
+    "Energy consumption prediction",
+    "Morocco",
+    "Real-world data",
+    "City-level data",
+    "Multivariate analysis"
+  ],
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city"
+    },
+    {
+      "Text": "Comparison of Machine Learning Algorithms for the Power Consumption Prediction : - Case Study of Tetouan city \u00e2\u0080\u0093",
+      "Link": "https://www.semanticscholar.org/paper/177512e766fe5d8624a1b3e93abd11082ac37b3f"
+    }
+  ]
+}

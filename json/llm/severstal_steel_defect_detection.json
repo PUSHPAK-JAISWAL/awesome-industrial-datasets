@@ -1,0 +1,31 @@
+{
+  "Name": "Severstal Steel Defect Detection",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Image",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification, Segmentation",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "The dataset is related to steel defect detection.",
+  "Description": "This dataset is used for the Severstal: Steel Defect Detection competition on Kaggle. The goal is to identify surface defects in steel sheets.",
+  "Additional Tags": [
+    "Steel defect detection",
+    "Image segmentation",
+    "Image classification",
+    "Industrial inspection",
+    "Computer vision",
+    "Manufacturing defects",
+    "Kaggle competition"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/c/severstal-steel-defect-detection/data"
+    }
+  ]
+}

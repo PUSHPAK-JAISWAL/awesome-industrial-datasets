@@ -1,0 +1,30 @@
+{
+  "Name": "Secure Water Treatment (SWaT) Dataset",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Singapore University of Technology and Design (SUTD)",
+  "Summary": "Due to a suspicious attempt from your device, the information about the Secure Water Treatment (SWaT) Dataset cannot be displayed.",
+  "Description": "The requested page cannot be viewed because a suspicious attempt from your device was detected.\n\nTo access the information, report the error to IT Service Desk at help-it@sutd.edu.sg. Include the IP address, date and time, full URL of the page, a short description of the activity that triggers the incident, and the error code N/A.\n\nUnfortunately, no further information about the dataset is available on this page.",
+  "Additional Tags": [
+    "Water treatment",
+    "Security",
+    "Industrial control systems",
+    "Cyber-physical systems",
+    "SUTD",
+    "ITrust Labs"
+  ],
+  "References": [
+    {
+      "Text": "Secure Water Treatment (SWaT) Dataset",
+      "Link": "https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/"
+    }
+  ]
+}

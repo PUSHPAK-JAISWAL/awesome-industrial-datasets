@@ -1,0 +1,31 @@
+{
+  "Name": "Deep PCB",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real, Integer",
+  "Associated Tasks": "Classification, Defect Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "This dataset is for surface defect detection on printed circuit boards (PCBs). It supports the development of machine learning algorithms for identifying defects on PCBs.",
+  "Description": "This repository on GitHub focuses on surface defect detection, specifically for PCBs. \n\nThe primary goal is to facilitate the development and experimentation of machine learning-based approaches for detecting and classifying defects that occur on the surface of PCBs.\n\nThe provided link leads to a directory within a larger project related to surface defect detection, indicating that Deep PCB is a subset or component of a broader effort in this area.",
+  "Additional Tags": [
+    "PCB",
+    "Printed Circuit Board",
+    "Surface Defect Detection",
+    "Industrial Inspection",
+    "Image Recognition",
+    "Machine Learning Benchmark",
+    "Defect Classification"
+  ],
+  "References": [
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB"
+    }
+  ]
+}

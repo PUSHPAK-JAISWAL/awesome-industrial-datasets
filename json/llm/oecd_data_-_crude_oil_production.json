@@ -1,0 +1,31 @@
+{
+  "Name": "OECD Data - Crude Oil Production",
+  "Labeled": "No",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Regression, Time Series Analysis",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains crude oil production data from OECD countries.",
+  "Description": "This dataset appears to contain crude oil production data from OECD countries.\n\nDue to limited information available on the webpage, a complete description cannot be provided. The dataset likely includes time series data related to oil production.\n\nFurther investigation into the dataset on Kaggle is necessary to obtain more detailed information about the attributes and the period it covers.",
+  "Additional Tags": [
+    "Crude oil production",
+    "OECD countries",
+    "Energy data",
+    "Time series data",
+    "Economic indicators",
+    "Oil market analysis",
+    "Production statistics"
+  ],
+  "References": [
+    {
+      "Text": "OECD Data - Crude Oil Production | Kaggle",
+      "Link": "https://www.kaggle.com/datasets/caesarmario/oecd-data-crude-oil-production"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Superconductivty Data",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real, Integer, Continuous",
+  "Associated Tasks": "Regression",
+  "Number of Instances": "21263",
+  "Number of Features": "81",
+  "Date Donated": "2018-10-11",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "Two files contain data on 21263 superconductors and their relevant features. The goal is to predict the critical temperature based on the extracted features.",
+  "Description": "There are two files: (1) train.csv contains 81 features extracted from 21263 superconductors along with the critical temperature in the 82nd column, (2) unique_m.csv contains the chemical formula broken up for all the 21263 superconductors from the train.csv file. The last two columns have the critical temperature and chemical formula.\n\nThe original data comes from http://supercon.nims.go.jp/index_en.html which is public. The goal here is to predict the critical temperature based on the features extracted.\n\nPlease see the relevant paper for the feature explanations.",
+  "Additional Tags": [
+    "Superconductors",
+    "Critical temperature prediction",
+    "Materials science",
+    "Chemical composition",
+    "Materials informatics",
+    "Regression analysis",
+    "Physics and Chemistry"
+  ],
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "http://archive.ics.uci.edu/ml/datasets/Superconductivty+Data"
+    },
+    {
+      "Text": "A data-driven statistical model for predicting the critical temperature of a superconductor",
+      "Link": "https://www.semanticscholar.org/paper/A-data-driven-statistical-model-for-predicting-the-Hamidieh/b3bea0ac481f0869cb746f3b44d5689bf1a9b924"
+    }
+  ]
+}

@@ -1,32 +1,36 @@
-# Manufacturing Cost
+# Manufacturing cost
 
-**Summary:** Relationship between manufacturing cost and number of units.
+**Summary:** Information about the manufacturing cost dataset is not available on the webpage.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Manufacturing Cost |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
-| **Associated Tasks** | Regression |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
+| **Name** | Manufacturing cost |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-Let's assume that you work as a consultant to a start-up company that was looking to develop a model to estimate the cost of goods sold as they vary the production volume (number of units produced). The startup gathered data and has asked you to develop a model to predict its cost vs. the number of units sold.
+Information about the manufacturing cost dataset is not available on the webpage.
+
+No details regarding the dataset's features, characteristics, or specific applications are provided.
+
+The provided HTML code only contains the basic structure of a webpage with a title. It lacks any descriptive content about the dataset itself.
 
 ## Tags
 
-Cost analysis, Production efficiency, Cost reduction, Economic analysis, Operational costs
+Cost analysis, Industrial data, Kaggle dataset, Manufacturing, Production costs
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/vinicius150987/manufacturing-cost)
+- [Kaggle](https://www.kaggle.com/datasets/vinicius150987/manufacturing-cost)
 
 [⬅️ Back to Index](../README.md)

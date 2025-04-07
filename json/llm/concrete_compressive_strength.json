@@ -1,0 +1,35 @@
+{
+  "Name": "Concrete Compressive Strength",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real, Integer",
+  "Associated Tasks": "Regression",
+  "Number of Instances": "1030",
+  "Number of Features": "8",
+  "Date Donated": "2007-08-02",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "Concrete compressive strength is a highly nonlinear function of age and ingredients. Concrete is the most important material in civil engineering.",
+  "Description": "Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients.\n\nNumber of instances 1030\nNumber of Attributes 9\nAttribute breakdown 8 quantitative input variables, and 1 quantitative output variable\nMissing Attribute Values None",
+  "Additional Tags": [
+    "Civil engineering",
+    "Compressive strength",
+    "Material science",
+    "Regression problem",
+    "Quantitative variables",
+    "Construction materials",
+    "Mixture modeling"
+  ],
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength"
+    },
+    {
+      "Text": "Modeling of strength of high-performance concrete using artificial neural networks",
+      "Link": "https://www.semanticscholar.org/paper/9310cae70452ea11465f338483e79cc36a68881c"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Name": "casting product image data for quality inspection",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Image",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Dataset of casting product images for quality inspection.",
+  "Description": "This dataset contains images of casting products intended for use in quality inspection. \n\nFurther information about the dataset would typically be found on the Kaggle dataset page, including details on the number of images, classes (e.g., defective vs. non-defective), and the data collection process. \n\nSince the provided HTML only contains the title, more detailed information cannot be extracted.",
+  "Additional Tags": [
+    "Image data",
+    "Quality control",
+    "Industrial inspection",
+    "Casting products",
+    "Defect detection",
+    "Manufacturing",
+    "Computer vision"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product"
+    }
+  ]
+}

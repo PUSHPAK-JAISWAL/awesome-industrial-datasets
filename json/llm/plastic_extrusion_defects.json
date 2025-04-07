@@ -1,0 +1,30 @@
+{
+  "Name": "Plastic Extrusion Defects",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset is for finding defects in the production extrusion line.",
+  "Description": "This dataset appears to be for identifying defects in a plastic extrusion process. \n\nDue to the limited information on the webpage, further details about the dataset's characteristics, feature types, number of instances, and specific data collection methods are not available. \n\nThe page indicates that the dataset is hosted on Kaggle.",
+  "Additional Tags": [
+    "Plastic extrusion",
+    "Defect detection",
+    "Production line",
+    "Image data",
+    "Manufacturing",
+    "Quality control"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/podsyp/find-a-defect-in-the-production-extrusion-line/metadata"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Name": "Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Synthetic",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Anomaly Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Harvard Dataverse",
+  "Summary": "This dataset consists of additional simulation data from the Tennessee Eastman Process, designed for evaluating anomaly detection methods.",
+  "Description": "This repository contains additional simulation data from the Tennessee Eastman Process, a widely used benchmark for evaluating process monitoring and fault diagnosis techniques.\n\nThese datasets are specifically designed to evaluate anomaly detection methods, providing a diverse set of simulated scenarios to test the robustness and sensitivity of different algorithms.\n\nThe data includes both normal operating conditions and various types of simulated faults or anomalies, allowing researchers to assess the ability of their methods to detect and identify deviations from normal behavior in a complex industrial process.",
+  "Additional Tags": [
+    "Tennessee Eastman Process",
+    "Anomaly detection",
+    "Process monitoring",
+    "Fault diagnosis",
+    "Simulation data",
+    "Industrial process",
+    "Benchmark dataset"
+  ],
+  "References": [
+    {
+      "Text": "Harvard Dataverse",
+      "Link": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1"
+    }
+  ]
+}

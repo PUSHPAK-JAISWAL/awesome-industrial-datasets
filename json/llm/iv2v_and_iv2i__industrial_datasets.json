@@ -1,0 +1,35 @@
+{
+  "Name": "iV2V and iV2I+ Industrial Datasets",
+  "Labeled": "Information not available",
+  "Time Series": "Likely Yes",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real, Categorical",
+  "Associated Tasks": "Regression, Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "IEEE Dataport",
+  "Summary": "Support code and documentation for the AI4Mobile industrial datasets: iV2V and iV2I+.",
+  "Description": "Support code and documentation for the AI4Mobile industrial datasets: iV2V and iV2I+.\n\nThe iV2V and iV2I+ datasets are related to AI4Mobile industrial wireless communications. The repository provides support code and documentation for these datasets.\n\nThe datasets are available on IEEE Dataport.",
+  "Additional Tags": [
+    "Industrial wireless communications",
+    "AI4Mobile",
+    "Wireless sensor network",
+    "Vehicular communication",
+    "iV2V",
+    "iV2I+",
+    "Time series data"
+  ],
+  "References": [
+    {
+      "Text": "IEEE Dataport",
+      "Link": "https://ieee-dataport.org/open-access/ai4mobile-industrial-wireless-datasets-iv2v-and-iv2i"
+    },
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/fraunhoferhhi/ai4mobile-industrial"
+    }
+  ]
+}

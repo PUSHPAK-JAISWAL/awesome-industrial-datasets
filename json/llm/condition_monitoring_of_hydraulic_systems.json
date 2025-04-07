@@ -1,0 +1,31 @@
+{
+  "Name": "Condition monitoring of hydraulic systems",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Regression",
+  "Number of Instances": "2205",
+  "Number of Features": "43680",
+  "Date Donated": "2018-04-25",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "The data set addresses the condition assessment of a hydraulic test rig based on multi sensor data. Four fault types are superimposed with several severity grades impeding selective quantification.",
+  "Description": "The data set was experimentally obtained with a hydraulic test rig. This test rig consists of a primary working and a secondary cooling-filtration circuit which are connected via the oil tank [1], [2]. The system cyclically repeats constant load cycles (duration 60 seconds) and measures process values such as pressures, volume flows and temperatures while the condition of four hydraulic components (cooler, valve, pump and accumulator) is quantitatively varied. \n\nThe data set contains raw process sensor data (i.e. without feature extraction) which are structured as matrices (tab-delimited) with the rows representing the cycles and the columns the data points within a cycle. The sensors involved are:\nSensor\t\tPhysical quantity\t\tUnit\t\tSampling rate\nPS1\t\tPressure\t\t\tbar\t\t100 Hz\nPS2\t\tPressure\t\t\tbar\t\t100 Hz\nPS3\t\tPressure\t\t\tbar\t\t100 Hz\nPS4\t\tPressure\t\t\tbar\t\t100 Hz\nPS5\t\tPressure\t\t\tbar\t\t100 Hz\nPS6\t\tPressure\t\t\tbar\t\t100 Hz\nEPS1\t\tMotor power\t\t\tW\t\t100 Hz\nFS1\t\tVolume flow\t\t\tl/min\t\t10 Hz\nFS2\t\tVolume flow\t\t\tl/min\t\t10 Hz\nTS1\t\tTemperature\t\t\t\u00c2\u00b0C\t\t1 Hz\nTS2\t\tTemperature\t\t\t\u00c2\u00b0C\t\t1 Hz\nTS3\t\tTemperature\t\t\t\u00c2\u00b0C\t\t1 Hz\nTS4\t\tTemperature\t\t\t\u00c2\u00b0C\t\t1 Hz\nVS1\t\tVibration\t\t\tmm/s\t\t1 Hz\nCE\t\tCooling efficiency (virtual)\t%\t\t1 Hz\nCP\t\tCooling power (virtual)\t\tkW\t\t1 Hz\nSE\t\tEfficiency factor\t\t%\t\t1 Hz\n\nThe target condition values are cycle-wise annotated in \u00e2\u0080\u009cprofile.txt\u00e2\u0080\u009c (tab-delimited). As before, the row number represents the cycle number. The columns are\n\n1: Cooler condition / %:\n\t3: close to total failure\n\t20: reduced effifiency\n\t100: full efficiency\n\n2: Valve condition / %:\n\t100: optimal switching behavior\n\t90: small lag\n\t80: severe lag\n\t73: close to total failure\n\n3: Internal pump leakage:\n\t0: no leakage\n\t1: weak leakage\n\t2: severe leakage\n\n4: Hydraulic accumulator / bar:\n\t130: optimal pressure\n\t115: slightly reduced pressure\n\t100: severely reduced pressure\n\t90: close to total failure\n\n5: stable flag:\n\t0: conditions were stable\n\t1: static conditions might not have been reached yet",
+  "Additional Tags": [
+    "Hydraulic system",
+    "Condition monitoring",
+    "Sensor data",
+    "Fault detection",
+    "Predictive maintenance",
+    "Process monitoring",
+    "Test rig data"
+  ],
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/Condition+monitoring+of+hydraulic+systems"
+    }
+  ]
+}

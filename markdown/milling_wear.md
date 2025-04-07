@@ -1,32 +1,34 @@
 # Milling Wear
 
-**Summary:** The dataset comprises experimental data from milling operations, focusing on the wear of milling inserts at different speeds, feeds, and depths of cut. It's aimed at studying the degradation patterns to predict and understand wear mechanisms.
+**Summary:** Information about the Milling Wear dataset.
 
 | Parameter | Value |
 | --- | --- |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
 | **Name** | Milling Wear |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Time-Series, Multivariate |
-| **Feature Type** | Real |
-| **Associated Tasks** | Regression, Anomaly Detection |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | 2022-11-22 |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | NASA |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-Experiments on a milling machine for different speeds, feeds, and depth of cut. Records the wear of the milling insert, VB. The data set was provided by the UC Berkeley Emergent Space Tensegrities (BEST) Lab.
+This page provides access to the Milling Wear dataset hosted on NASA's Open Data Portal.
+
+More information about the dataset can be found by exploring the available links and resources on the NASA Open Data Portal.
 
 ## Tags
 
-Milling operations, Tool wear analysis, Degradation study, Predictive maintenance, Operational efficiency
+Milling process, NASA dataset, Open data, Raw data, Wear data
 
 ## References
 
-- [NASA's Data Repository](https://data.nasa.gov/Raw-Data/Milling-Wear/vjv9-9f3x/data)
+- [NASA's Open Data Portal](https://data.nasa.gov/Raw-Data/Milling-Wear/vjv9-9f3x/data)
 
 [⬅️ Back to Index](../README.md)

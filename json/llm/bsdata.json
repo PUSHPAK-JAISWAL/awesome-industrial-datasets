@@ -1,0 +1,31 @@
+{
+  "Name": "BSData",
+  "Labeled": "Likely",
+  "Time Series": "Likely",
+  "Data Source": "Likely",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification, Detection, Prognostics",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "Dataset for classification, detection and prognostics of surface defects on ball screw drives.",
+  "Description": "Dataset for classification, detection and prognostics of surface defects on ball screw drives.",
+  "Additional Tags": [
+    "Ball screw drives",
+    "Surface defects",
+    "Classification",
+    "Detection",
+    "Prognostics",
+    "Sensor data",
+    "Industrial applications"
+  ],
+  "References": [
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/2Obe/BSData"
+    }
+  ]
+}

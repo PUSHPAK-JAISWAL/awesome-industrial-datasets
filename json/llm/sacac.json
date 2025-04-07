@@ -1,0 +1,43 @@
+{
+  "Name": "SACAC Data Repositories",
+  "Labeled": "Likely",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "SACAC",
+  "Summary": "The data is contributed by industrial control practitioners and academic researchers, aiming to provide a test environment for control loop performance monitoring methods. The data sets are arranged according to the cause of the poor performance of the control loops.",
+  "Description": "The data is contributed by industrial control practitioners as well as by academic researchers who work closely with industry. The aim of this repository is to provide a test environment for control loop performance monitoring methods.\u00a0\n\nThe data sets are arranged according to the cause of the poor performance of the control loops. These categories are described in\u00a0Bauer et al. (2016)\u00a0and are ordered according to how often they occur in industrial processes.\n\nFor any\u00a0queries\u00a0or if you would like to\u00a0contribute industrial process data\u00a0please send us an email at:\u00a0piddata@sacac.org.za",
+  "Additional Tags": [
+    "Industrial control",
+    "Control loop performance",
+    "Process industry",
+    "Sensor data",
+    "Fault detection",
+    "Time-series analysis",
+    "PID control"
+  ],
+  "References": [
+    {
+      "Text": "SACAC Resources Page",
+      "Link": "https://sacac.org.za/resources/"
+    },
+    {
+      "Text": "Bauer et al. (2016)",
+      "Link": "http://www.sciencedirect.com/science/article/pii/S0959152415002127"
+    },
+    {
+      "Text": "Paper describing the repository",
+      "Link": "https://www.sciencedirect.com/science/article/pii/S2405896318304701"
+    },
+    {
+      "Text": "Bacci di Capaci et al., 2016",
+      "Link": "https://www.sciencedirect.com/science/article/pii/S0959152416300907"
+    }
+  ]
+}

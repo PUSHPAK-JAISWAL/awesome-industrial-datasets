@@ -1,0 +1,31 @@
+{
+  "Name": "Oil Storage Tanks",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information not available.",
+  "Description": "Information not available.",
+  "Additional Tags": [
+    "Oil storage",
+    "Tanks",
+    "Kaggle dataset",
+    "Image data",
+    "Industrial dataset",
+    "Petroleum industry",
+    "Storage facilities"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks"
+    }
+  ]
+}

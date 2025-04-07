@@ -1,0 +1,31 @@
+{
+  "Name": "Open Industrial Data Project (Oil & Gas)",
+  "Labeled": "No",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Time-Series",
+  "Feature Type": "Real, Categorical",
+  "Associated Tasks": "Regression, Anomaly Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Cognite Hub",
+  "Summary": "Explore a live stream of real industrial data from the Open Industrial Data Project, resulting from a collaboration between Aker BP and Cognite. The data originates from a single compressor on Aker BP\u2019s Valhall oil platform in the North Sea.",
+  "Description": "The data originates from a single compressor on Aker BP\u2019s Valhall oil platform in the North Sea. Aker BP selected the first stage compressor on the Valhall because it is a subsystem with clearly defined boundaries, rich in time series and maintenance data.\n\nAkerBP uses Cognite Data Fusion to organize the data stream from this compressor. The data set available in Cognite Data Fusion includes time series data, maintenance history, and Process & Instrumentation Diagrams (P&IDs) for Valhall\u2019s first stage compressor and associated process equipment: first stage suction cooler, first stage suction scrubber, first stage compressor and first stage discharge coolers. The data is continuously available and free of charge.\n\nBy sharing this live stream of industrial data freely, Aker BP and Cognite hope to accelerate innovation within data-heavy fields. This includes predictive maintenance, condition monitoring, and advanced visualization techniques, as well as other new, unexpected applications.",
+  "Additional Tags": [
+    "Industrial data",
+    "Oil and gas",
+    "Time-series data",
+    "Maintenance data",
+    "Compressor data",
+    "Process monitoring",
+    "Valhall oil platform"
+  ],
+  "References": [
+    {
+      "Text": "Cognite Hub",
+      "Link": "https://openindustrialdata.com/"
+    }
+  ]
+}

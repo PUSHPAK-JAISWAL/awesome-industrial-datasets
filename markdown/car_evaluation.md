@@ -1,23 +1,23 @@
 # Car Evaluation
 
-**Summary:** Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods.
+**Summary:** Derived from a simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods. The model evaluates cars according to price, technical characteristics, comfort and safety.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Car Evaluation |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Categorical |
 | **Associated Tasks** | Classification |
-| **Number of Instances** | 1728 |
-| **Number of Features** | 6 |
+| **Data Source** | Abstract |
+| **Dataset Characteristics** | Multivariate |
 | **Date Donated** | 1997-05-31 |
+| **Feature Type** | Categorical |
+| **Labeled** | Yes |
+| **Missing Values** | No |
+| **Name** | Car Evaluation |
+| **Number of Features** | 6 |
+| **Number of Instances** | 1728 |
 | **Source** | UCI Machine Learning Repository |
+| **Time Series** | No |
 
-## Dataset Information
+## Description
 
 Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates cars according to the following concept structure:
 
@@ -40,10 +40,11 @@ Because of known underlying concept structure, this database may be particularly
 
 ## Tags
 
-Automobile evaluation, Decision-making, Categorical data, Multivariate data, Classification task
+Automobile evaluation, Car acceptability, Categorical data, Constructive induction, Expert system, Hierarchical decision model, Structure discovery
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
+- [Knowledge acquisition and explanation for multi-attribute decision making](https://www.semanticscholar.org/paper/KNOWLEDGE-ACQUISITION-AND-EXPLANATION-FOR-DECISION-Bohanec-Rajkovi%C4%8D/8bab443ae322ff47c3e609272bd93fd4650555bc)
 
 [⬅️ Back to Index](../README.md)

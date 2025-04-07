@@ -1,42 +1,32 @@
 # CNC Mill Tool Wear
 
-**Summary:** Variational CNC machining data.
+**Summary:** Dataset related to CNC Mill Tool Wear.
 
 | Parameter | Value |
 | --- | --- |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Likely |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
 | **Name** | CNC Mill Tool Wear |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Feature Type** | Real, Integer |
-| **Associated Tasks** | Classification, Regression |
-| **Number of Instances** | 18 |
-| **Number of Features** | 7 |
-| **Date Donated** | INA |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Likely |
 
-## Dataset Information
+## Description
 
-A series of machining experiments were run on 2 x 2 x 1.5 wax blocks in a CNC milling machine in the System-level Manufacturing and Automation Research Testbed (SMART) at the University of Michigan. Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure. Each experiment produced a finished wax part with an S shape - S for smart manufacturing - carved into the top face, as shown in test_artifact.jpg (included in the dataset).
-
-## Content
-
-General data from each of the 18 different experiments are given in train.csv and includes the experiment number, material (wax), feed rate, and clamp pressure. Outputs per experiment include tool condition (unworn and worn tools) and whether or not the tool passed visual inspection.
-
-Time series data was collected from the 18 experiments with a sampling rate of 100 ms and are separately reported in files experiment_01.csv to experiment_18.csv. Each file has measurements from the 4 motors in the CNC (X, Y, Z axes and spindle). These CNC measurements can be used in two ways:
-
-(1) Taking every CNC measurement as an independent observation where the operation being performed is given in the Machining_Process column. Active machining operations are labeled as 'Layer 1 Up', 'Layer 1 Down', 'Layer 2 Up', 'Layer 2 Down', 'Layer 3 Up', and 'Layer 3 Down'.
-(2) Taking each one of the 18 experiments (the entire time series) as an observation for time series classification
-Note that some variables will not accurately reflect the operation of the CNC machine. This can usually be detected by when M1_CURRENT_FEEDRATE reads 50, when X1 ActualPosition reads 198, or when M1_CURRENT_PROGRAM_NUMBER does not read 0. The source of these errors has not been identified.
+Information not available
 
 ## Tags
 
-CNC milling, Tool wear detection, Predictive maintenance, Operational efficiency, Industrial sensors
+CNC mill, Industrial application, Machine learning, Manufacturing, Predictive maintenance, Tool wear detection
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data)
+- [Kaggle](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill)
 
 [⬅️ Back to Index](../README.md)

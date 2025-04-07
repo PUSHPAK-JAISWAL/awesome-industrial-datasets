@@ -1,0 +1,31 @@
+{
+  "Name": "Gearbox Fault Detection",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Regression",
+  "Number of Instances": "560",
+  "Number of Features": "Information not available",
+  "Date Donated": "2009",
+  "Source": "NASA",
+  "Summary": "This dataset focuses on fault detection and magnitude estimation for a generic gearbox using accelerometer data and information about bearing geometry. Scoring is based on the ability to correctly identify type, location, and magnitude and damage in a gear system.",
+  "Description": "This PHM Data Challenge is focused on fault detection and magnitude estimation for a generic gearbox using accelerometer data and information about bearing geometry. Scoring is based on the ability to correctly identify type, location, and magnitude and damage in a gear system.\n\nThe Data Challenge was part of the 2009 Conference of the PHM Society.\n\nThe dataset includes data from 560 runs and accelerometer data.",
+  "Additional Tags": [
+    "Gearbox",
+    "Fault detection",
+    "Accelerometer data",
+    "Bearing geometry",
+    "PHM Data Challenge",
+    "Vibration Analysis",
+    "Rotating machinery"
+  ],
+  "References": [
+    {
+      "Text": "DASHlink",
+      "Link": "https://c3.nasa.gov/dashlink/resources/997/"
+    }
+  ]
+}

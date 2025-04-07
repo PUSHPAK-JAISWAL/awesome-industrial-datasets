@@ -1,0 +1,31 @@
+{
+  "Name": "Chinese Power Line Insulator Dataset",
+  "Labeled": "Likely",
+  "Time Series": "No",
+  "Data Source": "Real and Synthetic",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Image Dataset",
+  "Feature Type": "Image",
+  "Associated Tasks": "Object Detection, Fault Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "This dataset provides normal insulator images captured by UAVs and synthetic defective insulator images for the purpose of fault detection.",
+  "Description": "This repository provides normal insulator images captured by UAVs and synthetic defective insulator images.\n\nTimely detection of undesirable events can help prevent production losses, reduce maintenance costs, environmental accidents, and human casualties. \n\nThe dataset can be used to promote experimentation and development of Machine Learning-based approaches and algorithms for specific problems related to detection and classification of undesirable events.",
+  "Additional Tags": [
+    "Image analysis",
+    "UAV imagery",
+    "Defect detection",
+    "Power lines",
+    "Electrical insulators",
+    "Synthetic data",
+    "Computer vision"
+  ],
+  "References": [
+    {
+      "Text": "GitHub",
+      "Link": "https://github.com/InsulatorData/InsulatorDataSet"
+    }
+  ]
+}

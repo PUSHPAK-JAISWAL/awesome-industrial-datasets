@@ -1,0 +1,597 @@
+2025-04-07 14:29:35,718 - INFO - Processing dataset: 3D Printer
+2025-04-07 14:29:39,129 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:29:39,133 - INFO - Saved JSON for '3D Printer' to json_llm/3d_printer.json
+2025-04-07 14:29:39,133 - INFO - Evaluation for '3D Printer': score:3; description:Very few fields could be extracted due to the lack of information in the provided webpage content.
+2025-04-07 14:29:39,133 - INFO - Processing dataset: 3W
+2025-04-07 14:29:42,606 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:29:42,608 - INFO - Saved JSON for '3W' to json_llm/3w.json
+2025-04-07 14:29:42,608 - INFO - Evaluation for '3W': score:7; description:Extracted relevant information such as name, summary, description, source, and additional tags. Some fields were not available and were filled with default values.
+```
+2025-04-07 14:29:42,608 - INFO - Processing dataset: Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation
+2025-04-07 14:29:46,082 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:29:46,086 - INFO - Saved JSON for 'Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation' to json_llm/additional_tennessee_eastman_process_simulation_data_for_anomaly_detection_evaluation.json
+2025-04-07 14:29:46,086 - INFO - Evaluation for 'Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation': score:9; description:Extracted most of the available information including name, description, summary, tags, and relevant dataset characteristics.
+```
+2025-04-07 14:29:46,086 - INFO - Processing dataset: AI4I 2020 Predictive Maintenance Dataset
+2025-04-07 14:29:51,413 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:29:51,418 - INFO - Saved JSON for 'AI4I 2020 Predictive Maintenance Dataset' to json_llm/ai4i_2020_predictive_maintenance_dataset.json
+2025-04-07 14:29:51,419 - INFO - Evaluation for 'AI4I 2020 Predictive Maintenance Dataset': score:9; description:Extracted most fields accurately from the webpage, including the summary, description, and references. Some assumptions were made to fit the specified format, increasing the feature type and providing the donated date.
+2025-04-07 14:29:51,419 - INFO - Processing dataset: Air Quality
+2025-04-07 14:29:56,841 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:29:56,844 - INFO - Saved JSON for 'Air Quality' to json_llm/air_quality.json
+2025-04-07 14:29:56,844 - INFO - Evaluation for 'Air Quality': score:9; The JSON file was created successfully, extracting most of the fields from the webpage. The summary and description are directly from the source and the additional tags are helpful.
+2025-04-07 14:29:56,844 - INFO - Processing dataset: AITEX
+2025-04-07 14:29:57,469 - ERROR - Error fetching URL https://www.aitex.es/afid/: 403 Client Error: Forbidden for url: https://www.aitex.es/afid/
+2025-04-07 14:29:59,446 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:29:59,449 - INFO - Saved JSON for 'AITEX' to json_llm/aitex.json
+2025-04-07 14:29:59,449 - INFO - Evaluation for 'AITEX': score:2; description:Very little information was available from the webpage content, leading to a large number of "Information not available" fields. The score reflects the lack of extractable data.
+2025-04-07 14:29:59,449 - INFO - Processing dataset: Anemometer Fault Detection
+2025-04-07 14:30:05,988 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:05,993 - INFO - Saved JSON for 'Anemometer Fault Detection' to json_llm/anemometer_fault_detection.json
+2025-04-07 14:30:05,993 - INFO - Evaluation for 'Anemometer Fault Detection': score:9; description: Extracted most fields including a good summary and description. All references were included.
+2025-04-07 14:30:05,994 - INFO - Processing dataset: Appliances energy prediction
+2025-04-07 14:30:11,371 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:11,374 - INFO - Saved JSON for 'Appliances energy prediction' to json_llm/appliances_energy_prediction.json
+2025-04-07 14:30:11,374 - INFO - Evaluation for 'Appliances energy prediction': score:9; Extracted almost all the information from the webpage. It includes the name, labels, data source, missing values, dataset characteristics, feature type, associated tasks, number of instances, number of features, date donated, source, summary, description, additional tags, and references.
+2025-04-07 14:30:11,374 - INFO - Processing dataset: APS Failure at Scania Trucks Data Set
+2025-04-07 14:30:15,683 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:15,685 - INFO - Saved JSON for 'APS Failure at Scania Trucks Data Set' to json_llm/aps_failure_at_scania_trucks_data_set.json
+2025-04-07 14:30:15,686 - INFO - Evaluation for 'APS Failure at Scania Trucks Data Set': score:9; description:Successfully extracted most of the relevant information from the webpage, including name, characteristics, instances, features, description, tags, and the UCI source.
+```
+2025-04-07 14:30:15,686 - INFO - Processing dataset: Asset Failure and Replacement
+2025-04-07 14:30:22,132 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:22,136 - INFO - Saved JSON for 'Asset Failure and Replacement' to json_llm/asset_failure_and_replacement.json
+2025-04-07 14:30:22,136 - INFO - Evaluation for 'Asset Failure and Replacement': score:9; description:Extracted almost all fields successfully, including relevant details from the webpage. Good summarization and description. References are complete and correct.
+2025-04-07 14:30:22,136 - INFO - Processing dataset: Athabasca Oil Sands Dataset (McMurray Formation)
+2025-04-07 14:30:22,426 - ERROR - Error fetching URL https://ags.aer.ca/publication/spe-006: 403 Client Error: Forbidden for url: https://ags.aer.ca/publication/spe-006
+2025-04-07 14:30:24,592 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:24,595 - INFO - Saved JSON for 'Athabasca Oil Sands Dataset (McMurray Formation)' to json_llm/athabasca_oil_sands_dataset__mcmurray_formation_.json
+2025-04-07 14:30:24,595 - INFO - Evaluation for 'Athabasca Oil Sands Dataset (McMurray Formation)': score:2; description:The webpage provided contains no information about the dataset itself. Only basic information like name and link could be extracted.
+2025-04-07 14:30:24,595 - INFO - Processing dataset: Bearing
+2025-04-07 14:30:36,983 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:36,986 - INFO - Saved JSON for 'Bearing' to json_llm/bearing.json
+2025-04-07 14:30:36,987 - INFO - Evaluation for 'Bearing': score:6; description:Extracted basic information, summary, description and tags from the NASA webpage, but failed to find more detailed characteristics about the dataset itself (which would likely exist in other linked webpages related to the Bearing dataset).
+2025-04-07 14:30:36,987 - INFO - Processing dataset: Beijing PM2.5 Data
+2025-04-07 14:30:41,693 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:41,696 - INFO - Saved JSON for 'Beijing PM2.5 Data' to json_llm/beijing_pm2_5_data.json
+2025-04-07 14:30:41,696 - INFO - Evaluation for 'Beijing PM2.5 Data': score:9; description:Extracted almost all information from the webpage including dataset characteristics, number of instances and features, description, tags, and references.
+2025-04-07 14:30:41,697 - INFO - Processing dataset: Bosch Production Line Performance
+2025-04-07 14:30:44,560 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:44,563 - INFO - Saved JSON for 'Bosch Production Line Performance' to json_llm/bosch_production_line_performance.json
+2025-04-07 14:30:44,563 - INFO - Evaluation for 'Bosch Production Line Performance': score:6; description:Extracted basic information like name, source, associated tasks, and a brief summary. Many fields are filled with "Information not available" due to the limited content on the webpage.
+2025-04-07 14:30:44,564 - INFO - Processing dataset: Brent Oil Prices
+2025-04-07 14:30:47,324 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:47,328 - INFO - Saved JSON for 'Brent Oil Prices' to json_llm/brent_oil_prices.json
+2025-04-07 14:30:47,328 - INFO - Evaluation for 'Brent Oil Prices': score:6; description:Extracted basic information like name, source, and type but lacked specifics due to limited HTML content.
+2025-04-07 14:30:47,328 - INFO - Processing dataset: Bridge Crack Datatset
+2025-04-07 14:30:51,319 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:51,323 - INFO - Saved JSON for 'Bridge Crack Datatset' to json_llm/bridge_crack_datatset.json
+2025-04-07 14:30:51,323 - INFO - Evaluation for 'Bridge Crack Datatset': score:8; description:Extracted name, data source, associated tasks, description, summary, additional tags, and the GitHub reference. Missing some details, but most fields are populated.
+2025-04-07 14:30:51,323 - INFO - Processing dataset: BSData
+2025-04-07 14:30:54,871 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:54,874 - INFO - Saved JSON for 'BSData' to json_llm/bsdata.json
+2025-04-07 14:30:54,874 - INFO - Evaluation for 'BSData': score:7; description: Extracted basic information like name, source, summary, description, associated tasks and the github link. Labeled and Time series set to "Likely" due to associated tasks. Other fields could not be determined from the given webpage content.
+2025-04-07 14:30:54,874 - INFO - Processing dataset: Business and Industry Reports
+2025-04-07 14:30:57,357 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:30:57,360 - INFO - Saved JSON for 'Business and Industry Reports' to json_llm/business_and_industry_reports.json
+2025-04-07 14:30:57,360 - INFO - Evaluation for 'Business and Industry Reports': score:3; description:Very limited information available on the provided webpage, resulting in many fields being filled with "Information not available".
+2025-04-07 14:30:57,361 - INFO - Processing dataset: C-MAPSS Aircraft Engine Simulator Data
+2025-04-07 14:31:02,845 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:02,850 - INFO - Saved JSON for 'C-MAPSS Aircraft Engine Simulator Data' to json_llm/c-mapss_aircraft_engine_simulator_data.json
+2025-04-07 14:31:02,850 - INFO - Evaluation for 'C-MAPSS Aircraft Engine Simulator Data': score:6; description: Extracted the name, data source, and summary. A longer description and reference were also found. Many fields are still unknown.
+2025-04-07 14:31:02,850 - INFO - Processing dataset: Car Evaluation
+2025-04-07 14:31:08,829 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:08,830 - INFO - Saved JSON for 'Car Evaluation' to json_llm/car_evaluation.json
+2025-04-07 14:31:08,830 - INFO - Evaluation for 'Car Evaluation': score:9; description:Extracted most of the relevant fields from the webpage, including the description, summary, number of instances and features, feature types, tasks, and several tags.
+2025-04-07 14:31:08,830 - INFO - Processing dataset: casting product image data for quality inspection
+2025-04-07 14:31:11,801 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:11,804 - INFO - Saved JSON for 'casting product image data for quality inspection' to json_llm/casting_product_image_data_for_quality_inspection.json
+2025-04-07 14:31:11,804 - INFO - Evaluation for 'casting product image data for quality inspection': score:6; description:Extracted basic information like name, source, and task, but many fields are unknown due to limited webpage content.
+```
+2025-04-07 14:31:11,804 - INFO - Processing dataset: Chemical Composition of Ceramic Samples
+2025-04-07 14:31:15,383 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:15,387 - INFO - Saved JSON for 'Chemical Composition of Ceramic Samples' to json_llm/chemical_composition_of_ceramic_samples.json
+2025-04-07 14:31:15,387 - INFO - Evaluation for 'Chemical Composition of Ceramic Samples': score:9; description:Successfully extracted the majority of fields including name, characteristics, tasks, number of instances/features, description, tags and references.
+```
+2025-04-07 14:31:15,387 - INFO - Processing dataset: Chemical Production India 2013 to 2020
+2025-04-07 14:31:18,453 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:18,455 - INFO - Saved JSON for 'Chemical Production India 2013 to 2020' to json_llm/chemical_production_india_2013_to_2020.json
+2025-04-07 14:31:18,455 - INFO - Evaluation for 'Chemical Production India 2013 to 2020': score:6; description:Extracted basic information from the Kaggle page, but a lot of fields are unknown due to limited information on the provided webpage content.
+```
+2025-04-07 14:31:18,455 - INFO - Processing dataset: Chinese Power Line Insulator Dataset
+2025-04-07 14:31:22,349 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:22,352 - INFO - Saved JSON for 'Chinese Power Line Insulator Dataset' to json_llm/chinese_power_line_insulator_dataset.json
+2025-04-07 14:31:22,352 - INFO - Evaluation for 'Chinese Power Line Insulator Dataset': score:8; description: The JSON file includes many fields extracted from the GitHub repository, including name, summary, description, and additional tags. The dataset characteristics and associated tasks were successfully inferred, despite the challenge of extracting from a GitHub page.
+2025-04-07 14:31:22,353 - INFO - Processing dataset: Civil Engineering: Cement Manufacturing Dataset
+2025-04-07 14:31:24,843 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:24,848 - INFO - Saved JSON for 'Civil Engineering: Cement Manufacturing Dataset' to json_llm/civil_engineering__cement_manufacturing_dataset.json
+2025-04-07 14:31:24,848 - INFO - Evaluation for 'Civil Engineering: Cement Manufacturing Dataset': score:6; description:Extracted the name and source from the title. Filled other fields with 'information not available' due to lack of content on the page. Basic summary and tags were made based on the name of the dataset.
+```
+2025-04-07 14:31:24,848 - INFO - Processing dataset: CMAPSS Jet Engine Simulated Data
+2025-04-07 14:31:30,436 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:30,440 - INFO - Saved JSON for 'CMAPSS Jet Engine Simulated Data' to json_llm/cmapss_jet_engine_simulated_data.json
+2025-04-07 14:31:30,440 - INFO - Evaluation for 'CMAPSS Jet Engine Simulated Data': score:4; description:Limited information available on the webpage. Only basic details like name, source, and a brief summary could be extracted. Many fields had to be filled with "Information not available".
+```
+2025-04-07 14:31:30,440 - INFO - Processing dataset: CNC Mill Tool Wear
+2025-04-07 14:31:33,099 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:33,102 - INFO - Saved JSON for 'CNC Mill Tool Wear' to json_llm/cnc_mill_tool_wear.json
+2025-04-07 14:31:33,103 - INFO - Evaluation for 'CNC Mill Tool Wear': score:3; description:Extracted the dataset name and source. Most other fields are unavailable, resulting in a low score.
+2025-04-07 14:31:33,103 - INFO - Processing dataset: Combined Cycle Power Plant
+2025-04-07 14:31:38,113 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:38,117 - INFO - Saved JSON for 'Combined Cycle Power Plant' to json_llm/combined_cycle_power_plant.json
+2025-04-07 14:31:38,117 - INFO - Evaluation for 'Combined Cycle Power Plant': score:9; description:The majority of the fields have been filled, extracted from the text provided. Most of the information matches the format of the examples.
+2025-04-07 14:31:38,117 - INFO - Processing dataset: Concrete Compressive Strength
+2025-04-07 14:31:42,722 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:42,726 - INFO - Saved JSON for 'Concrete Compressive Strength' to json_llm/concrete_compressive_strength.json
+2025-04-07 14:31:42,726 - INFO - Evaluation for 'Concrete Compressive Strength': score:9; description:Extracted most of the important fields such as name, characteristics, number of instances and features, description, tags, and references. Some information was formatted to fit the specific output request.
+2025-04-07 14:31:42,726 - INFO - Processing dataset: Concrete Crack Images for Classification
+2025-04-07 14:31:47,550 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:47,557 - INFO - Saved JSON for 'Concrete Crack Images for Classification' to json_llm/concrete_crack_images_for_classification.json
+2025-04-07 14:31:47,557 - INFO - Evaluation for 'Concrete Crack Images for Classification': score:8; description:Good extraction of information from the provided webpage, including the summary, description, tags, and references. Most fields were correctly identified.
+```
+2025-04-07 14:31:47,557 - INFO - Processing dataset: Condition Based Maintenance of Naval Propulsion Systems
+2025-04-07 14:31:52,142 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:52,146 - INFO - Saved JSON for 'Condition Based Maintenance of Naval Propulsion Systems' to json_llm/condition_based_maintenance_of_naval_propulsion_systems.json
+2025-04-07 14:31:52,146 - INFO - Evaluation for 'Condition Based Maintenance of Naval Propulsion Systems': score:9; description:Good extraction of information from the webpage, most of the fields were accurately extracted and filled.
+2025-04-07 14:31:52,146 - INFO - Processing dataset: Condition monitoring of hydraulic systems
+2025-04-07 14:31:58,288 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:31:58,290 - INFO - Saved JSON for 'Condition monitoring of hydraulic systems' to json_llm/condition_monitoring_of_hydraulic_systems.json
+2025-04-07 14:31:58,291 - INFO - Evaluation for 'Condition monitoring of hydraulic systems': score:9; description:Extracted most of the fields correctly from the webpage, including the description, number of instances/features, data source, and relevant tags.
+2025-04-07 14:31:58,291 - INFO - Processing dataset: Control loop datasets
+2025-04-07 14:32:05,666 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:05,668 - INFO - Saved JSON for 'Control loop datasets' to json_llm/control_loop_datasets.json
+2025-04-07 14:32:05,668 - INFO - Evaluation for 'Control loop datasets': score:8; description:Extracted most of the available information from the webpage, including dataset descriptions, download links, and relevant tags. Labeled and Associated Tasks fields were filled with "Likely" and "Regression, Classification" respectively as the data appears suitable for machine learning applications even though it is not explicitly stated on the page.
+2025-04-07 14:32:05,668 - INFO - Processing dataset: CWRU Bearing Data
+2025-04-07 14:32:07,677 - ERROR - Error fetching URL https://csegroups.case.edu/bearingdatacenter: HTTPSConnectionPool(host='csegroups.case.edu', port=443): Max retries exceeded with url: /bearingdatacenter (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'csegroups.case.edu'. (_ssl.c:1028)")))
+2025-04-07 14:32:09,618 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:09,619 - INFO - Saved JSON for 'CWRU Bearing Data' to json_llm/cwru_bearing_data.json
+2025-04-07 14:32:09,619 - INFO - Evaluation for 'CWRU Bearing Data': score:5; description:The dataset description is unavailable. Some fields were extracted from the title and webpage name.
+2025-04-07 14:32:09,619 - INFO - Processing dataset: Data-driven prediction of battery cycle life before capacity degradation
+2025-04-07 14:32:12,931 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:12,933 - INFO - Saved JSON for 'Data-driven prediction of battery cycle life before capacity degradation' to json_llm/data-driven_prediction_of_battery_cycle_life_before_capacity_degradation.json
+2025-04-07 14:32:12,933 - INFO - Evaluation for 'Data-driven prediction of battery cycle life before capacity degradation': score:3; description:Extracted the name, source, summary, associated tasks and the main reference, but most other fields are unknown due to lack of information on the webpage.
+2025-04-07 14:32:12,933 - INFO - Processing dataset: Deep PCB
+2025-04-07 14:32:17,131 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:17,135 - INFO - Saved JSON for 'Deep PCB' to json_llm/deep_pcb.json
+2025-04-07 14:32:17,135 - INFO - Evaluation for 'Deep PCB': score:8; description:Extracted name, data source, associated tasks, summary, description, additional tags and the github reference. The number of instances, features and the donation date were not available.
+2025-04-07 14:32:17,135 - INFO - Processing dataset: Defective Solar Cells Dataset
+2025-04-07 14:32:21,021 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:21,024 - INFO - Saved JSON for 'Defective Solar Cells Dataset' to json_llm/defective_solar_cells_dataset.json
+2025-04-07 14:32:21,025 - INFO - Evaluation for 'Defective Solar Cells Dataset': score:8; description:Extracted most of the relevant information from the webpage, including name, description, tags, and the GitHub source.
+2025-04-07 14:32:21,025 - INFO - Processing dataset: Degradation Measurement of Robot Arm Position Accuracy
+2025-04-07 14:32:26,959 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:26,963 - INFO - Saved JSON for 'Degradation Measurement of Robot Arm Position Accuracy' to json_llm/degradation_measurement_of_robot_arm_position_accuracy.json
+2025-04-07 14:32:26,963 - INFO - Evaluation for 'Degradation Measurement of Robot Arm Position Accuracy': score:9; description:Successfully extracted all relevant information including the description, summary, tags, and references.
+2025-04-07 14:32:26,963 - INFO - Processing dataset: Degradation of a Cutting Blade
+2025-04-07 14:32:29,979 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:29,983 - INFO - Saved JSON for 'Degradation of a Cutting Blade' to json_llm/degradation_of_a_cutting_blade.json
+2025-04-07 14:32:29,983 - INFO - Evaluation for 'Degradation of a Cutting Blade': score:6; description:Extracted basic information like name and source. Created a summary and tags based on the dataset title. Many fields are unavailable due to the limited information on the webpage.
+```
+2025-04-07 14:32:29,983 - INFO - Processing dataset: Detecting Anomalies in Wafer Manufacturing
+2025-04-07 14:32:32,896 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:32,897 - INFO - Saved JSON for 'Detecting Anomalies in Wafer Manufacturing' to json_llm/detecting_anomalies_in_wafer_manufacturing.json
+2025-04-07 14:32:32,897 - INFO - Evaluation for 'Detecting Anomalies in Wafer Manufacturing': score:6; description:A number of fields were filled with "Information not available" because the HTML file provided very little information. I was able to infer a few fields based on the title of the dataset and the source (Kaggle).
+```
+2025-04-07 14:32:32,898 - INFO - Processing dataset: Diesel Engine Faults Features
+2025-04-07 14:32:38,287 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:38,295 - INFO - Saved JSON for 'Diesel Engine Faults Features' to json_llm/diesel_engine_faults_features.json
+2025-04-07 14:32:38,295 - INFO - Evaluation for 'Diesel Engine Faults Features': score:9; description:Extracted most fields successfully from the webpage.
+2025-04-07 14:32:38,295 - INFO - Processing dataset: ECO dataset
+2025-04-07 14:32:45,309 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:45,317 - INFO - Saved JSON for 'ECO dataset' to json_llm/eco_dataset.json
+2025-04-07 14:32:45,317 - INFO - Evaluation for 'ECO dataset': score:9; description:Extracted most of the relevant information from the webpage, including description, summary, tags, and references.
+2025-04-07 14:32:45,317 - INFO - Processing dataset: Electrical Grid Stability Simulated Data
+2025-04-07 14:32:50,000 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:50,005 - INFO - Saved JSON for 'Electrical Grid Stability Simulated Data' to json_llm/electrical_grid_stability_simulated_data.json
+2025-04-07 14:32:50,005 - INFO - Evaluation for 'Electrical Grid Stability Simulated Data': score:9; description:Extracted all the information available and the structure is well organized following the same examples as requested.
+2025-04-07 14:32:50,005 - INFO - Processing dataset: Electricity Load Diagrams 2011-2014
+2025-04-07 14:32:54,413 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:54,416 - INFO - Saved JSON for 'Electricity Load Diagrams 2011-2014' to json_llm/electricity_load_diagrams_2011-2014.json
+2025-04-07 14:32:54,416 - INFO - Evaluation for 'Electricity Load Diagrams 2011-2014': score:9; description:All the fields were extracted with high confidence.
+2025-04-07 14:32:54,416 - INFO - Processing dataset: Energy efficiency
+2025-04-07 14:32:59,421 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:32:59,424 - INFO - Saved JSON for 'Energy efficiency' to json_llm/energy_efficiency.json
+2025-04-07 14:32:59,424 - INFO - Evaluation for 'Energy efficiency': score:9; description:Extracted most of the fields with high confidence, including dataset details, summary, description, and relevant tags. Included additional relevant references from the page.
+2025-04-07 14:32:59,424 - INFO - Processing dataset: Gas Sensor Array Drift at Different Concentrations
+2025-04-07 14:33:04,969 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:04,973 - INFO - Saved JSON for 'Gas Sensor Array Drift at Different Concentrations' to json_llm/gas_sensor_array_drift_at_different_concentrations.json
+2025-04-07 14:33:04,973 - INFO - Evaluation for 'Gas Sensor Array Drift at Different Concentrations': score:9; description:The code extracted most of the information from the webpage and filled all the fields correctly.
+2025-04-07 14:33:04,973 - INFO - Processing dataset: Gas sensor array temperature modulation
+2025-04-07 14:33:09,932 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:09,941 - INFO - Saved JSON for 'Gas sensor array temperature modulation' to json_llm/gas_sensor_array_temperature_modulation.json
+2025-04-07 14:33:09,941 - INFO - Evaluation for 'Gas sensor array temperature modulation': score:9; description:Most of the information was accurately extracted, including the number of instances, summary, description and additional tags. The number of features was not available on the page.
+2025-04-07 14:33:09,942 - INFO - Processing dataset: Gas sensor array under dynamic gas mixtures
+2025-04-07 14:33:14,372 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:14,375 - INFO - Saved JSON for 'Gas sensor array under dynamic gas mixtures' to json_llm/gas_sensor_array_under_dynamic_gas_mixtures.json
+2025-04-07 14:33:14,375 - INFO - Evaluation for 'Gas sensor array under dynamic gas mixtures': score:9; description:Extracted almost all the fields from the webpage.
+2025-04-07 14:33:14,375 - INFO - Processing dataset: GC10-DET
+2025-04-07 14:33:17,137 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:17,140 - INFO - Saved JSON for 'GC10-DET' to json_llm/gc10-det.json
+2025-04-07 14:33:17,141 - INFO - Evaluation for 'GC10-DET': score:6; description:Extracted basic info. Lacks specifics due to limited webpage content.
+2025-04-07 14:33:17,141 - INFO - Processing dataset: Gearbox Fault Detection
+2025-04-07 14:33:40,281 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:40,286 - INFO - Saved JSON for 'Gearbox Fault Detection' to json_llm/gearbox_fault_detection.json
+2025-04-07 14:33:40,286 - INFO - Evaluation for 'Gearbox Fault Detection': score:8; description:Extracted most of the information from the webpage, including the summary, description, tags, and the main reference link. Some information like the number of features is missing.
+2025-04-07 14:33:40,286 - INFO - Processing dataset: Genesis Pick-and-Place Demonstrator Dataset
+2025-04-07 14:33:43,043 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:43,044 - INFO - Saved JSON for 'Genesis Pick-and-Place Demonstrator Dataset' to json_llm/genesis_pick-and-place_demonstrator_dataset.json
+2025-04-07 14:33:43,044 - INFO - Evaluation for 'Genesis Pick-and-Place Demonstrator Dataset': score:4; description:Limited information could be extracted from the provided webpage content. Only the dataset name and source were directly available, along with the URL. The other fields were filled with "Information not available" due to the lack of content.
+2025-04-07 14:33:43,044 - INFO - Processing dataset: Global Power Plant
+2025-04-07 14:33:48,264 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:48,268 - INFO - Saved JSON for 'Global Power Plant' to json_llm/global_power_plant.json
+2025-04-07 14:33:48,268 - INFO - Evaluation for 'Global Power Plant': score:8; description:Extracted the name, summary, description, source, date donated, and additional tags. Could not infer the number of instances and features. The data source seems to be 'Real' because the webpage mentions it contains information about real powerplants.
+2025-04-07 14:33:48,268 - INFO - Processing dataset: Green House Gas Produce by Different Industry
+2025-04-07 14:33:50,928 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:50,932 - INFO - Saved JSON for 'Green House Gas Produce by Different Industry' to json_llm/green_house_gas_produce_by_different_industry.json
+2025-04-07 14:33:50,932 - INFO - Evaluation for 'Green House Gas Produce by Different Industry': score:4; description: The webpage provided very little information, resulting in many fields being filled with "Information not available" or "Likely". The summary and tags were based on the dataset name and the source.
+2025-04-07 14:33:50,932 - INFO - Processing dataset: GreenD
+2025-04-07 14:33:54,508 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:33:54,511 - INFO - Saved JSON for 'GreenD' to json_llm/greend.json
+2025-04-07 14:33:54,511 - INFO - Evaluation for 'GreenD': score:8; description:The response was able to identify the relevant pieces of information on the page and convert them into a JSON format.
+2025-04-07 14:33:54,511 - INFO - Processing dataset: HCI Industrial Optical Inspection
+2025-04-07 14:34:00,658 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:00,660 - INFO - Saved JSON for 'HCI Industrial Optical Inspection' to json_llm/hci_industrial_optical_inspection.json
+2025-04-07 14:34:00,660 - INFO - Evaluation for 'HCI Industrial Optical Inspection': score:2; description:Very few fields could be extracted as the webpage content was empty.
+2025-04-07 14:34:00,660 - INFO - Processing dataset: High Storage System Anomaly Detection
+2025-04-07 14:34:04,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:04,445 - INFO - Saved JSON for 'High Storage System Anomaly Detection' to json_llm/high_storage_system_anomaly_detection.json
+2025-04-07 14:34:04,446 - INFO - Evaluation for 'High Storage System Anomaly Detection': score:6; description:Extracted basic information like name, source, and purpose from the title and URL. Inferred some characteristics like data source and associated tasks. Many fields could not be determined from the provided HTML, lowering the score.
+2025-04-07 14:34:04,446 - INFO - Processing dataset: High Storage System Data for Energy Optimization
+2025-04-07 14:34:07,415 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:07,416 - INFO - Saved JSON for 'High Storage System Data for Energy Optimization' to json_llm/high_storage_system_data_for_energy_optimization.json
+2025-04-07 14:34:07,416 - INFO - Evaluation for 'High Storage System Data for Energy Optimization': score:4; description:Limited information was available on the page, resulting in many fields being filled with "Information not available." I could only identify the name, source and link to the dataset.
+```
+2025-04-07 14:34:07,416 - INFO - Processing dataset: Hill-Valley
+2025-04-07 14:34:17,757 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:17,758 - INFO - Saved JSON for 'Hill-Valley' to json_llm/hill-valley.json
+2025-04-07 14:34:17,758 - INFO - Evaluation for 'Hill-Valley': score:9; description:Extracted all fields with high confidence from the webpage content.
+2025-04-07 14:34:17,758 - INFO - Processing dataset: Individual household electric power consumption
+2025-04-07 14:34:29,122 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:29,125 - INFO - Saved JSON for 'Individual household electric power consumption' to json_llm/individual_household_electric_power_consumption.json
+2025-04-07 14:34:29,125 - INFO - Evaluation for 'Individual household electric power consumption': score:9; description:Extracted almost all fields, including the number of instances and features. The source and link are valid.
+2025-04-07 14:34:29,125 - INFO - Processing dataset: Industrial Safety and Health Analytics Database
+2025-04-07 14:34:31,593 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:31,596 - INFO - Saved JSON for 'Industrial Safety and Health Analytics Database' to json_llm/industrial_safety_and_health_analytics_database.json
+2025-04-07 14:34:31,596 - INFO - Evaluation for 'Industrial Safety and Health Analytics Database': score:3; description:The webpage provided very little information. Extracted the name and URL, and added some general tags based on the dataset name. Most fields are "Information not available."
+2025-04-07 14:34:31,597 - INFO - Processing dataset: ISDB - International Stiction Data Base
+2025-04-07 14:34:36,905 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:36,909 - INFO - Saved JSON for 'ISDB - International Stiction Data Base' to json_llm/isdb_-_international_stiction_data_base.json
+2025-04-07 14:34:36,909 - INFO - Evaluation for 'ISDB - International Stiction Data Base': score:8; description: Extracted most of the relevant information from the webpage and filled the fields correctly.
+2025-04-07 14:34:36,909 - INFO - Processing dataset: iV2V and iV2I+ Industrial Datasets
+2025-04-07 14:34:40,388 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:40,392 - INFO - Saved JSON for 'iV2V and iV2I+ Industrial Datasets' to json_llm/iv2v_and_iv2i__industrial_datasets.json
+2025-04-07 14:34:40,392 - INFO - Evaluation for 'iV2V and iV2I+ Industrial Datasets': score:8; description:Extracted most relevant information, including name, summary, description, tags, and references. Several fields are missing, since this information was not available on the webpage.
+```
+2025-04-07 14:34:40,392 - INFO - Processing dataset: Kolektor Surface-Defect Dataset (KolektorSDD)
+2025-04-07 14:34:45,849 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:45,853 - INFO - Saved JSON for 'Kolektor Surface-Defect Dataset (KolektorSDD)' to json_llm/kolektor_surface-defect_dataset__kolektorsdd_.json
+2025-04-07 14:34:45,853 - INFO - Evaluation for 'Kolektor Surface-Defect Dataset (KolektorSDD)': score:9; description: Extracted most of the information including name, summary, description, number of instances, tasks, tags and references. A few fields are filled with "Information not available" as they were not present in the webpage content.
+2025-04-07 14:34:45,853 - INFO - Processing dataset: Kylberg Texture Dataset
+2025-04-07 14:34:47,079 - ERROR - Error fetching URL https://kylberg.org/kylberg-texture-dataset-v-1-0/: 555 Server Error:  for url: https://kylberg.org/kylberg-texture-dataset-v-1-0/
+2025-04-07 14:34:49,400 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:49,402 - INFO - Saved JSON for 'Kylberg Texture Dataset' to json_llm/kylberg_texture_dataset.json
+2025-04-07 14:34:49,402 - INFO - Evaluation for 'Kylberg Texture Dataset': score:6; description:The JSON includes the basic fields, but the descriptions are lacking because there was very little content to extract from the provided webpage snippet.
+2025-04-07 14:34:49,402 - INFO - Processing dataset: Large Scale Image Dataset of Wood Surface Defects
+2025-04-07 14:34:51,938 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:51,940 - INFO - Saved JSON for 'Large Scale Image Dataset of Wood Surface Defects' to json_llm/large_scale_image_dataset_of_wood_surface_defects.json
+2025-04-07 14:34:51,940 - INFO - Evaluation for 'Large Scale Image Dataset of Wood Surface Defects': score:4; description:Extracted basic information from the title, inferred the type as image data. Limited information available from the HTML provided.
+2025-04-07 14:34:51,940 - INFO - Processing dataset: Laser Welding
+2025-04-07 14:34:58,104 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:34:58,109 - INFO - Saved JSON for 'Laser Welding' to json_llm/laser_welding.json
+2025-04-07 14:34:58,109 - INFO - Evaluation for 'Laser Welding': score:8; description:The JSON file was created with a good amount of information extracted from the webpage. The structure is correct and the key information is present.
+2025-04-07 14:34:58,109 - INFO - Processing dataset: Li-ion Battery Aging Datasets
+2025-04-07 14:35:13,054 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:13,057 - INFO - Saved JSON for 'Li-ion Battery Aging Datasets' to json_llm/li-ion_battery_aging_datasets.json
+2025-04-07 14:35:13,057 - INFO - Evaluation for 'Li-ion Battery Aging Datasets': score:9; Excellent extraction of information from the webpage, including a comprehensive description, summary, tags and references. Most fields were populated.
+2025-04-07 14:35:13,057 - INFO - Processing dataset: Magnetic Tile Defect
+2025-04-07 14:35:13,523 - ERROR - Error fetching URL https://github.com/abin24/Magnetic-tile-defect-datasets: 404 Client Error: Not Found for url: https://github.com/abin24/Magnetic-tile-defect-datasets
+2025-04-07 14:35:16,225 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:16,226 - INFO - Saved JSON for 'Magnetic Tile Defect' to json_llm/magnetic_tile_defect.json
+2025-04-07 14:35:16,226 - INFO - Evaluation for 'Magnetic Tile Defect': score:7; description: Extracted basic information about the dataset, but many fields remain "Information not available" due to the limited content on the linked page.
+```
+2025-04-07 14:35:16,226 - INFO - Processing dataset: Maintenance Action Recommendation
+2025-04-07 14:35:22,325 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:22,329 - INFO - Saved JSON for 'Maintenance Action Recommendation' to json_llm/maintenance_action_recommendation.json
+2025-04-07 14:35:22,329 - INFO - Evaluation for 'Maintenance Action Recommendation': score:9; description:Extracted a good amount of information from the webpage, including relevant details about the dataset, tasks, and data files.
+2025-04-07 14:35:22,329 - INFO - Processing dataset: Maintenance of Naval Propulsion Plants
+2025-04-07 14:35:26,777 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:26,781 - INFO - Saved JSON for 'Maintenance of Naval Propulsion Plants' to json_llm/maintenance_of_naval_propulsion_plants.json
+2025-04-07 14:35:26,781 - INFO - Evaluation for 'Maintenance of Naval Propulsion Plants': score:9; description:All the required information was successfully extracted from the HTML source.
+2025-04-07 14:35:26,781 - INFO - Processing dataset: Maintenance of Naval Propulsion Plants Data Set
+2025-04-07 14:35:29,231 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:29,235 - INFO - Saved JSON for 'Maintenance of Naval Propulsion Plants Data Set' to json_llm/maintenance_of_naval_propulsion_plants_data_set.json
+2025-04-07 14:35:29,235 - INFO - Evaluation for 'Maintenance of Naval Propulsion Plants Data Set': score:4; description:Extracted basic info like name and source, but most fields are missing due to lack of content on the provided webpage.
+2025-04-07 14:35:29,235 - INFO - Processing dataset: Manufacturing cost
+2025-04-07 14:35:31,999 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:32,003 - INFO - Saved JSON for 'Manufacturing cost' to json_llm/manufacturing_cost.json
+2025-04-07 14:35:32,003 - INFO - Evaluation for 'Manufacturing cost': score:2; description:The information extracted from the webpage was minimal, resulting in many fields being filled with "Information not available."
+2025-04-07 14:35:32,003 - INFO - Processing dataset: Manufacturing Defects
+2025-04-07 14:35:34,453 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:34,457 - INFO - Saved JSON for 'Manufacturing Defects' to json_llm/manufacturing_defects.json
+2025-04-07 14:35:34,457 - INFO - Evaluation for 'Manufacturing Defects': score:6; description:The dataset information is very limited on the page provided, so the extraction was limited to basic information from the title and URL.
+2025-04-07 14:35:34,457 - INFO - Processing dataset: Mechanic Component Images
+2025-04-07 14:35:37,630 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:37,634 - INFO - Saved JSON for 'Mechanic Component Images' to json_llm/mechanic_component_images.json
+2025-04-07 14:35:37,634 - INFO - Evaluation for 'Mechanic Component Images': score:7; description:Extracted the name, source, summary, description, associated tasks, and additional tags from the provided HTML. Information is missing due to the limited content of the HTML page.
+```
+2025-04-07 14:35:37,634 - INFO - Processing dataset: Mechanical Analysis
+2025-04-07 14:35:41,726 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:41,730 - INFO - Saved JSON for 'Mechanical Analysis' to json_llm/mechanical_analysis.json
+2025-04-07 14:35:41,730 - INFO - Evaluation for 'Mechanical Analysis': score:9; description:Most fields were successfully extracted from the webpage, including details about the dataset's characteristics, features, and description.
+2025-04-07 14:35:41,730 - INFO - Processing dataset: Mercedes-Benz Greener Manufacturing
+2025-04-07 14:35:43,979 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:43,984 - INFO - Saved JSON for 'Mercedes-Benz Greener Manufacturing' to json_llm/mercedes-benz_greener_manufacturing.json
+2025-04-07 14:35:43,984 - INFO - Evaluation for 'Mercedes-Benz Greener Manufacturing': score:3; description: Very little information could be extracted from the webpage. Most fields are filled with "Information not available".
+2025-04-07 14:35:43,984 - INFO - Processing dataset: Milling
+2025-04-07 14:35:56,472 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:35:56,474 - INFO - Saved JSON for 'Milling' to json_llm/milling.json
+2025-04-07 14:35:56,474 - INFO - Evaluation for 'Milling': score:7; description:Extracted a reasonable number of fields from the NASA webpage using contextual clues. The summary and description are adequate given the source material.
+2025-04-07 14:35:56,474 - INFO - Processing dataset: Milling Wear
+2025-04-07 14:36:01,692 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:36:01,693 - INFO - Saved JSON for 'Milling Wear' to json_llm/milling_wear.json
+2025-04-07 14:36:01,693 - INFO - Evaluation for 'Milling Wear': score:4; description:The provided webpage has very little information about the dataset itself. Most fields are "Information not available" due to lack of content on the page.
+2025-04-07 14:36:01,693 - INFO - Processing dataset: Mining Process
+2025-04-07 14:36:04,354 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:36:04,355 - INFO - Saved JSON for 'Mining Process' to json_llm/mining_process.json
+2025-04-07 14:36:04,355 - INFO - Evaluation for 'Mining Process': score:4; description:The provided webpage contained very little information, so most fields were filled with "Information not available". The score reflects the limited data extraction.
+2025-04-07 14:36:04,355 - INFO - Processing dataset: Multi-stage continuous-flow manufacturing process
+2025-04-07 14:36:06,712 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:36:06,716 - INFO - Saved JSON for 'Multi-stage continuous-flow manufacturing process' to json_llm/multi-stage_continuous-flow_manufacturing_process.json
+2025-04-07 14:36:06,716 - INFO - Evaluation for 'Multi-stage continuous-flow manufacturing process': score:3; description:Very little information was available from the provided HTML content. Only the name and source could be determined with certainty.
+2025-04-07 14:36:06,716 - INFO - Processing dataset: MVTec Anomaly Detection (MVTec AD)
+2025-04-07 14:36:11,729 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:36:11,733 - INFO - Saved JSON for 'MVTec Anomaly Detection (MVTec AD)' to json_llm/mvtec_anomaly_detection__mvtec_ad_.json
+2025-04-07 14:36:11,733 - INFO - Evaluation for 'MVTec Anomaly Detection (MVTec AD)': score:9; description: Extracted most of the important fields from the webpage, including description, summary, number of instances, and references.
+2025-04-07 14:36:11,733 - INFO - Processing dataset: NASA Bearing Dataset
+2025-04-07 14:36:14,392 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:36:14,395 - INFO - Saved JSON for 'NASA Bearing Dataset' to json_llm/nasa_bearing_dataset.json
+2025-04-07 14:36:14,395 - INFO - Evaluation for 'NASA Bearing Dataset': score:5; description:Extracted basic information like name and source, but a lot of fields are unknown due to limited information on the page.
+2025-04-07 14:36:14,395 - INFO - Processing dataset: NEU Surface Defect Dataset
+2025-04-07 14:37:30,783 - ERROR - Error fetching URL http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html: 404 Client Error: Not Found for url: http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html
+2025-04-07 14:37:33,772 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:37:33,775 - INFO - Saved JSON for 'NEU Surface Defect Dataset' to json_llm/neu_surface_defect_dataset.json
+2025-04-07 14:37:33,775 - INFO - Evaluation for 'NEU Surface Defect Dataset': score:6; description: The webpage content was not available, so the values are mostly default. But the structure is fine.
+2025-04-07 14:37:33,775 - INFO - Processing dataset: OECD Data - Crude Oil Production
+2025-04-07 14:37:36,789 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:37:36,789 - INFO - Saved JSON for 'OECD Data - Crude Oil Production' to json_llm/oecd_data_-_crude_oil_production.json
+2025-04-07 14:37:36,790 - INFO - Evaluation for 'OECD Data - Crude Oil Production': score:6; description:Extracted basic information from the Kaggle page, but many fields are filled with "Information not available" due to the limited content on the page.
+```
+2025-04-07 14:37:36,790 - INFO - Processing dataset: Oil and Gas
+2025-04-07 14:37:39,135 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:37:39,139 - INFO - Saved JSON for 'Oil and Gas' to json_llm/oil_and_gas.json
+2025-04-07 14:37:39,139 - INFO - Evaluation for 'Oil and Gas': score:2; description:Extracted the name and source, but almost all other fields are "Information not available" due to lack of content on the parsed webpage.
+2025-04-07 14:37:39,139 - INFO - Processing dataset: Oil Storage Tanks
+2025-04-07 14:37:41,727 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:37:41,730 - INFO - Saved JSON for 'Oil Storage Tanks' to json_llm/oil_storage_tanks.json
+2025-04-07 14:37:41,730 - INFO - Evaluation for 'Oil Storage Tanks': score:3; description:Very little information could be extracted from the provided HTML content. Only the name and the source were identified. The rest are filled with "Information not available".
+2025-04-07 14:37:41,730 - INFO - Processing dataset: Oil well
+2025-04-07 14:37:44,184 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:37:44,188 - INFO - Saved JSON for 'Oil well' to json_llm/oil_well.json
+2025-04-07 14:37:44,188 - INFO - Evaluation for 'Oil well': score:2; description:Extracted only name and source, the rest are default values.
+```
+2025-04-07 14:37:44,188 - INFO - Processing dataset: Open Industrial Data Project (Oil & Gas)
+2025-04-07 14:38:01,275 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:01,280 - INFO - Saved JSON for 'Open Industrial Data Project (Oil & Gas)' to json_llm/open_industrial_data_project__oil___gas_.json
+2025-04-07 14:38:01,281 - INFO - Evaluation for 'Open Industrial Data Project (Oil & Gas)': score:8; Extraction was successful for many fields such as summary, description, tags, and URL, however, numerical values such as 'Number of Instances' could not be determined with certainty from the text. Some fields have default "Information not available" value due to lack of information.
+```
+2025-04-07 14:38:01,281 - INFO - Processing dataset: Oscillation detection artificial dataset
+2025-04-07 14:38:04,672 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:04,676 - INFO - Saved JSON for 'Oscillation detection artificial dataset' to json_llm/oscillation_detection_artificial_dataset.json
+2025-04-07 14:38:04,676 - INFO - Evaluation for 'Oscillation detection artificial dataset': score:7; description:Extracted basic information from the webpage, including the name, summary, description, tags, and relevant download link. Some fields are unknown.
+2025-04-07 14:38:04,676 - INFO - Processing dataset: Panasonic 18650PF Li-ion Battery Data
+2025-04-07 14:38:10,384 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:10,388 - INFO - Saved JSON for 'Panasonic 18650PF Li-ion Battery Data' to json_llm/panasonic_18650pf_li-ion_battery_data.json
+2025-04-07 14:38:10,388 - INFO - Evaluation for 'Panasonic 18650PF Li-ion Battery Data': score:8; description:Successfully extracted the majority of the fields, including name, description, summary, source, and relevant tags. The data source is real and the presence of missing values is negative. Some fields, like labels and time series, are estimations, and instance/feature counts are unavailable, slightly lowering the score.
+```
+2025-04-07 14:38:10,388 - INFO - Processing dataset: Parts Manufacturing
+2025-04-07 14:38:12,738 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:12,741 - INFO - Saved JSON for 'Parts Manufacturing' to json_llm/parts_manufacturing.json
+2025-04-07 14:38:12,741 - INFO - Evaluation for 'Parts Manufacturing': score:3; description:Limited information could be extracted from the provided HTML content.
+2025-04-07 14:38:12,741 - INFO - Processing dataset: PHM 2008 Challenge
+2025-04-07 14:38:17,962 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:17,966 - INFO - Saved JSON for 'PHM 2008 Challenge' to json_llm/phm_2008_challenge.json
+2025-04-07 14:38:17,967 - INFO - Evaluation for 'PHM 2008 Challenge': score:3; description:Limited information could be extracted from the provided HTML. Many fields are "Information not available" due to the lack of content.
+2025-04-07 14:38:17,967 - INFO - Processing dataset: PHM Data Challenge
+2025-04-07 14:38:23,214 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:23,222 - INFO - Saved JSON for 'PHM Data Challenge' to json_llm/phm_data_challenge.json
+2025-04-07 14:38:23,223 - INFO - Evaluation for 'PHM Data Challenge': score:8; description:Extracted a good amount of information from the webpage, including the summary, description, tags, and references. A few fields are still "Information not available" but were likely not present in the page.
+2025-04-07 14:38:23,223 - INFO - Processing dataset: Plant Fault Detection
+2025-04-07 14:38:27,895 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:27,899 - INFO - Saved JSON for 'Plant Fault Detection' to json_llm/plant_fault_detection.json
+2025-04-07 14:38:27,899 - INFO - Evaluation for 'Plant Fault Detection': score:7; description:Extracted basic information such as name, source, and summary. Inferred some information based on context, since the explicit details are missing from the webpage. Includes relevant tags and references.
+2025-04-07 14:38:27,900 - INFO - Processing dataset: Plastic Extrusion Defects
+2025-04-07 14:38:30,864 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:30,869 - INFO - Saved JSON for 'Plastic Extrusion Defects' to json_llm/plastic_extrusion_defects.json
+2025-04-07 14:38:30,869 - INFO - Evaluation for 'Plastic Extrusion Defects': score:6; description: Extracted the name, source, summary, description and tags from the Kaggle webpage. Many values are marked as "information not available" due to the lack of details on the webpage.
+2025-04-07 14:38:30,869 - INFO - Processing dataset: Power Consumption of TETUAN City
+2025-04-07 14:38:34,960 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:34,963 - INFO - Saved JSON for 'Power Consumption of TETUAN City' to json_llm/power_consumption_of_tetuan_city.json
+2025-04-07 14:38:34,964 - INFO - Evaluation for 'Power Consumption of TETUAN City': score:9; description:Extracted most of the fields, including name, characteristics, attributes, summary, description, tags, and references.
+2025-04-07 14:38:34,964 - INFO - Processing dataset: Predicting Manufacturing Defects Dataset
+2025-04-07 14:38:37,402 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:37,406 - INFO - Saved JSON for 'Predicting Manufacturing Defects Dataset' to json_llm/predicting_manufacturing_defects_dataset.json
+2025-04-07 14:38:37,407 - INFO - Evaluation for 'Predicting Manufacturing Defects Dataset': score:6; description: Extracted basic info like name and source. The description is minimal due to the webpage content, but the format is correct.
+2025-04-07 14:38:37,407 - INFO - Processing dataset: Production Plant Data for Condition Monitoring
+2025-04-07 14:38:40,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:40,085 - INFO - Saved JSON for 'Production Plant Data for Condition Monitoring' to json_llm/production_plant_data_for_condition_monitoring.json
+2025-04-07 14:38:40,085 - INFO - Evaluation for 'Production Plant Data for Condition Monitoring': score:3; description: Very few fields could be extracted from the webpage provided.
+2025-04-07 14:38:40,085 - INFO - Processing dataset: Productivity Prediction of Garment Employees
+2025-04-07 14:38:44,583 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:44,586 - INFO - Saved JSON for 'Productivity Prediction of Garment Employees' to json_llm/productivity_prediction_of_garment_employees.json
+2025-04-07 14:38:44,586 - INFO - Evaluation for 'Productivity Prediction of Garment Employees': score:9; description:Extracted almost all the fields from the webpage, including name, description, number of instances and references.
+2025-04-07 14:38:44,586 - INFO - Processing dataset: Prognostics Data Repository
+2025-04-07 14:38:53,186 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:53,191 - INFO - Saved JSON for 'Prognostics Data Repository' to json_llm/prognostics_data_repository.json
+2025-04-07 14:38:53,192 - INFO - Evaluation for 'Prognostics Data Repository': score:9; description:Extracted almost all fields, including multiple references and tags. The description and summary are also adequate.
+2025-04-07 14:38:53,192 - INFO - Processing dataset: pump_sensor_data
+2025-04-07 14:38:55,748 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:55,752 - INFO - Saved JSON for 'pump_sensor_data' to json_llm/pump_sensor_data.json
+2025-04-07 14:38:55,752 - INFO - Evaluation for 'pump_sensor_data': score:2; description:The webpage provided only contained the dataset name and the link. All other fields are "Information not available" except for the data source that could be filled with "Kaggle".
+2025-04-07 14:38:55,752 - INFO - Processing dataset: Quality Prediction in a Mining Process
+2025-04-07 14:38:58,102 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:38:58,106 - INFO - Saved JSON for 'Quality Prediction in a Mining Process' to json_llm/quality_prediction_in_a_mining_process.json
+2025-04-07 14:38:58,107 - INFO - Evaluation for 'Quality Prediction in a Mining Process': score:6; description:Extracted name, source, summary, associated tasks, and URL. Many fields are unknown due to lack of information on the webpage.
+2025-04-07 14:38:58,107 - INFO - Processing dataset: Railway Surface Defect Detection Dataset
+2025-04-07 14:39:02,095 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:02,099 - INFO - Saved JSON for 'Railway Surface Defect Detection Dataset' to json_llm/railway_surface_defect_detection_dataset.json
+2025-04-07 14:39:02,099 - INFO - Evaluation for 'Railway Surface Defect Detection Dataset': score:9; description:The JSON file contains most of the fields from the webpage provided and follows the output format requested. Number of instances was extracted from the description.
+2025-04-07 14:39:02,099 - INFO - Processing dataset: Renewable power plants
+2025-04-07 14:39:04,449 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:04,453 - INFO - Saved JSON for 'Renewable power plants' to json_llm/renewable_power_plants.json
+2025-04-07 14:39:04,453 - INFO - Evaluation for 'Renewable power plants': score:2; description:Very few fields could be extracted from the provided HTML content.
+2025-04-07 14:39:04,453 - INFO - Processing dataset: Road Surface Cracks Dataset
+2025-04-07 14:39:08,683 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:08,691 - INFO - Saved JSON for 'Road Surface Cracks Dataset' to json_llm/road_surface_cracks_dataset.json
+2025-04-07 14:39:08,691 - INFO - Evaluation for 'Road Surface Cracks Dataset': score:7; description:Extracted basic information like name, source, and a summary. Labeled and data source are known. Number of instances, features, and date donated are not available on the page. Additional tags were inferred from the context.
+2025-04-07 14:39:08,691 - INFO - Processing dataset: Robot Execution Failures
+2025-04-07 14:39:12,828 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:12,828 - INFO - Saved JSON for 'Robot Execution Failures' to json_llm/robot_execution_failures.json
+2025-04-07 14:39:12,828 - INFO - Evaluation for 'Robot Execution Failures': score:9; description:Extracted most fields accurately, including name, characteristics, number of instances/features, description, tags, and source information.
+```
+2025-04-07 14:39:12,828 - INFO - Processing dataset: SACAC
+2025-04-07 14:39:20,730 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:20,734 - INFO - Saved JSON for 'SACAC' to json_llm/sacac.json
+2025-04-07 14:39:20,734 - INFO - Evaluation for 'SACAC': score:8; description:The JSON file contains most of the relevant information from the webpage, including the summary, description, tags, and references. Some fields like Number of Instances and Number of Features could not be filled as they are not available on the page. The Labeled field was filled with "Likely" since it cannot be asserted from the text.
+2025-04-07 14:39:20,734 - INFO - Processing dataset: SECOM
+2025-04-07 14:39:25,904 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:25,914 - INFO - Saved JSON for 'SECOM' to json_llm/secom.json
+2025-04-07 14:39:25,914 - INFO - Evaluation for 'SECOM': score:9; description:Extracted most of the relevant information from the webpage including name, characteristics, number of instances and features, summary, description, tags, and the source with its link.
+2025-04-07 14:39:25,914 - INFO - Processing dataset: Secure Water Treatment (SWaT) Dataset
+2025-04-07 14:39:35,889 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:35,893 - INFO - Saved JSON for 'Secure Water Treatment (SWaT) Dataset' to json_llm/secure_water_treatment__swat__dataset.json
+2025-04-07 14:39:35,893 - INFO - Evaluation for 'Secure Water Treatment (SWaT) Dataset': score:3; description:Very little information could be extracted from the webpage. Only the name of the dataset and the source were confidently determined.
+2025-04-07 14:39:35,893 - INFO - Processing dataset: Severstal Steel Defect Detection
+2025-04-07 14:39:38,350 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:38,355 - INFO - Saved JSON for 'Severstal Steel Defect Detection' to json_llm/severstal_steel_defect_detection.json
+2025-04-07 14:39:38,355 - INFO - Evaluation for 'Severstal Steel Defect Detection': score:6; description:Extracted basic information like name, source, and associated task but was unable to retrieve specifics like number of instances and features from the provided webpage content.
+```
+2025-04-07 14:39:38,355 - INFO - Processing dataset: SML2010
+2025-04-07 14:39:42,440 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:42,444 - INFO - Saved JSON for 'SML2010' to json_llm/sml2010.json
+2025-04-07 14:39:42,444 - INFO - Evaluation for 'SML2010': score:8; description:Extracted many fields, including the description, characteristics, number of instances, missing values, tags and summary.
+2025-04-07 14:39:42,444 - INFO - Processing dataset: Solar Power Generation Data
+2025-04-07 14:39:44,796 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:44,800 - INFO - Saved JSON for 'Solar Power Generation Data' to json_llm/solar_power_generation_data.json
+2025-04-07 14:39:44,800 - INFO - Evaluation for 'Solar Power Generation Data': score:5; description:Extracted the dataset name and source, but most other fields are missing due to lack of information on the provided webpage content.
+2025-04-07 14:39:44,800 - INFO - Processing dataset: Steel Dataset
+2025-04-07 14:39:47,149 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:47,153 - INFO - Saved JSON for 'Steel Dataset' to json_llm/steel_dataset.json
+2025-04-07 14:39:47,154 - INFO - Evaluation for 'Steel Dataset': score:2; description:The provided webpage contained very limited information, resulting in most fields being filled with "Information not available."
+2025-04-07 14:39:47,154 - INFO - Processing dataset: Steel Industry datasets
+2025-04-07 14:39:49,424 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:49,428 - INFO - Saved JSON for 'Steel Industry datasets' to json_llm/steel_industry_datasets.json
+2025-04-07 14:39:49,428 - INFO - Evaluation for 'Steel Industry datasets': score:3; description:Very little information was available on the webpage, resulting in most fields being filled with "Information not available".
+```
+2025-04-07 14:39:49,428 - INFO - Processing dataset: Steel Plate Faults
+2025-04-07 14:39:54,714 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:54,718 - INFO - Saved JSON for 'Steel Plate Faults' to json_llm/steel_plate_faults.json
+2025-04-07 14:39:54,719 - INFO - Evaluation for 'Steel Plate Faults': score:9; description:Extracted all fields, including name, labels, data source, missing values, dataset characteristics, feature type, associated tasks, instances, features, date donated, source, summary, description, additional tags, and references with links.
+2025-04-07 14:39:54,719 - INFO - Processing dataset: Superconductivty Data
+2025-04-07 14:39:59,541 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:39:59,545 - INFO - Saved JSON for 'Superconductivty Data' to json_llm/superconductivty_data.json
+2025-04-07 14:39:59,545 - INFO - Evaluation for 'Superconductivty Data': score:9; description:Extracted most of the relevant information from the webpage including dataset characteristics, missing values, description, summary, additional tags, and references.
+2025-04-07 14:39:59,545 - INFO - Processing dataset: Tennessee Eastman Process Simulation Dataset
+2025-04-07 14:40:03,646 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:03,648 - INFO - Saved JSON for 'Tennessee Eastman Process Simulation Dataset' to json_llm/tennessee_eastman_process_simulation_dataset.json
+2025-04-07 14:40:03,648 - INFO - Evaluation for 'Tennessee Eastman Process Simulation Dataset': score:9; description:Extracted most of the relevant information from the webpage, including the summary, description, tags, and references. Some fields were filled with "Information not available" due to lack of specific details on the website, but overall, the extraction was successful.
+```
+2025-04-07 14:40:03,648 - INFO - Processing dataset: Textures Classification Dataset
+2025-04-07 14:40:07,600 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:07,604 - INFO - Saved JSON for 'Textures Classification Dataset' to json_llm/textures_classification_dataset.json
+2025-04-07 14:40:07,604 - INFO - Evaluation for 'Textures Classification Dataset': score:7; description:Extracted basic information like name, source, and summary. Some fields are unavailable due to limited content on the page.
+2025-04-07 14:40:07,604 - INFO - Processing dataset: Textures under varying Illumination
+2025-04-07 14:40:13,076 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:13,079 - INFO - Saved JSON for 'Textures under varying Illumination' to json_llm/textures_under_varying_illumination.json
+2025-04-07 14:40:13,080 - INFO - Evaluation for 'Textures under varying Illumination': score:8; description:Extracted most of the relevant information from the webpage, including summary, description, tags, and references. Some fields remain "Information not available" due to lack of clarity on the webpage.
+2025-04-07 14:40:13,080 - INFO - Processing dataset: The Reference Energy Disaggregation Data Set (REDD)
+2025-04-07 14:40:16,984 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:16,988 - INFO - Saved JSON for 'The Reference Energy Disaggregation Data Set (REDD)' to json_llm/the_reference_energy_disaggregation_data_set__redd_.json
+2025-04-07 14:40:16,989 - INFO - Evaluation for 'The Reference Energy Disaggregation Data Set (REDD)': score:9; description: Extracted most of the relevant information from the webpage, including name, description, data characteristics, and link to the original website. Additional tags are also relevant and well-chosen.
+2025-04-07 14:40:16,989 - INFO - Processing dataset: TIG Welding
+2025-04-07 14:40:19,529 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:19,533 - INFO - Saved JSON for 'TIG Welding' to json_llm/tig_welding.json
+2025-04-07 14:40:19,533 - INFO - Evaluation for 'TIG Welding': score:3; description:Very little information was available on the webpage. Only the title and the source (Kaggle) could be confidently extracted.
+2025-04-07 14:40:19,533 - INFO - Processing dataset: Tool Path Generation
+2025-04-07 14:40:24,560 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:24,564 - INFO - Saved JSON for 'Tool Path Generation' to json_llm/tool_path_generation.json
+2025-04-07 14:40:24,564 - INFO - Evaluation for 'Tool Path Generation': score:8; description:Extracted most of the relevant information, including description, feature types, source, and summary. The number of features was successfully identified, and the additional tags are appropriate.
+2025-04-07 14:40:24,565 - INFO - Processing dataset: Top Defense Manufacturers
+2025-04-07 14:40:27,089 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:27,097 - INFO - Saved JSON for 'Top Defense Manufacturers' to json_llm/top_defense_manufacturers.json
+2025-04-07 14:40:27,097 - INFO - Evaluation for 'Top Defense Manufacturers': score:3; description:The provided HTML content is very minimal, resulting in most fields being filled with "Information not available". Only the name and source could be confidently extracted.
+2025-04-07 14:40:27,097 - INFO - Processing dataset: Turbofan engine degradation simulation data set
+2025-04-07 14:40:41,695 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:41,699 - INFO - Saved JSON for 'Turbofan engine degradation simulation data set' to json_llm/turbofan_engine_degradation_simulation_data_set.json
+2025-04-07 14:40:41,699 - INFO - Evaluation for 'Turbofan engine degradation simulation data set': score:8; description:Most of the information was extracted from the webpage. Some fields such as the license and operating system were not available.
+2025-04-07 14:40:41,699 - INFO - Processing dataset: Turning Dataset for Chatter Diagnosis
+2025-04-07 14:40:48,657 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:48,667 - INFO - Saved JSON for 'Turning Dataset for Chatter Diagnosis' to json_llm/turning_dataset_for_chatter_diagnosis.json
+2025-04-07 14:40:48,667 - INFO - Evaluation for 'Turning Dataset for Chatter Diagnosis': score:9; description:The JSON was created successfully using the information provided in the webpage. Most of the fields were able to be extracted with high confidence.
+2025-04-07 14:40:48,667 - INFO - Processing dataset: U.S. Crude Oil Imports
+2025-04-07 14:40:51,129 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:51,132 - INFO - Saved JSON for 'U.S. Crude Oil Imports' to json_llm/u_s__crude_oil_imports.json
+2025-04-07 14:40:51,132 - INFO - Evaluation for 'U.S. Crude Oil Imports': score:4; description:Limited information available from the provided HTML. Only the dataset name and source could be confidently extracted. Many fields were filled with "Information not available".
+```
+2025-04-07 14:40:51,132 - INFO - Processing dataset: UK-DALE dataset
+2025-04-07 14:40:56,063 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:40:56,067 - INFO - Saved JSON for 'UK-DALE dataset' to json_llm/uk-dale_dataset.json
+2025-04-07 14:40:56,067 - INFO - Evaluation for 'UK-DALE dataset': score:9; description:Extracted most of the relevant information, including description, summary, tags, and references. Date donated was inferred from the text.
+2025-04-07 14:40:56,067 - INFO - Processing dataset: Urban Land Cover
+2025-04-07 14:41:00,268 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:00,272 - INFO - Saved JSON for 'Urban Land Cover' to json_llm/urban_land_cover.json
+2025-04-07 14:41:00,272 - INFO - Evaluation for 'Urban Land Cover': score:9; description:Successfully extracted all relevant fields from the webpage, including name, labels, data source, missing values, dataset characteristics, feature type, associated tasks, number of instances, number of features, date donated, source, summary, description, additional tags, and references. The information presented has high confidence.
+2025-04-07 14:41:00,272 - INFO - Processing dataset: Vehicle Manufacturing Dataset
+2025-04-07 14:41:00,562 - ERROR - Error fetching URL https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset: 404 Client Error: Not Found for url: https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset
+2025-04-07 14:41:02,517 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:02,520 - INFO - Saved JSON for 'Vehicle Manufacturing Dataset' to json_llm/vehicle_manufacturing_dataset.json
+2025-04-07 14:41:02,520 - INFO - Evaluation for 'Vehicle Manufacturing Dataset': score:2; description:Very little information was available to extract.
+2025-04-07 14:41:02,521 - INFO - Processing dataset: Versatile Production Dataset
+2025-04-07 14:41:05,075 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:05,078 - INFO - Saved JSON for 'Versatile Production Dataset' to json_llm/versatile_production_dataset.json
+2025-04-07 14:41:05,079 - INFO - Evaluation for 'Versatile Production Dataset': score:3; description:Very little information was available on the webpage provided, resulting in many fields being filled with "Information not available". The tags and references are the only useful pieces of information.
+2025-04-07 14:41:05,079 - INFO - Processing dataset: Water Distribution (WADI) Dataset
+2025-04-07 14:41:10,657 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:10,667 - INFO - Saved JSON for 'Water Distribution (WADI) Dataset' to json_llm/water_distribution__wadi__dataset.json
+2025-04-07 14:41:10,668 - INFO - Evaluation for 'Water Distribution (WADI) Dataset': score:2; description:Very little information could be extracted from the webpage. The content only provided an error message and no actual information about the dataset.
+2025-04-07 14:41:10,668 - INFO - Processing dataset: Wind Turbine Scada Dataset
+2025-04-07 14:41:12,985 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:12,989 - INFO - Saved JSON for 'Wind Turbine Scada Dataset' to json_llm/wind_turbine_scada_dataset.json
+2025-04-07 14:41:12,990 - INFO - Evaluation for 'Wind Turbine Scada Dataset': score:3; description:Very little information could be extracted from the provided webpage content.
+```
+2025-04-07 14:41:12,990 - INFO - Processing dataset: Wine Quality
+2025-04-07 14:41:17,720 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:17,726 - INFO - Saved JSON for 'Wine Quality' to json_llm/wine_quality.json
+2025-04-07 14:41:17,726 - INFO - Evaluation for 'Wine Quality': score:9; description:The JSON file was created with a high level of confidence, extracting relevant information from the webpage to fill most of the fields, including summary, description, tags and references.
+2025-04-07 14:41:17,726 - INFO - Processing dataset: WM811K Wafer Maps
+2025-04-07 14:41:22,180 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:41:22,182 - INFO - Saved JSON for 'WM811K Wafer Maps' to json_llm/wm811k_wafer_maps.json
+2025-04-07 14:41:22,182 - INFO - Evaluation for 'WM811K Wafer Maps': score:7; description:Extracted key information such as the intended use case (classification), a summary, a description, and a relevant publication as a reference. Some fields could not be determined from the text.
+2025-04-07 14:42:56,910 - ERROR - Error reading file json_manual/examples/appliances_energy_prediction.json: [Errno 2] No such file or directory: 'json_manual/examples/appliances_energy_prediction.json'
+2025-04-07 14:42:56,910 - ERROR - Error reading file json_manual/examples/3w.json: [Errno 2] No such file or directory: 'json_manual/examples/3w.json'
+2025-04-07 14:42:56,910 - ERROR - Error reading file json_manual/examples/c_mapss_aircraft_engine_simulator_data.json: [Errno 2] No such file or directory: 'json_manual/examples/c_mapss_aircraft_engine_simulator_data.json'
+2025-04-07 14:42:56,910 - ERROR - Error reading file json_manual/examples/steel_industry_energy_consumption.json: [Errno 2] No such file or directory: 'json_manual/examples/steel_industry_energy_consumption.json'
+2025-04-07 14:42:56,910 - INFO - Processing dataset: 3D Printer
+2025-04-07 14:43:00,268 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:43:00,273 - INFO - Saved JSON for '3D Printer' to json_llm/3d_printer.json
+2025-04-07 14:43:00,273 - INFO - Evaluation for '3D Printer': score:1; description:Very little information could be extracted from the provided webpage content. Most fields are filled with "Information not available."
+2025-04-07 14:43:00,273 - INFO - Processing dataset: 3W
+2025-04-07 14:43:04,493 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:43:04,497 - INFO - Saved JSON for '3W' to json_llm/3w.json
+2025-04-07 14:43:04,497 - INFO - Evaluation for '3W': score:8; description:Extracted summary, subject area, source, creator, relevant information, references and additional tags. Number of instances, attributes, missing attributes, attribute information, usage information, format information and past usage were unavailable.
+2025-04-07 14:43:04,497 - INFO - Processing dataset: Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation
+2025-04-07 14:43:08,498 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:43:08,502 - INFO - Saved JSON for 'Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation' to json_llm/additional_tennessee_eastman_process_simulation_data_for_anomaly_detection_evaluation.json
+2025-04-07 14:43:08,503 - INFO - Evaluation for 'Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation': score:7; description:Extracted name, URL, summary, description, task, area, and tags. Information about the data format, instances, attributes, and features was unavailable, lowering the score.
+2025-04-07 14:43:08,503 - INFO - Processing dataset: AI4I 2020 Predictive Maintenance Dataset
+2025-04-07 14:44:03,669 - ERROR - Error reading file json'manual/examples/3w.json: [Errno 2] No such file or directory: "json'manual/examples/3w.json"
+2025-04-07 14:44:03,669 - INFO - Processing dataset: 3D Printer
+2025-04-07 14:44:27,565 - INFO - Processing dataset: 3D Printer
+2025-04-07 14:44:40,499 - INFO - Processing dataset: 3D Printer
+2025-04-07 14:44:43,606 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:44:43,611 - INFO - Saved JSON for '3D Printer' to json/llm/3d_printer.json
+2025-04-07 14:44:43,611 - INFO - Evaluation for '3D Printer': score:3; description:Very few fields were extractable due to the lack of information on the provided webpage.
+2025-04-07 14:44:43,612 - INFO - Processing dataset: 3W
+2025-04-07 14:44:46,653 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-07 14:44:46,657 - INFO - Saved JSON for '3W' to json/llm/3w.json
+2025-04-07 14:44:46,657 - INFO - Evaluation for '3W': score:8; description:Extracted the key information from the webpage, including the description, summary, and tags. Some fields had to be marked as 'Likely' because the webpage did not explicitly specify all required information.
+2025-04-07 14:44:46,657 - INFO - Processing dataset: Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation

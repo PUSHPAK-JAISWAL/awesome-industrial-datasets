@@ -1,0 +1,32 @@
+{
+  "Name": "Gas sensor array under dynamic gas mixtures",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Regression",
+  "Number of Instances": "4178504",
+  "Number of Features": "19",
+  "Date Donated": "2015-03-19",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.",
+  "Description": "This data set contains the acquired time series from 16 chemical sensors exposed to gas mixtures at varying concentration levels. In particular, we generated two gas mixtures: Ethylene and Methane in air, and Ethylene and CO in air. Each measurement was constructed by the continuous acquisition of the 16-sensor array signals for a duration of about 12 hours without interruption. \n\nThe data set was collected in a gas delivery platform facility at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. The measurement system platform provides versatility for obtaining the desired concentrations of the chemical substances of interest with high accuracy and in a highly reproducible manner. \n\nThe primary purpose of making this data set freely accessible on-line is to provide extensive and continuous time series acquired from chemical sensors to the sensor and artificial intelligence research communities to develop and test strategies to solve a wide variety of tasks. In particular, the data set may be useful to develop algorithms for continuous monitoring or improve response time of sensory systems.",
+  "Additional Tags": [
+    "Chemical sensors",
+    "Gas mixtures",
+    "Concentration levels",
+    "Time series data",
+    "Sensor array",
+    "Dynamic gas mixtures",
+    "Ethylene and Methane",
+    "Ethylene and CO"
+  ],
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures"
+    }
+  ]
+}

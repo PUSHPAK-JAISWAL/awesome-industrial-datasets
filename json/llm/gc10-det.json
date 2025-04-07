@@ -1,0 +1,30 @@
+{
+  "Name": "GC10-DET",
+  "Labeled": "Information not available",
+  "Time Series": "No",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification, Object Detection",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Dataset for defects location for metal surface.",
+  "Description": "This dataset contains information about defects location for metal surfaces. \n\nMore information may be available on the Kaggle website.",
+  "Additional Tags": [
+    "Metal surface defects",
+    "Defect detection",
+    "Image analysis",
+    "Industrial inspection",
+    "Object localization",
+    "Computer vision"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/zhangyunsheng/defects-class-and-location"
+    }
+  ]
+}

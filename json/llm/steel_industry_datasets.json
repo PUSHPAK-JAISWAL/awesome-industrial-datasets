@@ -1,0 +1,29 @@
+{
+  "Name": "Steel Industry datasets",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about the steel industry datasets.",
+  "Description": "Information not available",
+  "Additional Tags": [
+    "Steel industry",
+    "Industrial datasets",
+    "Kaggle datasets",
+    "Manufacturing data",
+    "Steel production"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/ayushparwal2026/steel-industry-datasets"
+    }
+  ]
+}

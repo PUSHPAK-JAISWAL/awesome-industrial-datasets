@@ -1,32 +1,37 @@
-# Oscillation Detection Artificial Dataset
+# Oscillation detection artificial dataset
 
-**Summary:** This dataset is developed for oscillation detection in control loops, employing machine learning techniques to enhance diagnostic capabilities in industrial processes.
+**Summary:** Dataset used by the authors’ previous work on a technique for oscillation detection based on Machine Learning.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Oscillation Detection Artificial Dataset |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | Yes |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Time-Series |
-| **Feature Type** | Real |
-| **Associated Tasks** | Classification |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
-| **Source** | GIMSCOP, Federal University of Rio Grande do Sul |
+| **Associated Tasks** | Classification, Detection |
+| **Data Source** | Synthetic |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
+| **Name** | Oscillation detection artificial dataset |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
+| **Source** | UFRGS |
+| **Time Series** | Likely |
 
-## Dataset Information
+## Description
 
-Used previously in machine learning research for oscillation detection, this dataset aids in studying and diagnosing oscillation issues within control systems.
+This dataset is an oscillation detection artificial dataset (ODADS).
+
+It was used in previous work on a machine learning technique for oscillation detection.
+
+You can download it from the provided link.
 
 ## Tags
 
-Control loops, Oscillation detection, Machine learning, Process optimization
+Artificial dataset, Fault detection, Industrial process monitoring, Machine learning, Oscillation detection, Process control, Time-series analysis
 
 ## References
 
-- [GIMSCOP](https://sites.ualberta.ca/~bhuang/Stiction-Book.htm)
+- [UFRGS Repository](https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/)
+- [Download](https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo)
 
 [⬅️ Back to Index](../README.md)

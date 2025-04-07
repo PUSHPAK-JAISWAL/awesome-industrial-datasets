@@ -1,0 +1,39 @@
+{
+  "Name": "Textures under varying Illumination",
+  "Labeled": "No",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification, Clustering",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "2006-06-09",
+  "Source": "KTH",
+  "Summary": "The KTH-TIPS image database was created to extend the CUReT database in two directions, by providing variations in scale as well as pose and illumination, and by imaging other samples of a subset of its materials in different settings. The KTH-TIPS2 databases took this a step further by imaging 4 different samples of 11 materials, each under varying pose, illumination and scale.",
+  "Description": "The KTH-TIPS (Textures under varying Illumination, Pose and Scale) image database was created to extend the CUReT database in two directions, by providing variations in scale as well as pose and illumination, and by imaging other samples of a subset of its materials in different settings.\n\n The KTH-TIPS2 databases took this a step further by imaging 4 different samples of 11 materials, each under varying pose, illumination and scale.\n\nFor more information about the databases, please view the documentation. The databases may be downloaded here.",
+  "Additional Tags": [
+    "Image database",
+    "Texture analysis",
+    "Illumination variations",
+    "Pose variations",
+    "Scale variations",
+    "Material recognition",
+    "KTH-TIPS2"
+  ],
+  "References": [
+    {
+      "Text": "KTH-TIPS image databases homepage",
+      "Link": "https://www.csc.kth.se/cvap/databases/kth-tips/index.html"
+    },
+    {
+      "Text": "documentation",
+      "Link": "documentation.html"
+    },
+    {
+      "Text": "download",
+      "Link": "download.html"
+    }
+  ]
+}

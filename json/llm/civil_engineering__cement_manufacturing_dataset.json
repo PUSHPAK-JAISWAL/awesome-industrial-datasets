@@ -1,0 +1,31 @@
+{
+  "Name": "Civil Engineering: Cement Manufacturing Dataset",
+  "Labeled": "No",
+  "Time Series": "No",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Information about cement manufacturing concrete.",
+  "Description": "Information about cement manufacturing concrete dataset.",
+  "Additional Tags": [
+    "Cement Manufacturing",
+    "Concrete",
+    "Civil Engineering",
+    "Building Materials",
+    "Material Science",
+    "Construction",
+    "Kaggle Dataset"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/vinayakshanawad/cement-manufacturing-concrete-dataset"
+    }
+  ]
+}

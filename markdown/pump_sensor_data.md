@@ -1,32 +1,32 @@
-# Pump Sensor Data
+# pump_sensor_data
 
-**Summary:** Pump sensor data for predictive maintenance.
+**Summary:** Information not available
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Pump Sensor Data |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | Yes |
-| **Dataset Characteristics** | Time-Series, Multivariate |
-| **Feature Type** | Real |
-| **Associated Tasks** | Regression, Classification |
-| **Number of Instances** | 220320 |
-| **Number of Features** | 53 |
-| **Date Donated** | INA |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
+| **Name** | pump_sensor_data |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-I have a friend who works in a small team responsible for maintaining the water pump systems of a remote area. Last year, there were 7 system failures that caused significant disruptions and seriously impacted some families' living conditions. The team has struggled to identify any patterns in the data related to these failures, leaving them unsure of where to focus their efforts. Believing in the power of data to solve problems, I've asked my friend to provide any available sensor data in hopes that someone here can help analyze it and find a solution.
+Information not available
 
 ## Tags
 
-Sensor data, Pump monitoring, Predictive maintenance, Operational efficiency, Machine learning
+Kaggle dataset, Pump sensor data
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/nphantawee/pump-sensor-data)
+- [Kaggle](https://www.kaggle.com/nphantawee/pump-sensor-data)
 
 [⬅️ Back to Index](../README.md)

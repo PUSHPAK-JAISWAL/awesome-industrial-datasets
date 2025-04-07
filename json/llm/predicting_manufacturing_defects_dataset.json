@@ -1,0 +1,30 @@
+{
+  "Name": "Predicting Manufacturing Defects Dataset",
+  "Labeled": "Likely",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Dataset for predicting manufacturing defects.",
+  "Description": "This dataset is for predicting manufacturing defects. \n\n More information can be found on Kaggle.",
+  "Additional Tags": [
+    "Manufacturing",
+    "Defect prediction",
+    "Industrial application",
+    "Kaggle dataset",
+    "Quality control",
+    "Predictive modeling"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset"
+    }
+  ]
+}

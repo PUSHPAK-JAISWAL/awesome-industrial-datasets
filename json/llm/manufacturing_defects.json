@@ -1,0 +1,30 @@
+{
+  "Name": "Manufacturing Defects",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Likely Real",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "Industry dataset of manufacturing defects.",
+  "Description": "This is an industry dataset related to manufacturing defects.\n\nMore information about the dataset can be found on Kaggle.",
+  "Additional Tags": [
+    "Manufacturing",
+    "Defect detection",
+    "Industry dataset",
+    "Classification",
+    "Industrial processes",
+    "Quality control"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/gabrielsantello/manufacturing-defects-industry-dataset"
+    }
+  ]
+}

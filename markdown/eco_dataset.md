@@ -1,40 +1,40 @@
-# ECO Dataset
+# ECO dataset
 
-**Summary:** The ECO dataset includes electricity consumption and occupancy data from six Swiss households, collected over eight months for non-intrusive load monitoring and occupancy detection research.
+**Summary:** The ECO data set is a comprehensive dataset for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | ECO Dataset |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | No |
+| **Associated Tasks** | Regression, Classification |
+| **Data Source** | Real |
 | **Dataset Characteristics** | Multivariate, Time-Series |
+| **Date Donated** | Information not available |
 | **Feature Type** | Real |
-| **Associated Tasks** | Non-Intrusive Load Monitoring, Occupancy Detection |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Labeled** | Yes |
+| **Missing Values** | No |
+| **Name** | ECO dataset |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | ETH Zurich |
+| **Time Series** | Yes |
 
-## Dataset Information
+## Description
 
-This website provides access to the ECO data set (Electricity Consumption and Occupancy). The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides:
-1 Hz aggregate consumption data. Each measurement contains data on current, voltage, and phase shift for each of the three phases in the household.
-1 Hz plug-level data measured from selected appliances.
-Occupancy information measured through a tablet computer (manual labeling) and a passive infrared sensor (in some of the households).
-We make the ECO data set available to the research community. You may directly access the data set, but we always like to receive a short description on what you plan to do with the data via e-mail to Wilhelm Kleiminger.
+The ECO data set provides access to electricity consumption and occupancy data collected in 6 Swiss households over 8 months. The dataset includes 1 Hz aggregate consumption data (current, voltage, and phase shift for each of the three phases), 1 Hz plug-level data from selected appliances, and occupancy information measured through a tablet computer (manual labeling) and passive infrared sensors.
 
-## Project Context
+The data was collected as part of the Smart Meter Services project and is related to the NILM-Eval framework. The ECO dataset has been used to evaluate non-intrusive load monitoring algorithms and for opportunistic occupancy sensing.
 
-The data was collected in the context of the project Smart Meter Services. The project is related to the open source framework NILM-Eval, in which we utilize the ECO data set to evaluate a set of non-intrusive load monitoring algorithms and our work on opportunistic occupancy sensing. We have also published the OpenWrt package Pylon, which allows for obtaining measurements from SML-based smart electricity meters.
+The dataset may be obtained from http://data-archive.ethz.ch/delivery/DeliveryManagerServlet?dps_pid=IE594964 or via its own DOI.
 
 ## Tags
 
-Electricity consumption, Occupancy detection, Smart meters, Energy efficiency, Household data
+Appliance usage, Electricity consumption, Energy disaggregation, Non-intrusive load monitoring, Occupancy detection, Smart meter data, Swiss households
 
 ## References
 
-- [ETH Zurich - ECO Dataset Page](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
+- [ECO data set](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
+- [Data set download](https://app.data-archive.ethz.ch/delivery/DeliveryManagerServlet?dps_pid=IE594964)
+- [DOI](http://doi.org/10.5905/ethz-1007-35)
+- [Smart Meter Services](https://www.vs.inf.ethz.ch/res/show.html?what=smart-meter-services)
+- [NILM-Eval](https://github.com/beckel/nilm-eval)
 
 [⬅️ Back to Index](../README.md)

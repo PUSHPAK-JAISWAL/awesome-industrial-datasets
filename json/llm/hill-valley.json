@@ -1,0 +1,31 @@
+{
+  "Name": "Hill-Valley",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Sequential",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "606",
+  "Number of Features": "101",
+  "Date Donated": "2008-03-19",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a \u00e2\u0080\u009cbump\u00e2\u0080\u009d in the terrain) or a Valley (a \u00e2\u0080\u009cdip\u00e2\u0080\u009d in the terrain).",
+  "Description": "Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a \u00e2\u0080\u009cbump\u00e2\u0080\u009d in the terrain) or a Valley (a \u00e2\u0080\u009cdip\u00e2\u0080\u009d in the terrain).\n\nThere are six files, as follows:\n(a) Hill_Valley_without_noise_Training.data\n(b) Hill_Valley_without_noise_Testing.data\nThese first two datasets (without noise) are a training/testing set pair where the hills or valleys have a smooth transition.\n\n(c) Hill_Valley_with_noise_Training.data\n(d) Hill_Valley_with_noise_Testing.data\nThese next two datasets (with noise) are a training/testing set pair where the terrain is uneven, and the hill or valley is not as obvious when viewed closely.\n(e) Hill_Valley_sample_arff.text\nThe sample ARFF file is useful for setting up experiments, but is not necessary.\n(f) Hill_Valley_visual_examples.jpg\nThis graphic file shows two example instances from the data.",
+  "Additional Tags": [
+    "Hill detection",
+    "Valley detection",
+    "Two-dimensional graph",
+    "Terrain analysis",
+    "Sequential data",
+    "Curve classification",
+    "Computer Vision"
+  ],
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/Hill-Valley"
+    }
+  ]
+}

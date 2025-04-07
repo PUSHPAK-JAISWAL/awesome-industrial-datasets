@@ -1,32 +1,32 @@
 # Oil and Gas
 
-**Summary:** The Global dataset of oil and natural gas production, prices, exports, and net exports.
+**Summary:** Information not available.
 
 | Parameter | Value |
 | --- | --- |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Information not available |
+| **Dataset Characteristics** | Information not available |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
 | **Name** | Oil and Gas |
-| **Labeled** | Yes |
-| **Time Series** | No |
-| **Simulation** | No |
-| **Missing Values** | No |
-| **Dataset Characteristics** | Multivariate |
-| **Feature Type** | Real |
-| **Associated Tasks** | Classification, Regression |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Information not available |
 
-## Dataset Information
+## Description
 
-Oil production and prices data are for 1932-2014 (2014 data are incomplete); gas production and prices are for 1955-2014; export and net export data are for 1986-2013. Country codes have been modified from earlier versions to conform to Correlates of War (COW) and Quality of Government (QOG) standards.
+Information not available
 
 ## Tags
 
-Oil industry, Gas industry, Energy sector, Economic analysis, Market trends
+Drilling, Energy Industry, Gas, Kaggle dataset, Oil and Gas, Petroleum, Resource Exploration
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/raspberrypie/oil-and-gas)
+- [Kaggle](https://www.kaggle.com/datasets/raspberrypie/oil-and-gas)
 
 [⬅️ Back to Index](../README.md)

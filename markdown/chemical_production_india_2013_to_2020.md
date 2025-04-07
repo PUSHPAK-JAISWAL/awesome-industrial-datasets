@@ -1,32 +1,36 @@
 # Chemical Production India 2013 to 2020
 
-**Summary:** Chemical production in India from 2013 to 2020 in metric tonnes.
+**Summary:** This dataset contains chemical production data from India spanning 2013 to 2020.
 
 | Parameter | Value |
 | --- | --- |
-| **Name** | Chemical Production India 2013 to 2020 |
-| **Labeled** | Yes |
-| **Time Series** | Yes |
-| **Simulation** | No |
-| **Missing Values** | INA |
+| **Associated Tasks** | Regression, Time Series Analysis |
+| **Data Source** | Real |
 | **Dataset Characteristics** | Time-Series |
-| **Feature Type** | Real |
-| **Associated Tasks** | Analysis, Forecasting |
-| **Number of Instances** | INA |
-| **Number of Features** | INA |
-| **Date Donated** | INA |
+| **Date Donated** | Information not available |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
+| **Name** | Chemical Production India 2013 to 2020 |
+| **Number of Features** | Information not available |
+| **Number of Instances** | Information not available |
 | **Source** | Kaggle |
+| **Time Series** | Likely |
 
-## Dataset Information
+## Description
 
-Get product wise, group wise and year wise production of major chemicals products in India. Production figures have been aggregated based on Monthly Production returns received directly by the Department of Chemicals and Petrochemicals from the manufacturers under large and medium scale.
+This dataset provides information about chemical production in India from 2013 to 2020.
+
+Further details about the specific chemicals, production processes, or variables included in the dataset are not available from the provided webpage content.
+
+More in-depth information would be needed to perform better analysis of the data.
 
 ## Tags
 
-Chemical industry, Production data, India, Economic analysis, Time-series forecasting
+Chemical industry, Economic indicators, India, Kaggle dataset, Manufacturing, Production data, Time series data
 
 ## References
 
-- [Kaggle Dataset](https://www.kaggle.com/datasets/timontunes/chemicalproduction2013to2020)
+- [Kaggle](https://www.kaggle.com/datasets/timontunes/chemicalproduction2013to2020)
 
 [⬅️ Back to Index](../README.md)
