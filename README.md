@@ -179,7 +179,7 @@ Before adding a new dataset, please ensure that it is unique and not already inc
 
 To add a dataset:
 1. Create a JSON file that accurately describes the dataset, following the same template as the existing datasets in the `json` folder.
-2. Place this JSON file in the `json` folder.
+2. Place this JSON file in the `json/manual` folder.
 
 #### Updating Documentation
 To update the documentation (Markdown and HTML files) and refresh the README:
