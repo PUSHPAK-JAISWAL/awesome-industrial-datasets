@@ -1,34 +1,34 @@
 {
   "Name": "Oscillation detection artificial dataset",
-  "Labeled": "Likely",
+  "Labeled": "Information not available",
   "Time Series": "Likely",
-  "Data Source": "Synthetic",
+  "Data Source": "Likely Synthetic",
   "Missing Values": "Information not available",
   "Dataset Characteristics": "Information not available",
   "Feature Type": "Information not available",
-  "Associated Tasks": "Classification, Detection",
+  "Associated Tasks": "Information not available",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "UFRGS",
+  "Source": "GIMSCOP - UFRGS",
   "Summary": "Dataset used by the authors\u2019 previous work on a technique for oscillation detection based on Machine Learning.",
-  "Description": "This dataset is an oscillation detection artificial dataset (ODADS).\n\nIt was used in previous work on a machine learning technique for oscillation detection.\n\nYou can download it from the provided link.",
+  "Description": "This dataset is described as the Oscillation detection artificial dataset (ODADS), which is used by the authors in their previous work concerning a machine learning technique for detecting oscillations.\n\nThe dataset is hosted on the GIMSCOP repository at UFRGS (Group of Intensification, Modeling, Simulation, Control, and Optimization of Processes). It is intended for research in oscillation detection, a common problem in time series or signal analysis domains, likely related to control systems or industrial process monitoring based on the context of the hosting group.\n\nNo specific details regarding the number of instances, features, labeling, or the nature of the data are provided on the webpage. It is available for download via a Google Drive link provided on the site.",
   "Additional Tags": [
     "Oscillation detection",
-    "Machine learning",
     "Artificial dataset",
-    "Time-series analysis",
-    "Industrial process monitoring",
-    "Fault detection",
-    "Process control"
+    "Machine learning",
+    "Time series data",
+    "Signal analysis",
+    "Control systems",
+    "Industrial process monitoring"
   ],
   "References": [
     {
-      "Text": "UFRGS Repository",
+      "Text": "GIMSCOP Datasets Repository",
       "Link": "https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/"
     },
     {
-      "Text": "Download",
+      "Text": "Dataset download",
       "Link": "https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo"
     }
   ]

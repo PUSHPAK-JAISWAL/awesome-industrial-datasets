@@ -1,25 +1,30 @@
 {
-  "Name": "pump_sensor_data",
-  "Labeled": "Information not available",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
+  "Name": "Pump sensor data",
+  "Labeled": "Yes",
+  "Time Series": "Likely",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification",
   "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
+  "Number of Features": "55",
+  "Date Donated": "2019-03-04",
   "Source": "Kaggle",
-  "Summary": "Information not available",
-  "Description": "Information not available",
+  "Summary": "Pump sensor data for predictive maintenance, aiming to predict next failure before it happens based on sensor readings.",
+  "Description": "This dataset originates from a small team monitoring water pumps in a remote area. They experienced 7 system failures in the last year, which caused serious problems to local people and some families. They were unable to detect any pattern leading to these failures from the data alone.\n\nThe dataset contains raw values from all available 52 sensors monitoring the pumps, along with timestamp data and machine status as the target label. The goal is to use this sensor data to predict pump failures to allow proactive maintenance and avoid negative impacts on the community.\n\nThe data contains multivariate time series sensor readings collected over time to support predictive maintenance, and it is intended for classification tasks to identify possible failures.",
   "Additional Tags": [
-    "Pump sensor data",
-    "Kaggle dataset"
+    "Predictive maintenance",
+    "Water pump monitoring",
+    "Sensor data",
+    "Multivariate time series",
+    "Classification task",
+    "Industrial equipment",
+    "Real-world data"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Kaggle Dataset - Pump sensor data",
       "Link": "https://www.kaggle.com/nphantawee/pump-sensor-data"
     }
   ]

@@ -1,42 +1,40 @@
 # Control loop datasets
 
-**Summary:** The datasets contain raw and processed data collected from an oil and gas company, and an artificial dataset for oscillation detection based on Machine Learning.
+**Summary:** Datasets collected from industrial control loops including raw, selected, and sampled data from an oil and gas company, along with an oscillation detection artificial dataset used for machine learning.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification |
+| **Associated Tasks** | Information not available |
 | **Data Source** | Real |
 | **Dataset Characteristics** | Multivariate, Time-Series |
 | **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
-| **Missing Values** | Yes |
+| **Feature Type** | Information not available |
+| **Labeled** | Information not available |
+| **Missing Values** | Information not available |
 | **Name** | Control loop datasets |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
-| **Source** | UFRGS |
-| **Time Series** | Yes |
+| **Source** | GIMSCOP - UFRGS |
+| **Time Series** | Likely |
 
 ## Description
 
-The page provides access to industrial datasets related to control loops. These datasets include:
+The Control loop datasets include several industrial datasets:
 
-SISO-RAW: Raw data collected in two and a half days from an oil and gas company with non-constant sampling time.
+- SISO-RAW: Raw data collected over two and a half days from an oil and gas company with non-constant sampling time.
+- SISO-SEL: Selected fragments derived from the SISO-RAW dataset.
+- SISO-SAMP: Data with constant sampling time based on the SISO-SEL dataset.
 
-SISO-SEL: Selected fragments from the SISO-RAW dataset.
-
-SISO-SAMP: Constant sampling time from the SISO-SEL dataset.
-
-There is also an oscillation detection artificial dataset (ODADS) used by the authors’ previous work on a technique for oscillation detection based on Machine Learning.
+Additionally, there is the Oscillation Detection Artificial Dataset (ODADS), which was used in previous work by the authors on a technique for oscillation detection based on machine learning. The datasets support research in control, modeling, simulation, and optimization of industrial processes.
 
 ## Tags
 
-Industrial control loops, Machine learning, Oil and gas data, Oscillation detection, Process control, Process monitoring, Time-series data
+Control loops, Industrial datasets, Machine learning, Oil and gas data, Oscillation detection, Process control, Time-series
 
 ## References
 
-- [GIMSCOP Datasets](https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/)
-- [Download SISO Datasets](https://drive.google.com/open?id=1hnsj85dSJz344UyxbYcUlFi08xfhMALJ)
-- [Download ODADS Dataset](https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo)
+- [GIMSCOP Datasets Repository](https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/)
+- [Download SISO Data](https://drive.google.com/open?id=1hnsj85dSJz344UyxbYcUlFi08xfhMALJ)
+- [Download ODADS](https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo)
 
 [⬅️ Back to Index](../README.md)

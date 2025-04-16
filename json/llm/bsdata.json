@@ -2,9 +2,9 @@
   "Name": "BSData",
   "Labeled": "Likely",
   "Time Series": "Likely",
-  "Data Source": "Likely",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
+  "Dataset Characteristics": "Multivariate",
   "Feature Type": "Information not available",
   "Associated Tasks": "Classification, Detection, Prognostics",
   "Number of Instances": "Information not available",
@@ -12,19 +12,19 @@
   "Date Donated": "Information not available",
   "Source": "GitHub",
   "Summary": "Dataset for classification, detection and prognostics of surface defects on ball screw drives.",
-  "Description": "Dataset for classification, detection and prognostics of surface defects on ball screw drives.",
+  "Description": "The BSData dataset is designed for tasks including classification, detection, and prognostics of surface defects specifically on ball screw drives. This dataset is hosted on GitHub and appears to focus on real data related to the condition monitoring and quality assessment of ball screw drives.\n\nThough the exact size, features, and labeling details are not explicitly provided, the dataset serves an important role in the machine learning community for analyzing surface defects, which is crucial for predictive maintenance and quality control in mechanical systems such as ball screw drives.\n\nThe repository is openly available with a CC-BY-SA-4.0 license, supporting research and development in defect detection and prognostics for industrial applications.",
   "Additional Tags": [
-    "Ball screw drives",
     "Surface defects",
-    "Classification",
-    "Detection",
+    "Ball screw drives",
+    "Defect classification",
     "Prognostics",
-    "Sensor data",
-    "Industrial applications"
+    "Detection",
+    "Condition monitoring",
+    "Mechanical components"
   ],
   "References": [
     {
-      "Text": "GitHub Repository",
+      "Text": "BSData GitHub Repository",
       "Link": "https://github.com/2Obe/BSData"
     }
   ]

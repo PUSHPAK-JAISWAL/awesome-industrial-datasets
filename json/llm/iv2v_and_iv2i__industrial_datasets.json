@@ -1,30 +1,30 @@
 {
-  "Name": "iV2V and iV2I+ Industrial Datasets",
+  "Name": "IV2V and iV2I+ Industrial Datasets",
   "Labeled": "Information not available",
-  "Time Series": "Likely Yes",
+  "Time Series": "Information not available",
   "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Multivariate, Time-Series",
-  "Feature Type": "Real, Categorical",
-  "Associated Tasks": "Regression, Classification",
+  "Dataset Characteristics": "Multivariate",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "IEEE Dataport",
+  "Source": "IEEE DataPort",
   "Summary": "Support code and documentation for the AI4Mobile industrial datasets: iV2V and iV2I+.",
-  "Description": "Support code and documentation for the AI4Mobile industrial datasets: iV2V and iV2I+.\n\nThe iV2V and iV2I+ datasets are related to AI4Mobile industrial wireless communications. The repository provides support code and documentation for these datasets.\n\nThe datasets are available on IEEE Dataport.",
+  "Description": "This repository provides support code and documentation related to the AI4Mobile industrial wireless datasets, namely iV2V (industrial vehicle-to-vehicle) and iV2I+ (industrial vehicle-to-infrastructure). The datasets are intended for applications in industrial wireless communication.\n\nThe datasets cover wireless industrial scenarios, supporting research and development in machine learning and communication within industrial environments. The dataset is hosted on IEEE DataPort, an open access platform for datasets.\n\nAdditional specific details such as labeling, timeseries nature, number of instances, and specific features are not provided in the repository summary or associated webpage. Users are directed to the IEEE DataPort link for further information and dataset access.",
   "Additional Tags": [
-    "Industrial wireless communications",
-    "AI4Mobile",
-    "Wireless sensor network",
-    "Vehicular communication",
-    "iV2V",
-    "iV2I+",
-    "Time series data"
+    "Industrial wireless datasets",
+    "Vehicle-to-vehicle communication",
+    "Vehicle-to-infrastructure communication",
+    "AI4Mobile project",
+    "Industrial communication systems",
+    "Wireless sensor data",
+    "Machine learning support data"
   ],
   "References": [
     {
-      "Text": "IEEE Dataport",
+      "Text": "IEEE DataPort AI4Mobile industrial wireless datasets: IV2V and iV2I+",
       "Link": "https://ieee-dataport.org/open-access/ai4mobile-industrial-wireless-datasets-iv2v-and-iv2i"
     },
     {

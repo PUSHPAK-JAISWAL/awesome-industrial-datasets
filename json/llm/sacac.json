@@ -1,43 +1,43 @@
 {
-  "Name": "SACAC Data Repositories",
-  "Labeled": "Likely",
-  "Time Series": "Yes",
+  "Name": "SACAC",
+  "Labeled": "Information not available",
+  "Time Series": "Likely",
   "Data Source": "Real",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Industrial Process Data",
   "Feature Type": "Real",
-  "Associated Tasks": "Regression, Classification",
+  "Associated Tasks": "Control loop performance monitoring, possibly classification and regression",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "SACAC",
-  "Summary": "The data is contributed by industrial control practitioners and academic researchers, aiming to provide a test environment for control loop performance monitoring methods. The data sets are arranged according to the cause of the poor performance of the control loops.",
-  "Description": "The data is contributed by industrial control practitioners as well as by academic researchers who work closely with industry. The aim of this repository is to provide a test environment for control loop performance monitoring methods.\u00a0\n\nThe data sets are arranged according to the cause of the poor performance of the control loops. These categories are described in\u00a0Bauer et al. (2016)\u00a0and are ordered according to how often they occur in industrial processes.\n\nFor any\u00a0queries\u00a0or if you would like to\u00a0contribute industrial process data\u00a0please send us an email at:\u00a0piddata@sacac.org.za",
+  "Summary": "An industrial data repository contributed by industrial control practitioners and academic researchers, aimed at providing test environments for control loop performance monitoring methods.",
+  "Description": "The SACAC data repository contains industrial process data contributed by industry practitioners and academic researchers working closely with industry. Its primary aim is to provide a test environment for control loop performance monitoring methods used in process industries, particularly focusing on single-input-single-output PID control loops which often perform poorly.\n\nThe datasets are categorized according to the causes of poor control loop performance, based on the classification described by Bauer et al. (2016), ordered by the frequency of occurrence in industrial processes. The repository is described in scientific papers and seeks to foster the development and comparison of methods to detect and diagnose poorly performing control loops.\n\nThe repository includes multiple categories of datasets covering phenomena like stiction, sensor faults, quantization, and saturation among others. Researchers and practitioners are encouraged to contribute data and use the repository for academic and practical studies in control loop performance monitoring.",
   "Additional Tags": [
-    "Industrial control",
+    "Industrial process data",
     "Control loop performance",
-    "Process industry",
-    "Sensor data",
-    "Fault detection",
-    "Time-series analysis",
-    "PID control"
+    "PID control loops",
+    "Process industries",
+    "Multivariate data",
+    "Fault diagnosis",
+    "Process control monitoring"
   ],
   "References": [
     {
-      "Text": "SACAC Resources Page",
-      "Link": "https://sacac.org.za/resources/"
-    },
-    {
-      "Text": "Bauer et al. (2016)",
+      "Text": "Bauer et al. (2016) - Cause categorization of control loop performance",
       "Link": "http://www.sciencedirect.com/science/article/pii/S0959152415002127"
     },
     {
-      "Text": "Paper describing the repository",
+      "Text": "SACAC Repository Description Paper",
       "Link": "https://www.sciencedirect.com/science/article/pii/S2405896318304701"
     },
     {
-      "Text": "Bacci di Capaci et al., 2016",
+      "Text": "Valve Stiction Comparative Study (Bacci di Capaci et al., 2016)",
       "Link": "https://www.sciencedirect.com/science/article/pii/S0959152416300907"
+    },
+    {
+      "Text": "SACAC Resources Page",
+      "Link": "https://sacac.org.za/resources/"
     }
   ]
 }

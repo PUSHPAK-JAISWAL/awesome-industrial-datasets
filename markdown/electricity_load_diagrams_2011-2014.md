@@ -1,6 +1,6 @@
 # Electricity Load Diagrams 2011-2014
 
-**Summary:** This data set contains electricity consumption of 370 points/clients. Values are in kW of each 15 min.
+**Summary:** This data set contains electricity consumption of 370 points/clients recorded every 15 minutes from 2011 to 2014.
 
 | Parameter | Value |
 | --- | --- |
@@ -9,7 +9,7 @@
 | **Dataset Characteristics** | Time-Series |
 | **Date Donated** | 2015-03-12 |
 | **Feature Type** | Real |
-| **Labeled** | No |
+| **Labeled** | Likely |
 | **Missing Values** | No |
 | **Name** | Electricity Load Diagrams 2011-2014 |
 | **Number of Features** | 140256 |
@@ -19,18 +19,19 @@
 
 ## Description
 
-This data set contains electricity consumption of 370 points/clients.
+The data set includes electricity consumption data for 370 clients, recorded every 15 minutes with values in kW. To convert these values into kWh, values should be divided by 4. Each column represents one client. Some clients were created after 2011; for those clients, consumption values before creation are considered zero. All time labels correspond to Portuguese local time, with adjustments for daylight saving time where applicable.
 
-Data set has no missing values. Values are in kW of each 15 min. To convert values in kWh values must be divided by 4. Each column represents one client. Some clients were created after 2011. In these cases consumption were considered zero.
+The data set was saved as a text file in CSV format using a semicolon (;) as the delimiter. The first column presents date and time as a string in the format 'yyyy-mm-dd hh:mm:ss'. All other columns contain float values indicating consumption in kW. The dataset contains no missing values.
 
-All time labels report to Portuguese hour. However all days present 96 measures (24*4). Every year in March time change day (which has only 23 hours) the values between 1:00 am and 2:00 am are zero for all points. Every year in October time change day (which has 25 hours) the values between 1:00 am and 2:00 am aggregate the consumption of two hours.
+During the daylight saving time changes, peculiarities are noted: in March, the day with only 23 hours has zero consumption values between 1:00 am and 2:00 am for all points; in October, the day with 25 hours aggregates consumption of two hours between 1:00 am and 2:00 am.
 
 ## Tags
 
-Electricity consumption, Energy data, Load diagrams, Portuguese hour, Real-world data, Time series analysis, kW values
+Client consumption profiles, Daylight saving time adjustments, Electricity consumption, Energy data, Portuguese local time, Smart grid, Time-series data
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014)
+- [Dataset DOI](https://doi.org/10.24432/C58C86)
 
 [⬅️ Back to Index](../README.md)

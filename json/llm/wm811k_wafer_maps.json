@@ -1,35 +1,35 @@
 {
   "Name": "WM811K Wafer Maps",
   "Labeled": "Likely",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
+  "Time Series": "No",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
+  "Dataset Characteristics": "Classification",
   "Feature Type": "Information not available",
   "Associated Tasks": "Classification",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "MIR Lab",
-  "Summary": "This dataset is good for wafer map classification tasks. It has been used in several papers published by MIR lab.",
-  "Description": "The WM811K Wafer Maps dataset, also referred to as MIR-WM811K, is designed for wafer map classification.\n\nIt has been used in several papers published by MIR lab. One such paper is titled \"Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets,\" published in IEEE Transactions on Semiconductor Manufacturing, vol. 28, no. 1, pp. 1-12, Feb. 2015.",
+  "Summary": "Dataset for wafer map classification used in several research papers.",
+  "Description": "The WM811K dataset is used for wafer map classification tasks. It has been utilized in several papers published by the MIR lab, including the work by Ming-Ju Wu, Jyh-Shing Roger Jang, and Jui-Long Chen on wafer map failure pattern recognition and similarity ranking for large-scale datasets.\n\nThis dataset supports research in semiconductor manufacturing fault diagnosis by providing large-scale wafer map data for pattern recognition. The MIR Lab provides this dataset for public download to foster research in this domain.\n\nIt is suitable for machine learning tasks related to classification of wafer defects and patterns in semiconductor manufacturing data.",
   "Additional Tags": [
     "Wafer map",
-    "Failure pattern recognition",
     "Semiconductor manufacturing",
-    "Classification",
-    "MIR Lab",
-    "Pattern Recognition",
-    "Similarity Ranking"
+    "Defect classification",
+    "Pattern recognition",
+    "Large-scale dataset",
+    "Machine learning",
+    "Failure analysis"
   ],
   "References": [
     {
-      "Text": "MIR Corpora",
-      "Link": "http://mirlab.org/dataSet/public/"
+      "Text": "IEEE Transactions on Semiconductor Manufacturing paper",
+      "Link": "https://doi.org/10.1109/TSM.2014.2364237"
     },
     {
-      "Text": "IEEE Transactions on Semiconductor Manufacturing, vol. 28, no. 1, pp. 1-12, Feb. 2015",
-      "Link": "https://doi.org/10.1109/TSM.2014.2364237"
+      "Text": "MIR Lab Dataset Page",
+      "Link": "http://mirlab.org/dataSet/public/"
     }
   ]
 }

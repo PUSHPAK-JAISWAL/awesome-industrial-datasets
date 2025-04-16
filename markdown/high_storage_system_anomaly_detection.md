@@ -1,36 +1,39 @@
 # High Storage System Anomaly Detection
 
-**Summary:** Data for energy optimization of a high storage system. This dataset can be used for anomaly detection tasks.
+**Summary:** Different datasets from correct running optimized system and runs with anomalies from a High Storage System focused on energy optimization and anomaly detection.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Anomaly Detection |
+| **Associated Tasks** | Anomaly Detection, Energy Optimization |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Information not available |
-| **Date Donated** | Information not available |
-| **Feature Type** | Information not available |
-| **Labeled** | Likely |
+| **Dataset Characteristics** | Multivariate, Time-Series, Anomaly Detection |
+| **Date Donated** | 2018-07-19 |
+| **Feature Type** | Real |
+| **Labeled** | Yes |
 | **Missing Values** | Information not available |
 | **Name** | High Storage System Anomaly Detection |
-| **Number of Features** | Information not available |
+| **Number of Features** | 80 |
 | **Number of Instances** | Information not available |
 | **Source** | Kaggle |
-| **Time Series** | Information not available |
+| **Time Series** | Likely |
 
 ## Description
 
-This dataset appears to contain data related to a high storage system, with the aim of optimizing energy consumption. It is intended for use in anomaly detection tasks, suggesting that the dataset contains normal operational data as well as instances of anomalies or unusual behavior within the storage system.
+The high storage system is a demonstrator located in the Smartfactory in Lemgo, built for research purposes including data-driven energy optimization and anomaly detection using timed automata.
 
-Further details regarding the specifics of the data, such as the collection frequency, the nature of the measured parameters, or the exact context of the high storage system, are not provided in the given HTML content.
+It consists of 4 short conveyor belts and 2 rails, with the middle two belts capable of vertical movement. Each conveyor belt has three induction sensors positioned at specific distances. The system is controlled by a SPS with Codesys V3 which corresponds to IEC61131-Standard. The dataset has four CSV files capturing both normal and anomalous runs, with optimized and non-optimized versions.
 
-The anomaly detection focus implies the existence of labeled or potentially label-able anomalies within the dataset, which could be useful for training and evaluating machine learning models.
+These files can be used to evaluate energy optimization processes and anomaly detection models. Anomalies are marked in a 'Label' column. The dataset is public under CC BY-NC-SA 4.0 license and is supported by research publications provided on the page.
 
 ## Tags
 
-Anomaly detection, Energy optimization, High storage system, Kaggle dataset, Operational data, System monitoring, Unusual behavior
+Anomaly Detection, Conveyor Belt Sensors, Energy Optimization, High Storage System, Industry 4.0, Real-world Industrial Data, Timed Automata
 
 ## References
 
-- [Kaggle](https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization)
+- [von Birgelen, Alexander; Niggemann, Oliver: Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events, ETFA 2017](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3054/single.html)
+- [von Birgelen, Alexander; Niggemann, Oliver: Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps, Springer Vieweg, Aug 2018](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3369/single.html)
+- [Hranisavljevic, Nemanja; Niggemann, Oliver; Maier, Alexander: A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata, DX Workshop, Denver 2016](https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/2881/single.html)
+- [Kaggle Dataset Page](https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization)
 
 [⬅️ Back to Index](../README.md)

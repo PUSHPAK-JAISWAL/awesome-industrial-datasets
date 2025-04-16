@@ -1,12 +1,12 @@
 # WM811K Wafer Maps
 
-**Summary:** This dataset is good for wafer map classification tasks. It has been used in several papers published by MIR lab.
+**Summary:** Dataset for wafer map classification used in several research papers.
 
 | Parameter | Value |
 | --- | --- |
 | **Associated Tasks** | Classification |
-| **Data Source** | Information not available |
-| **Dataset Characteristics** | Information not available |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Classification |
 | **Date Donated** | Information not available |
 | **Feature Type** | Information not available |
 | **Labeled** | Likely |
@@ -15,21 +15,23 @@
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
 | **Source** | MIR Lab |
-| **Time Series** | Information not available |
+| **Time Series** | No |
 
 ## Description
 
-The WM811K Wafer Maps dataset, also referred to as MIR-WM811K, is designed for wafer map classification.
+The WM811K dataset is used for wafer map classification tasks. It has been utilized in several papers published by the MIR lab, including the work by Ming-Ju Wu, Jyh-Shing Roger Jang, and Jui-Long Chen on wafer map failure pattern recognition and similarity ranking for large-scale datasets.
 
-It has been used in several papers published by MIR lab. One such paper is titled "Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets," published in IEEE Transactions on Semiconductor Manufacturing, vol. 28, no. 1, pp. 1-12, Feb. 2015.
+This dataset supports research in semiconductor manufacturing fault diagnosis by providing large-scale wafer map data for pattern recognition. The MIR Lab provides this dataset for public download to foster research in this domain.
+
+It is suitable for machine learning tasks related to classification of wafer defects and patterns in semiconductor manufacturing data.
 
 ## Tags
 
-Classification, Failure pattern recognition, MIR Lab, Pattern Recognition, Semiconductor manufacturing, Similarity Ranking, Wafer map
+Defect classification, Failure analysis, Large-scale dataset, Machine learning, Pattern recognition, Semiconductor manufacturing, Wafer map
 
 ## References
 
-- [MIR Corpora](http://mirlab.org/dataSet/public/)
-- [IEEE Transactions on Semiconductor Manufacturing, vol. 28, no. 1, pp. 1-12, Feb. 2015](https://doi.org/10.1109/TSM.2014.2364237)
+- [IEEE Transactions on Semiconductor Manufacturing paper](https://doi.org/10.1109/TSM.2014.2364237)
+- [MIR Lab Dataset Page](http://mirlab.org/dataSet/public/)
 
 [⬅️ Back to Index](../README.md)

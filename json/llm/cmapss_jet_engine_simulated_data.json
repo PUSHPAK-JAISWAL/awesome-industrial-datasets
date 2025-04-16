@@ -1,8 +1,8 @@
 {
   "Name": "CMAPSS Jet Engine Simulated Data",
-  "Labeled": "Likely",
-  "Time Series": "Likely",
-  "Data Source": "Synthetic",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
   "Missing Values": "Information not available",
   "Dataset Characteristics": "Information not available",
   "Feature Type": "Information not available",
@@ -11,20 +11,14 @@
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "NASA",
-  "Summary": "This dataset contains simulated data from jet engines, likely for performance analysis and prediction.",
-  "Description": "This page contains information about the CMAPSS Jet Engine Simulated Data dataset. More details about the dataset characteristics, features, and potential tasks are not provided on this specific landing page.\n\nFurther exploration of related NASA resources or publications may be required to gather complete details about the dataset's specifics.\n\nDue to the limited information provided on the landing page, a comprehensive description is not possible.",
+  "Summary": "Information not available",
+  "Description": "Information not available",
   "Additional Tags": [
-    "Jet engine",
-    "Simulator data",
-    "Engine performance",
-    "Sensor data",
-    "Prognostics",
-    "Aircraft engines",
-    "Simulated data"
+    "Information not available"
   ],
   "References": [
     {
-      "Text": "NASA's Open Data Portal",
+      "Text": "NASA Open Data Portal",
       "Link": "https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data"
     }
   ]

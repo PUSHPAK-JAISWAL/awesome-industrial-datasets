@@ -1,30 +1,30 @@
 {
   "Name": "Bearing",
-  "Labeled": "No",
+  "Labeled": "Likely",
   "Time Series": "Likely",
-  "Data Source": "Likely Real",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
   "Dataset Characteristics": "Information not available",
   "Feature Type": "Information not available",
-  "Associated Tasks": "Likely Regression, Likely Classification",
+  "Associated Tasks": "Likely Prognostics, Health Management",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "NASA",
-  "Summary": "This dataset is part of the NASA Ames Intelligent Systems Division, which provides leadership in information technologies by conducting mission-driven, user-centric research and development in computational sciences for NASA applications. The division develops ground and flight software systems and data architectures for data mining, analysis, integration, and management; integrated health management; systems safety; and mission assurance.",
-  "Description": "The NASA Ames Intelligent Systems Division provides leadership in information technologies by conducting mission-driven, user-centric research and development in computational sciences for NASA applications. We develop ground and flight software systems and data architectures for data mining, analysis, integration, and management; integrated health management; systems safety; and mission assurance.\n\nWe transfer these new capabilities for utilization in support of NASA missions and initiatives. The Division is part of Ames Research Center\u2019s Exploration Technologies Directorate, which provides advanced technologies for NASA\u2019s Aeronautics Research, Science, Human Exploration and Operations, and Space Technology Mission Directorates, as well as mission support organizations within the Agency.\n\nOver 400 NASA civil servant employees, contractors, and student interns work at the division.",
+  "Source": "NASA Prognostic Data Repository",
+  "Summary": "The Bearing dataset from NASA is used for prognostic technology development, addressing gaps in prognostic technologies for aeronautics and space exploration applications.",
+  "Description": "The Bearing dataset is part of the Prognostics Center of Excellence (PCoE) at NASA Ames Research Center, which focuses on prognostic technology development for aeronautics and space exploration. The dataset likely includes real sensor data used for diagnostics and prognostics to improve system health management.\n\nThe PCoE umbrella supports prognostic technology gaps and research in various aerospace mission areas. This dataset supports research in developing predictive maintenance and health monitoring models for mechanical components like bearings, which are critical for reliable operations.\n\nSpecific details such as the number of instances, features, or exact task types are not available from the provided webpage content, but the context suggests that the dataset provides time-series sensor data related to bearing conditions for prognostic and diagnostic machine learning tasks.",
   "Additional Tags": [
+    "NASA",
     "Prognostics",
     "Health Management",
-    "Data mining",
-    "System safety",
-    "Mission assurance",
-    "Aerospace applications",
-    "Sensor data"
+    "Aerospace",
+    "Time-Series Data",
+    "Sensor Data",
+    "Diagnostics"
   ],
   "References": [
     {
-      "Text": "NASA Ames Intelligent Systems Division home",
+      "Text": "NASA Prognostic Data Repository",
       "Link": "https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/"
     }
   ]

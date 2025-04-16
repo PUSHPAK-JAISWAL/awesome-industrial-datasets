@@ -5,24 +5,28 @@
   "Data Source": "Real",
   "Missing Values": "No",
   "Dataset Characteristics": "Multivariate",
-  "Feature Type": "Real",
+  "Feature Type": "Information not available",
   "Associated Tasks": "Classification",
   "Number of Instances": "168",
   "Number of Features": "148",
   "Date Donated": "2014-03-26",
   "Source": "UCI Machine Learning Repository",
   "Summary": "Classification of urban land cover using high resolution aerial imagery. Intended to assist sustainable urban planning efforts.",
-  "Description": "Contains training and testing data for classifying a high resolution aerial image into 9 types of urban land cover. Multi-scale spectral, size, shape, and texture information are used for classification. There are a low number of training samples for each class (14-30) and a high number of classification variables (148), so it may be an interesting data set for testing feature selection methods.\n\nThe testing data set is from a random sampling of the image.\n\nClass is the target classification variable. The land cover classes are: trees, grass, soil, concrete, asphalt, buildings, cars, pools, shadows.",
+  "Description": "Contains training and testing data for classifying a high resolution aerial image into 9 types of urban land cover. Multi-scale spectral, size, shape, and texture information are used for classification. There are a low number of training samples for each class (14-30) and a high number of classification variables (148), so it may be an interesting data set for testing feature selection methods. The testing data set is from a random sampling of the image.\n\nClass is the target classification variable. The land cover classes are: trees, grass, soil, concrete, asphalt, buildings, cars, pools, shadows.\n\nNote: prior to December 2024, the names of some columns were switched. (\"Mean_NIR\" and \"Mean_G\"; \"SD_NIR\" and \"SD_G\"). Thanks to Lonny Chen (lonny.cl.chen@gmail.com) for noticing this issue.",
   "Additional Tags": [
-    "Land cover classification",
-    "Aerial imagery",
-    "Urban planning",
-    "Remote sensing",
+    "Urban land cover",
+    "High resolution aerial imagery",
+    "Multivariate data",
+    "Classification",
     "Feature selection",
-    "Image analysis",
-    "Spectral data"
+    "Spectral data",
+    "Texture analysis"
   ],
   "References": [
+    {
+      "Text": "Johnson, B. (2013). Urban Land Cover [Dataset]. UCI Machine Learning Repository.",
+      "Link": "https://doi.org/10.24432/C53S48"
+    },
     {
       "Text": "UCI Machine Learning Repository",
       "Link": "https://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover"

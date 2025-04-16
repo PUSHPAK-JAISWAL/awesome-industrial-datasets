@@ -1,6 +1,6 @@
 # Steel Plates Faults
 
-**Summary:** A dataset of steel plates faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
+**Summary:** A dataset of steel plates’ faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
 
 | Parameter | Value |
 | --- | --- |
@@ -14,57 +14,24 @@
 | **Name** | Steel Plates Faults |
 | **Number of Features** | 27 |
 | **Number of Instances** | 1941 |
-| **Source** | UCI |
+| **Source** | UCI Machine Learning Repository |
 | **Time Series** | No |
 
 ## Description
 
-A dataset of steel platesÃ¢â¬â¢ faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
+This dataset contains data on steel plates faults classified into seven types: Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, and Other_Faults. The dataset includes 27 independent variables with integer and real feature types.
 
-Type of dependent variables (7 Types of Steel Plates Faults):
-1.Pastry
-2.Z_Scratch
-3.K_Scatch
-4.Stains
-5.Dirtiness
-6.Bumps
-7.Other_Faults
+The dataset aims to provide records to train machine learning models for automatic pattern recognition in fault detection on steel plates. The dataset contains no missing values and is based on real data.
 
-27 independent variables:
-X_Minimum
-X_Maximum
-Y_Minimum
-Y_Maximum
-Pixels_Areas
-X_Perimeter
-Y_Perimeter
-Sum_of_Luminosity
-Minimum_of_Luminosity
-Maximum_of_Luminosity
-Length_of_Conveyer
-TypeOfSteel_A300
-TypeOfSteel_A400
-Steel_Plate_Thickness
-Edges_Index
-Empty_Index
-Square_Index
-Outside_X_Index
-Edges_X_Index
-Edges_Y_Index
-Outside_Global_Index
-LogOfAreas
-Log_X_Index
-Log_Y_Index
-Orientation_Index
-Luminosity_Index
-SigmoidOfAreas
+The features describe various physical properties and measurements related to the steel plates, such as X_Minimum, X_Maximum, Y_Minimum, Y_Maximum, Pixels_Areas, X_Perimeter, Y_Perimeter, and Luminosity indices among others.
 
 ## Tags
 
-Fault classification, Image processing, Industrial application, Manufacturing, Material science, Pattern recognition, Steel plate defects
+Fault classification, Integer features, Multivariate dataset, No missing values, Pattern recognition, Real features, Steel plates
 
 ## References
 
-- [UCI Machine Learning Repository](https://doi.org/10.24432/C5J88N)
+- [Buscema, M., Terzi, S., & Tastle, W. (2010). Steel Plates Faults [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C5J88N)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/steel+plates+faults)
 
 [⬅️ Back to Index](../README.md)

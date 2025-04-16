@@ -10,20 +10,15 @@
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "AITEX",
+  "Source": "https://www.aitex.es/afid/",
   "Summary": "Information not available",
   "Description": "Information not available",
   "Additional Tags": [
-    "AITEX",
-    "Textile Technology Institute",
-    "Research Data",
-    "Industrial Data",
-    "Unknown Application",
-    "Spain Research"
+    "Information not available"
   ],
   "References": [
     {
-      "Text": "AITEX",
+      "Text": "AITEX AFID Dataset",
       "Link": "https://www.aitex.es/afid/"
     }
   ]

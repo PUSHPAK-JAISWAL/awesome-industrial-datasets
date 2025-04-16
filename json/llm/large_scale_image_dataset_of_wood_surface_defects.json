@@ -1,30 +1,34 @@
 {
   "Name": "Large Scale Image Dataset of Wood Surface Defects",
-  "Labeled": "Likely",
+  "Labeled": "Yes",
   "Time Series": "No",
   "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Image",
+  "Dataset Characteristics": "Image, Multiclass Classification",
   "Feature Type": "Image",
-  "Associated Tasks": "Classification, Defect Detection",
-  "Number of Instances": "Information not available",
+  "Associated Tasks": "Classification, Object Detection",
+  "Number of Instances": "4000",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "Kaggle",
-  "Summary": "This is a large-scale image dataset of wood surface defects.",
-  "Description": "Information not available\n\nInformation not available\n\nInformation not available",
+  "Summary": "This dataset contains 4,000 images with annotation for wood surface defects of 8 different types such as Quartzity, Live_Knot, Marrow, resin, Dead_Knot, knot_with_crack, Knot_missing and Crack.",
+  "Description": "This dataset is a subset of \"A large-scale image dataset of wood surface defects for automated vision-based quality control processes\". It contains 4,000 images annotated with 8 different types of wood surface defects including Quartzity, Live_Knot, Marrow, resin, Dead_Knot, knot_with_crack, Knot_missing, and Crack.\n\nThe original dataset consisted of high-resolution images captured with a special camera, each image taking about 12 MB of disk space. This version resizes the images to 2800x1024 resolution, reducing the disk space requirement to approximately 1 MB per image while adjusting annotations accordingly. The annotations have been converted into YOLOv5 format to facilitate use in object detection tasks.\n\nThis dataset is designed to support automated vision-based quality control processes in wood surface defect detection and classification, providing a valuable resource for machine learning applications in the forestry and manufacturing industries.",
   "Additional Tags": [
     "Wood surface",
-    "Defect detection",
     "Image dataset",
-    "Computer vision",
-    "Manufacturing",
-    "Material inspection",
-    "Surface anomaly detection"
+    "Object detection",
+    "Defect detection",
+    "YOLO annotations",
+    "Automated quality control",
+    "Industrial inspection"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Original publication on F1000Research",
+      "Link": "https://f1000research.com/articles/10-581"
+    },
+    {
+      "Text": "Kaggle Dataset Page",
       "Link": "https://www.kaggle.com/datasets/nomihsa965/large-scale-image-dataset-of-wood-surface-defects"
     }
   ]

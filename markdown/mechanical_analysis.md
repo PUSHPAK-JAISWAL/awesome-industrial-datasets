@@ -15,26 +15,23 @@
 | **Number of Features** | 8 |
 | **Number of Instances** | 209 |
 | **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Time Series** | Information not available |
 
 ## Description
 
-F. Bergadano supplied this database. Each instance contains many components, each of which has 8 attributes. Different instances in this database have different numbers of components.
-
-It was impossible to put one instance on one line. He originally had one instance per file, but this makes it difficult to ftp them (imagine ftp'ing 222 or so files!). I bundled the set of 209 instances into a single data file, prefixing each with the line:
-
-===== Instance number 1: =====
-
-where "n" is a number in [1,221]. However, they are NOT, repeat NOT in sequential order. Twelve (12) of the instances are missing. Bergadano supplied these additional 12 instances (numbers 8,12,32,33,66,69,73,152,167,194,203,208) in a "notused" sub-directory. I bundled these up with the same format in the "notused-instances" file.
+F. Bergadano supplied this database. Each instance contains many components, each of which has 8 attributes. Different instances in this database have different numbers of components. It was impossible to put one instance on one line. He originally had one instance per file, but this makes it difficult to ftp them. I bundled the set of 209 instances into a single data file, prefixing each with the line: ===== Instance number n: ===== where n is a number in [1,221]. However, they are NOT in sequential order. Twelve (12) of the instances are missing. Bergadano supplied these additional 12 instances (numbers 8,12,32,33,66,69,73,152,167,194,203,208) in a "notused" sub-directory. I bundled these up with the same format in the "notused-instances" file.
 
 A quick scan of their file didn't reveal what the purpose is for these twelve instances.
 
+The attributes include dummy (always 1) used for numbering, class for classification (1..6, the same for components of one example), component number (integer), support in the machine where measure was taken (1..4), frequency of the measure (integer), measure (real), earlier measure (real), filter, type of the measure and direction with several categories, and rpm of the machine (integer, the same for components of one example).
+
 ## Tags
 
-Categorical features, Electromechanical devices, Fault diagnosis, Integer features, Mechanical engineering, Pumps data, Real features
+Classification, Electromechanical devices, Fault diagnosis, Machine components, Mechanical measurements, Multivariate data, Real-world data
 
 ## References
 
+- [Bergadano, F., Giordana, A., & Saitta, L. (1990). Mechanical Analysis [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C5VG74)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/64/mechanical+analysis)
 
 [⬅️ Back to Index](../README.md)

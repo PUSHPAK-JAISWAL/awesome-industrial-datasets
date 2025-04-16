@@ -1,6 +1,6 @@
 # Tool Path Generation
 
-**Summary:** Shape deviation measurements and corresponding simulated cutting conditions for self-optimizing tool path generation in 5-axis machining processes. The dataset includes measurements from pocket A and pocket B configurations, with and without compensation.
+**Summary:** Shape deviation measurements and corresponding simulated cutting conditions for self-optimizing tool path generation in 5-axis machining processes.
 
 | Parameter | Value |
 | --- | --- |
@@ -9,33 +9,25 @@
 | **Dataset Characteristics** | Multivariate |
 | **Date Donated** | 2018-04-19 |
 | **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
 | **Name** | Tool Path Generation |
-| **Number of Features** | 7 |
+| **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
 | **Source** | Mendeley Data |
 | **Time Series** | No |
 
 ## Description
 
-Shape deviation measurements and corresponding simulated cutting conditions.
-Please refer to the corresponding paper for the experimental setup.
+Shape deviation measurements and corresponding simulated cutting conditions are provided. The dataset supports research in self-optimizing tool path generation for 5-axis machining processes. Please refer to the corresponding paper for the experimental setup.
 
-Feature Description:
-MeasuredDeviation - Actual measured deviation [mm]
-WidthOfCut - Width of cut determined with process parallel material simuation [mm]
-DepthOfCut - Width of cut determined with process parallel material simuation [mm]
-HeightAtTool - Projected distance from probed surface point to tool tip along tool axis determined with process parallel material simuation [mm]
-MaterialRemovalRate - Material removal ratedetermined with process parallel material simuation [cm^3/min]
-Feedrate - Feedrate determined with process parallel material simuation [m/min]
-X,Y,Z - Location of probed point in workpiece coordinates [mm]
+The dataset features variables such as Actual measured deviation, widths and depths of cut, height at tool, material removal rate, feedrate, and location coordinates of probed points in workpiece coordinates. Data selection includes systematic and random point selections from different sample parts with and without compensation applied.
 
-The dataset includes measurements from Pocket A and Pocket B, both with and without compensation. The data was collected using systematic and random point selection methods.
+Pocket A and Pocket B include measurements without compensation and with compensation, each having systematic and random sampling from three to nine sample parts. This enables comprehensive evaluation of machining conditions and tolerances for optimization purposes.
 
 ## Tags
 
-5-axis machining, Computer-Aided Manufacturing, Cutting conditions, Machining, Manufacturing, Shape deviation, Tool path optimization
+5-axis machining, Cutting conditions, Manufacturing, Multivariate data, Regression, Shape deviation, Tool path optimization
 
 ## References
 

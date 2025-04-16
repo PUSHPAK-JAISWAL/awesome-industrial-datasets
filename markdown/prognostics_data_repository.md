@@ -1,59 +1,37 @@
 # Prognostics Data Repository
 
-**Summary:** The Prognostics Data Repository is a collection of datasets donated by universities, agencies, or companies for development of prognostic algorithms. Most datasets are time-series data from a nominal state to a failed state.
+**Summary:** A collection of prognostic data sets donated by universities, agencies, or companies focusing on time-series data from nominal to failed states for prognostic algorithm development.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Classification |
-| **Data Source** | Real |
-| **Dataset Characteristics** | Time-Series |
+| **Associated Tasks** | Prognostics, Prognostic Algorithm Development |
+| **Data Source** | Both |
+| **Dataset Characteristics** | Time-Series, Multivariate |
 | **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
+| **Feature Type** | Likely Real and Categorical |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
 | **Name** | Prognostics Data Repository |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
-| **Source** | NASA |
+| **Source** | NASA Prognostics Data Repository |
 | **Time Series** | Yes |
 
 ## Description
 
-The Prognostics Data Repository is a collection of data sets that have been donated by universities, agencies, or companies. The data repository focuses exclusively on prognostic data sets, i.e., data sets that can be used for the development of prognostic algorithms. Most of these are time-series data from a prior nominal state to a failed state. The collection of data in this repository is an ongoing process.
+The Prognostics Data Repository is a collection of data sets donated by various universities, agencies, or companies. Its focus is exclusively on prognostic data sets, which primarily consist of time-series data capturing the progression from a nominal state to a failed state. The repository is actively growing as new data sets are continuously added.
 
-Publications making use of databases obtained from this repository are requested to acknowledge both the assistance received by using this repository and the donators of the data. This will help others to obtain the same data sets and replicate your experiments. It also provides credit to the donators.
+Users are requested to acknowledge this repository and the data donors in any publications using these data sets to help others access the same datasets and to credit the contributors. Data is used at the user's own risk, with no liability assumed by NASA or data contributors for any use of the data or derived systems.
 
-Users employ the data at their own risk. Neither NASA nor the donators of the data sets assume any liability for the use of the data, or any system developed using the data.
+The repository includes diverse datasets such as Algae Raceway experiments, Carbon Fiber-Reinforced Polymer Composites, Milling machine wear data, Bearings data, Li-Ion battery experiments, Turbofan Engine Degradation simulations, and multiple others, covering a wide variety of prognostic contexts and applications.
 
 ## Tags
 
-Failure prediction, Health Management, NASA data, Predictive maintenance, Prognostics, Sensor data, Time-series data
+Battery Data, Engine Degradation, Industrial Equipment Monitoring, NASA Ames Research Center, Prognostics, Run-to-Failure Data, Time-Series Data
 
 ## References
 
 - [Prognostics Health Management (PHM) Society website](https://data.phmsociety.org/nasa/)
-- [1. Algae Raceway](https://data.nasa.gov/download/bs7h-ane5/application%2Fzip)
-- [2. CFRP Composites](https://phm-datasets.s3.amazonaws.com/NASA/2.+Composites.zip)
-- [3. Milling](https://data.nasa.gov/download/vjv9-9f3x/application%2Fzip)
-- [4. Bearings](https://data.nasa.gov/download/brfb-gzcv/application%2Fzip)
-- [5. Batteries](https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip)
-- [6. Turbofan Engine Degradation Simulation](https://data.nasa.gov/Aeorspace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6)
-- [7. PHM08 Challenge](https://data.nasa.gov/download/nk8v-ckry/application%2Fzip)
-- [8. IGBT Accelerated Aging](https://data.nasa.gov/download/7wwx-fk77/application%2Fzip)
-- [10. FEMTO Bearing](https://phm-datasets.s3.amazonaws.com/NASA/10.+FEMTO+Bearing.zip)
-- [11. Randomized Battery Usage - Part 1 – Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-1-Random-Walk/ugxu-9kjx)
-- [11. Randomized Battery Usage - Part 2 – Room Temperature Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-2-Room-Temperature-Random/qghr-qkfw)
-- [11. Randomized Battery Usage - Part 3 – Room Temperate Variable Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-3-Room-Temperature-Variab/ed33-vxp2)
-- [11. Randomized Battery Usage - Part 4 – 40C Right-Skewed Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-4-40C-Right-Skewed-Random/gah6-q2es)
-- [11. Randomized Battery Usage - Part 5 – High-Temperature Right-Skewed Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-5-High-Temperature-Right-/tcjd-g74p)
-- [11. Randomized Battery Usage - Part 6 – 40C Left-Skewed Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-6-40C-Left-Skewed-Random-/5uxu-h2h6)
-- [11. Randomized Battery Usage - Part 7 – Low-Temperature Left-Skewed Random Walk](https://data.nasa.gov/Raw-Data/Randomized-Battery-Usage-7-Low-Temperature-Left-Sk/sb48-rsbc)
-- [12. Capacitor Electrical Stress](https://phm-datasets.s3.amazonaws.com/NASA/12.+Capacitor+Electrical+Stress.zip)
-- [13. MOSFET Thermal Overstress Aging](https://phm-datasets.s3.amazonaws.com/NASA/13.+MOSFET+Thermal+Overstress+Aging.zip)
-- [17. Turbofan Engine Degradation Simulation-2](https://phm-datasets.s3.amazonaws.com/NASA/17.+Turbofan+Engine+Degradation+Simulation+Data+Set+2.zip)
-- [18. Fatigue Crack Growth in Aluminum Lap Joint](https://data.nasa.gov/download/awzu-cpt8/application%2Fzip)
-- [19. CNC Milling Machine](https://phmsociety.org/phm_competition/2010-phm-society-conference-data-challenge/)
-- [20. Anemometer](https://phmsociety.org/phm_competition/2011-phm-society-conference-data-challenge/)
-- [21. Accelerated Battery Life Testing](https://data.nasa.gov/download/xg3n-ngei/application%2Fzip)
+- [NASA Prognostics Data Repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
 
 [⬅️ Back to Index](../README.md)

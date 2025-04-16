@@ -1,30 +1,34 @@
 {
   "Name": "Data-driven prediction of battery cycle life before capacity degradation",
-  "Labeled": "Likely",
-  "Time Series": "Information not available",
+  "Labeled": "Yes",
+  "Time Series": "Likely",
   "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
   "Associated Tasks": "Regression",
-  "Number of Instances": "Information not available",
+  "Number of Instances": "124",
   "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
-  "Source": "Matr.io",
-  "Summary": "Dataset for data-driven prediction of battery cycle life before capacity degradation.",
-  "Description": "Information not available",
+  "Date Donated": "2019-01-23",
+  "Source": "https://data.matr.io/1/projects/5c48dd2bc625d700019f3204",
+  "Summary": "This dataset consists of 124 commercial lithium-ion batteries cycled to failure under fast-charging conditions to optimize fast charging for lithium-ion batteries.",
+  "Description": "This dataset, used in the publication \u201cData-driven prediction of battery cycle life before capacity degradation\u201d, includes measurements from lithium-ion phosphate (LFP)/graphite cells manufactured by A123 Systems. The cells were cycled in a controlled temperature environment at 30\u00b0C with a one-step or two-step fast-charging policy, monitored until failure to study degradation patterns.\n\nThe dataset is divided into three batches, each with approximately 48 cells, distinguished by batch dates. Data is provided in MATLAB struct format or as raw CSV files, with some noted errors in the CSV files that are corrected in the structs. Measurements include temperature from thermocouples and internal resistance during charging at 80% state-of-charge using specific pulsing protocols.\n\nStarter code for accessing and using the dataset is available on GitHub, along with structured data files and a zipped archive of the full dataset. The data aims to support optimization of fast-charging methods and battery life prediction.",
   "Additional Tags": [
-    "Battery cycle life",
-    "Capacity degradation",
-    "Energy storage",
-    "Electrochemical data",
-    "Predictive modeling",
-    "Materials science",
-    "Regression analysis"
+    "Lithium-ion batteries",
+    "Battery life prediction",
+    "Fast charging",
+    "Time-series data",
+    "Battery degradation",
+    "Multivariate data",
+    "Thermocouple temperature measurement"
   ],
   "References": [
     {
-      "Text": "Experimental Data Platform",
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation"
+    },
+    {
+      "Text": "Original Publication - Nature Energy 2019",
       "Link": "https://data.matr.io/1/projects/5c48dd2bc625d700019f3204"
     }
   ]

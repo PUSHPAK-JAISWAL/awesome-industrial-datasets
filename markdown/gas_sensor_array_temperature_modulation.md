@@ -1,6 +1,6 @@
 # Gas sensor array temperature modulation
 
-**Summary:** A chemical detection platform composed of 14 temperature-modulated metal oxide (MOX) gas sensors was exposed during 3 weeks to mixtures of carbon monoxide and humid synthetic air in a gas chamber. The acquired time series of the sensors and the measured values of CO concentration, humidity and temperature inside the gas chamber are provided.
+**Summary:** A chemical detection platform composed of 14 temperature-modulated metal oxide (MOX) gas sensors was exposed during 3 weeks to mixtures of carbon monoxide and humid synthetic air in a gas chamber.
 
 | Parameter | Value |
 | --- | --- |
@@ -21,18 +21,17 @@
 
 A chemical detection platform composed of 14 temperature-modulated metal oxide semiconductor (MOX) gas sensors was exposed to dynamic mixtures of carbon monoxide (CO) and humid synthetic air in a gas chamber. The acquired time series of the sensors and the measured values of CO concentration, humidity and temperature inside the gas chamber are provided.
 
-a) Chemical detection platform: 
-The chemical detection platform was composed of 14 MOX gas sensors that generate a time-dependent multivariate response to the different gas stimuli. The utilized sensors were made commercially available by Figaro Engineering (7 units of TGS 3870-A04) and FIS (7 units of SB-500-12).
+The chemical detection platform consists of 14 MOX gas sensors, 7 units of TGS 3870-A04 sensors by Figaro Engineering and 7 units of SB-500-12 by FIS. The operating temperature of the sensors was controlled by a modulated heater voltage cycling between 0.2-0.9 V. Sensors were pre-heated for one week before experiments. The sensors' output voltage was sampled at 3.5 Hz using an Agilent DAQ system.
 
-d) Experimental protocol: 
-Each experiment consisted on 100 measurements: 10 experimental concentrations uniformly distributed in the range 0-20 ppm and 10 replicates per concentration. Each replicate had a relative humidity randomly chosen from a uniform distribution between 15% and 75% r.h. At the beginning of each experiment, the gas chamber was cleaned for 15 min using a stream of synthetic air at a flow rate of 240 mln/min.
+Dynamic gas mixtures were generated with mass flow controllers controlling streams of CO, wet and dry air delivered into a small PTFE test chamber. The CO concentration ranged from 0 to 20 ppm with relative humidity between 15% and 75%. Each experiment included 100 measurements, lasting approximately 25 hours per experiment, replicated across 13 working days over 17 calendar days. The dataset is contained in 13 text files corresponding to each measurement day.
 
 ## Tags
 
-Carbon monoxide detection, Chemical detection, Dynamic gas mixtures, Gas sensor array, Humidity measurement, Metal oxide semiconductor sensors, Temperature modulation
+Carbon monoxide, Gas sensors, Humidity control, Metal oxide semiconductor sensors, Multivariate sensor data, Temperature modulation, Time series data
 
 ## References
 
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation)
+- [UCI Machine Learning Repository Dataset Page](https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation)
+- [Dataset DOI](https://doi.org/10.24432/C5S302)
 
 [⬅️ Back to Index](../README.md)

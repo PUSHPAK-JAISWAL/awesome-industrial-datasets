@@ -1,39 +1,35 @@
 {
   "Name": "Textures under varying Illumination",
-  "Labeled": "No",
+  "Labeled": "Information not available",
   "Time Series": "No",
   "Data Source": "Real",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Multivariate",
-  "Feature Type": "Real",
-  "Associated Tasks": "Classification, Clustering",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Image, Multivariate, Variations in scale, pose, and illumination",
+  "Feature Type": "Image",
+  "Associated Tasks": "Texture recognition, Material classification",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "2006-06-09",
-  "Source": "KTH",
-  "Summary": "The KTH-TIPS image database was created to extend the CUReT database in two directions, by providing variations in scale as well as pose and illumination, and by imaging other samples of a subset of its materials in different settings. The KTH-TIPS2 databases took this a step further by imaging 4 different samples of 11 materials, each under varying pose, illumination and scale.",
-  "Description": "The KTH-TIPS (Textures under varying Illumination, Pose and Scale) image database was created to extend the CUReT database in two directions, by providing variations in scale as well as pose and illumination, and by imaging other samples of a subset of its materials in different settings.\n\n The KTH-TIPS2 databases took this a step further by imaging 4 different samples of 11 materials, each under varying pose, illumination and scale.\n\nFor more information about the databases, please view the documentation. The databases may be downloaded here.",
+  "Source": "KTH Computer Vision and Pattern Recognition (CVAP) group",
+  "Summary": "The KTH-TIPS image database provides texture images under varying scale, pose, and illumination, extending the CUReT database by adding new variations and samples.",
+  "Description": "The KTH-TIPS (Textures under varying Illumination, Pose and Scale) image database was created to extend the CUReT database in two directions, by providing variations in scale as well as pose and illumination, and by imaging other samples of a subset of its materials in different settings.\n\nThe KTH-TIPS2 databases further extended this effort by imaging 4 different samples of 11 materials, each under varying pose, illumination, and scale.\n\nThese databases serve as a resource for research in texture classification and material recognition under varying imaging conditions. More information and download options are available on the KTH-TIPS website.",
   "Additional Tags": [
-    "Image database",
-    "Texture analysis",
-    "Illumination variations",
-    "Pose variations",
-    "Scale variations",
+    "Texture images",
+    "Illumination variation",
+    "Pose variation",
+    "Scale variation",
     "Material recognition",
-    "KTH-TIPS2"
+    "Image database",
+    "Computer vision"
   ],
   "References": [
     {
-      "Text": "KTH-TIPS image databases homepage",
+      "Text": "KTH-TIPS Image Database Homepage",
       "Link": "https://www.csc.kth.se/cvap/databases/kth-tips/index.html"
     },
     {
-      "Text": "documentation",
-      "Link": "documentation.html"
-    },
-    {
-      "Text": "download",
-      "Link": "download.html"
+      "Text": "CUReT database",
+      "Link": "http://www1.cs.columbia.edu/CAVE/curet/"
     }
   ]
 }

@@ -1,25 +1,20 @@
 {
   "Name": "CWRU Bearing Data",
-  "Labeled": "Likely",
-  "Time Series": "Likely",
-  "Data Source": "Real",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Multivariate, Time-Series",
-  "Feature Type": "Real",
-  "Associated Tasks": "Classification, Regression",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "Case Western Reserve University",
-  "Summary": "This dataset comes from the Bearing Data Center at Case Western Reserve University.",
-  "Description": "Information not available",
+  "Source": "Case Western Reserve University Bearing Data Center",
+  "Summary": "Information not available",
+  "Description": "The webpage for the CWRU Bearing Data could not be accessed due to a privacy error related to a server certificate mismatch. The page was not loaded, therefore detailed information about the dataset is unavailable.\n\nThe security certificate presented was for a different domain than expected which triggered a connection privacy warning, preventing access to dataset details.\n\nNo information about the dataset content, characteristics, or related tasks could be extracted from the webpage content due to the inability to access the page.",
   "Additional Tags": [
-    "Bearing fault diagnosis",
-    "Rotating machinery",
-    "Vibration analysis",
-    "Sensor data",
-    "Mechanical engineering",
-    "Condition monitoring"
+    "Information not available"
   ],
   "References": [
     {

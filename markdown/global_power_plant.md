@@ -1,12 +1,12 @@
 # Global Power Plant Database
 
-**Summary:** A comprehensive, global, open source database of power plants. The 'Primary Fuel' is the fuel that has been identified to provide the largest portion of generated electricity for the plant or has been identified as the primary fuel by the data source.
+**Summary:** A comprehensive, global, open source database of power plants.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
-| **Data Source** | Likely Real |
-| **Dataset Characteristics** | Multivariate |
+| **Associated Tasks** | Information not available |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Multivariate, Global, Geospatial |
 | **Date Donated** | 2024-10-16 |
 | **Feature Type** | Real, Categorical |
 | **Labeled** | No |
@@ -14,23 +14,24 @@
 | **Name** | Global Power Plant Database |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
-| **Source** | WRI ODP |
-| **Time Series** | No |
+| **Source** | WRI Data Explorer |
+| **Time Series** | Likely |
 
 ## Description
 
-The "Primary Fuel" is the fuel that has been identified to provide the largest portion of generated electricity for the plant or has been identified as the primary fuel by the data source.
+The Global Power Plant Database provides an extensive open source dataset including information about power plants worldwide. It contains data including the primary fuel that supplies the largest portion of generated electricity for each plant, the generation values at a year scale for years 2013-2017, among other plant characteristics.
 
-For power plants that have data in multiple Other Fuel fields, the ordering of the fuels should not be taken to indicate any priority or preference of the fuel for operating the power plant or generating units. Though the "Other Fuel" columns in the database are numbered sequentially from 1, the ordering is insignificant.
+It is noted that for plants with multiple fuels specified, the other fuels' order does not indicate priority or preference. The generation data may correspond to calendar, fiscal, or regulatory years, without distinction provided. The database aims to support climate, economics, and finance related research and applications by providing detailed and comprehensive power plant information.
 
-Generation is provided at the year scale for the years 2013-2017. The generation values may correspond to a calendar year or a fiscal or regulatory year; no distinction is provided in the database.
+Caution is advised when interpreting 'Primary Fuel' and 'Other Fuel' fields, as ordering does not always imply operational priority. This dataset is maintained and provided by the World Resources Institute (WRI) and updated as of October 16, 2024.
 
 ## Tags
 
-Electricity generation, Energy sector, Fuel types, Geospatial data, Global data, Open source, Power plants
+Energy production, Geospatial data, Global dataset, Open source, Power plants, Primary fuel type, Yearly generation data
 
 ## References
 
-- [Global Power Plant Database - Datasets - WRI ODP](https://datasets.wri.org/dataset/globalpowerplantdatabase)
+- [Global Power Plant Database - WRI Data Explorer](https://datasets.wri.org/dataset/globalpowerplantdatabase)
+- [World Resources Institute](https://www.wri.org/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,29 +1,34 @@
 {
   "Name": "GC10-DET",
-  "Labeled": "Information not available",
+  "Labeled": "Yes",
   "Time Series": "No",
-  "Data Source": "Information not available",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
+  "Dataset Characteristics": "Image, Multiclass",
+  "Feature Type": "Grayscale Images",
   "Associated Tasks": "Classification, Object Detection",
-  "Number of Instances": "Information not available",
+  "Number of Instances": "3570",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "Kaggle",
-  "Summary": "Dataset for defects location for metal surface.",
-  "Description": "This dataset contains information about defects location for metal surfaces. \n\nMore information may be available on the Kaggle website.",
+  "Summary": "The GC10-DET dataset is a metallic surface defect dataset collected in a real industry and contains ten types of surface defects with 3570 grayscale images.",
+  "Description": "The GC10-DET dataset is a surface defect dataset collected from a real industry environment. It contains ten types of surface defects on the surface of steel sheets, including punching, weld line, crescent gap, water spot, oil spot, silk spot, inclusion, rolled pit, crease, and waist folding. The dataset consists of 3570 gray-scale images captured to represent these defects.\n\nEach defect type has a specific cause and appearance such as mechanical failure leading to unwanted punching defects, weld lines formed during coil changes, or water spots caused by drying during production. These defects vary in visual characteristics including shape, texture, and contrast, challenging automated detection and classification systems.\n\nThis dataset is intended for tasks like defect classification and location detection on metal surfaces, serving as a benchmark for industrial defect detection algorithms. It is referenced from a GitHub repository linked to the original research paper on deep metallic surface defect detection.",
   "Additional Tags": [
     "Metal surface defects",
-    "Defect detection",
-    "Image analysis",
-    "Industrial inspection",
-    "Object localization",
-    "Computer vision"
+    "Industrial dataset",
+    "Image classification",
+    "Object detection",
+    "Grayscale images",
+    "Manufacturing quality control",
+    "Steel sheet defects"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "GC10-DET GitHub Repository",
+      "Link": "https://github.com/lvxiaoming2019/"
+    },
+    {
+      "Text": "Kaggle Dataset Page",
       "Link": "https://www.kaggle.com/zhangyunsheng/defects-class-and-location"
     }
   ]

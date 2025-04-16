@@ -1,28 +1,34 @@
 {
   "Name": "TIG Welding",
-  "Labeled": "Information not available",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
+  "Labeled": "Yes",
+  "Time Series": "Likely",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
-  "Number of Instances": "Information not available",
+  "Dataset Characteristics": "Image, Multivariate",
+  "Feature Type": "Image",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "33300 (33.3k files)",
   "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
+  "Date Donated": "2018-10-11",
   "Source": "Kaggle",
-  "Summary": "Information about TIG welding of Aluminium 5083.",
-  "Description": "Information not available",
+  "Summary": "Dataset of TIG welding footages recorded with HDR camera used for defect classification of Aluminium 5083 TIG welding using neural networks.",
+  "Description": "Weld defect identification represents one of the most desired goals in the field of non-destructive testing (NDT) of welds. The dataset consists of images of the TIG welding process in the visible spectrum with improved contrast captured using a high dynamic range (HDR) camera.\n\nThis dataset supports research for automated defect classification of Aluminium 5083 TIG welding using artificial neural networks (ANN) for image processing. The images are labeled for various welding imperfections, enabling classification tasks.\n\nIt includes a large number of files (33.3k) and represents real welding footage, allowing models to learn to detect welding defects as a task in quality assessment and process monitoring.",
   "Additional Tags": [
     "TIG welding",
     "Aluminium 5083",
-    "Welding data",
-    "Materials science",
-    "Manufacturing processes"
+    "HDR camera",
+    "Weld defect classification",
+    "Neural networks",
+    "Image data",
+    "Non-destructive testing"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Journal of Manufacturing Processes Article",
+      "Link": "http://www.sciencedirect.com/science/article/pii/S1526612519302245"
+    },
+    {
+      "Text": "Kaggle Dataset",
       "Link": "https://www.kaggle.com/danielbacioiu/tig-aluminium-5083"
     }
   ]

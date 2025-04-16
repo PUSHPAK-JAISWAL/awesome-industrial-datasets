@@ -1,38 +1,38 @@
 {
   "Name": "Control loop datasets",
-  "Labeled": "Likely",
-  "Time Series": "Yes",
+  "Labeled": "Information not available",
+  "Time Series": "Likely",
   "Data Source": "Real",
-  "Missing Values": "Yes",
+  "Missing Values": "Information not available",
   "Dataset Characteristics": "Multivariate, Time-Series",
-  "Feature Type": "Real",
-  "Associated Tasks": "Regression, Classification",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "UFRGS",
-  "Summary": "The datasets contain raw and processed data collected from an oil and gas company, and an artificial dataset for oscillation detection based on Machine Learning.",
-  "Description": "The page provides access to industrial datasets related to control loops. These datasets include:\n\nSISO-RAW: Raw data collected in two and a half days from an oil and gas company with non-constant sampling time.\n\nSISO-SEL: Selected fragments from the SISO-RAW dataset.\n\nSISO-SAMP: Constant sampling time from the SISO-SEL dataset. \n\nThere is also an oscillation detection artificial dataset (ODADS) used by the authors\u2019 previous work on a technique for oscillation detection based on Machine Learning.",
+  "Source": "GIMSCOP - UFRGS",
+  "Summary": "Datasets collected from industrial control loops including raw, selected, and sampled data from an oil and gas company, along with an oscillation detection artificial dataset used for machine learning.",
+  "Description": "The Control loop datasets include several industrial datasets:\n\n- SISO-RAW: Raw data collected over two and a half days from an oil and gas company with non-constant sampling time.\n- SISO-SEL: Selected fragments derived from the SISO-RAW dataset.\n- SISO-SAMP: Data with constant sampling time based on the SISO-SEL dataset.\n\nAdditionally, there is the Oscillation Detection Artificial Dataset (ODADS), which was used in previous work by the authors on a technique for oscillation detection based on machine learning. The datasets support research in control, modeling, simulation, and optimization of industrial processes.",
   "Additional Tags": [
-    "Industrial control loops",
+    "Industrial datasets",
+    "Control loops",
     "Oil and gas data",
-    "Process monitoring",
+    "Time-series",
     "Oscillation detection",
     "Machine learning",
-    "Time-series data",
     "Process control"
   ],
   "References": [
     {
-      "Text": "GIMSCOP Datasets",
+      "Text": "GIMSCOP Datasets Repository",
       "Link": "https://www.ufrgs.br/gimscop/repository/sisoviewer/datasets/"
     },
     {
-      "Text": "Download SISO Datasets",
+      "Text": "Download SISO Data",
       "Link": "https://drive.google.com/open?id=1hnsj85dSJz344UyxbYcUlFi08xfhMALJ"
     },
     {
-      "Text": "Download ODADS Dataset",
+      "Text": "Download ODADS",
       "Link": "https://drive.google.com/open?id=1XUkEKSSTrF7pJ_6K82OpJkwnls1TSdgo"
     }
   ]

@@ -1,38 +1,34 @@
 {
   "Name": "Maintenance Action Recommendation",
   "Labeled": "Yes",
-  "Time Series": "No",
+  "Time Series": "Likely",
   "Data Source": "Real",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Multivariate",
-  "Feature Type": "Real, Categorical",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series, Classification",
+  "Feature Type": "Integer, Real",
   "Associated Tasks": "Classification, Recommendation",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
-  "Date Donated": "2013-08-15",
+  "Date Donated": "2013-08-14",
   "Source": "PHM Society",
-  "Summary": "The PHM Data Challenge is focused on maintenance action recommendation, a common problem in industrial remote monitoring and diagnostics. Participants are scored on their ability to accurately recommend confirmed problem types and not make any recommendations for historical nuisance cases.",
-  "Description": "The PHM Data Challenge is a competition open to all potential conference attendees. This year the challenge is focused on maintenance action recommendation, a common problem in industrial remote monitoring and diagnostics. Participants will be scored on their ability to accurately recommend confirmed problem types and not make any recommendations for historical nuisance cases.\n\nThere are 4 data sets provided for the challenge. The Train \u2013 Case to Problem.csv file contains the different problems associated with each case, where a case can be created by an automated system or manually by an engineer. The problem is a number that specifies a particular maintenance action that should be implemented to correct the symptom/problem. The Train \u2013 Nuisance Cases.csv file contains a set of cases that were not instructive enough to be acted on, useful for determining what features are not useful for classifying problems.\n\nThe Train \u2013 Case to Events and Parameters.csv file contains all of the event codes and parameters that are associated with all of the cases in the previous files and should be used to train/develop the recommender. The Test \u2013 Case to Events and Parameters.csv file contains all of the event codes and parameters for all of the test cases and should be used to generate the file that will be used to evaluate the recommender.",
+  "Summary": "The data challenge focused on maintenance action recommendation from industrial remote monitoring and diagnostics data. Participants were tasked to recommend maintenance actions accurately based on cases and event data.",
+  "Description": "The PHM Data Challenge was part of the 2013 Annual Conference of the Prognostics and Health Management Society. The challenge is centered on the problem of maintenance action recommendation, a common issue in industrial remote monitoring and diagnostics. Participants needed to recommend confirmed problem types while avoiding recommendations on historical nuisance cases.\n\nThere are four data sets: 'Train \u2013 Case to Problem.csv' which links cases to maintenance actions, 'Train \u2013 Nuisance Cases.csv' which contains cases not instructive enough to require action, 'Train \u2013 Case to Events and Parameters.csv' which includes event codes and parameters for training, and 'Test \u2013 Case to Events and Parameters.csv' which holds test cases for evaluation. The data originates from an industrial piece of equipment where event codes are generated based on onboard conditions along with parameters snapshots.\n\nParticipants submitted CSV files with their recommendations that were scored based on the correctness and avoidance of nuisance outputs. The competition winners were invited to submit papers and present their results at the PHM conference and in the International Journal of Prognostics and Health Management (IJPHM).",
   "Additional Tags": [
-    "Maintenance action recommendation",
-    "Industrial remote monitoring",
-    "Diagnostics",
+    "Maintenance recommendation",
+    "Industrial equipment",
     "Event codes",
     "Parameter data",
-    "Fault identification",
-    "Prognostics and Health Management"
+    "Remote monitoring",
+    "Diagnostics",
+    "PHM Society data challenge"
   ],
   "References": [
     {
-      "Text": "PHM Data Challenge",
-      "Link": "https://www.phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2013/phm-data-challenge/"
+      "Text": "PHM Society Data Challenge 2013",
+      "Link": "https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2013/phm-data-challenge/"
     },
     {
-      "Text": "here",
-      "Link": "https://www.phmsociety.org/events/conference/phm/13/challenge"
-    },
-    {
-      "Text": "International Journal of Prognostics and Health Management(IJPHM)",
+      "Text": "International Journal of Prognostics and Health Management",
       "Link": "https://www.phmsociety.org/journal"
     }
   ]

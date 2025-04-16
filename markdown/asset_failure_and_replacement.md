@@ -1,43 +1,37 @@
 # Asset Failure and Replacement
 
-**Summary:** This dataset focuses on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are scored on their ability to generate a health score that accurately segments a population of assets into high and low risks of failure.
+**Summary:** The PHM Data Challenge dataset focuses on asset health calculation in industrial remote monitoring and diagnostics. It includes records of asset part replacements, usage, and failures to generate health scores for assets.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Regression |
+| **Associated Tasks** | Regression, Classification |
 | **Data Source** | Real |
 | **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2014-08-07 |
-| **Feature Type** | Real, Integer |
+| **Date Donated** | 2014 |
+| **Feature Type** | Real, Categorical |
 | **Labeled** | Yes |
-| **Missing Values** | No |
+| **Missing Values** | Information not available |
 | **Name** | Asset Failure and Replacement |
-| **Number of Features** | 5 |
+| **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
 | **Source** | PHM Society |
-| **Time Series** | Yes |
+| **Time Series** | Likely |
 
 ## Description
 
-The PHM Data Challenge focuses on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are scored on their ability to generate a health score that accurately segments a population of assets into high and low risks of failure.
+The PHM Data Challenge is an open competition centered on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are evaluated on their ability to generate health scores that accurately segment assets into high and low failure risks.
 
-There are 5 data sets. Due to proprietary concerns we cannot provide a detailed description of the data and the domain. The datasets include Train – Part Consumption.csv, Train – Usage.csv, Train – Failures.csv, Test – Part Consumption.csv, Test – Usage.csv, Test Instances.csv, and Example Submission.csv.
+The dataset consists of five data files: Train – Part Consumption, Train – Usage, Train – Failures, Test – Part Consumption, Test – Usage, and Test Instances. These files include information about asset part replacements with reasons, usage parameters resembling an odometer, and failure times. An example submission file is also provided.
 
-Each team is permitted one submission a week. A submission will be composed of a CSV file whose name is the team alias. The first line of the CSV file should be the value that segments the health scores into low and high risk.
+Due to proprietary concerns, detailed descriptions of the data and the domain are not provided. The challenge encourages collaboration among students, researchers, and professionals, with the top teams invited to present their findings at the PHM Society Conference.
 
 ## Tags
 
-Asset health, Diagnostics, Failure prediction, Health score, Industrial data, Part replacement, Remote monitoring
+Asset health, Failure prediction, Health score, Industrial monitoring, Part replacement, Prognostics and health management, Time-series data
 
 ## References
 
-- [PHM Data Challenge](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2014/phm-data-challenge-2/)
-- [Train – Part Consumption.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Train - Part Consumption.zip)
-- [Train – Usage.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Train - Usage.zip)
-- [Train – Failures.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Train - Failures.zip)
-- [Test – Part Consumption.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Test - Part Consumption.zip)
-- [Test – Usage.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Test - Usage.zip)
-- [Test Instances.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Test Instances.zip)
-- [Example Submission.csv](https://www.phmsociety.org/sites/phmsociety.org/files/Example Submission.zip)
+- [PHM Society Data Challenge 2014](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2014/phm-data-challenge-2/)
+- [PHM14 Data Challenge Flyer PDF](https://phmsociety.org/wp-content/uploads/2014/03/PHM14DataChallenge.pdf)
 
 [⬅️ Back to Index](../README.md)

@@ -1,6 +1,6 @@
 # SECOM
 
-**Summary:** Data from a semi-conductor manufacturing process. The dataset represents a selection of features where each example represents a single production entity with associated measured features and the labels represent a simple pass/fail yield for in house line testing, and associated date time stamp.
+**Summary:** Data from a semi-conductor manufacturing process where each sample represents a production entity with associated measured features and pass/fail labels.
 
 | Parameter | Value |
 | --- | --- |
@@ -15,22 +15,23 @@
 | **Number of Features** | 591 |
 | **Number of Instances** | 1567 |
 | **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Time Series** | Information not available |
 
 ## Description
 
-A complex modern semi-conductor manufacturing process is normally under consistent surveillance via the monitoring of signals/variables collected from sensors and or process measurement points. However, not all of these signals are equally valuable in a specific monitoring system. The measured signals contain a combination of useful information, irrelevant information as well as noise. It is often the case that useful information is buried in the latter two. Engineers typically have a much larger number of signals than are actually required.
+A complex modern semi-conductor manufacturing process is monitored using signals collected from sensors and process measurement points. These signals contain a mixture of useful, irrelevant information, and noise, with many more signals measured than those actually needed. Feature selection is applied to identify the most relevant signals, which helps process engineers determine key factors contributing to yield variations.
 
-Using feature selection techniques it is desired to rank features according to their impact on the overall yield for the product; causal relationships may also be considered with a view to identifying the key features.
+The dataset consists of 1567 examples, each with 591 features, and an associated label indicating pass (-1) or fail (1) for in-house line testing along with a date/time stamp. The data contains missing values represented as 'NaN', which must be handled in pre-processing or during analysis.
 
-Key facts: Data Structure: The data consists of 2 files the dataset file SECOM consisting of 1567 examples each with 591 features a 1567 x 591 matrix and a labels file containing the classifications and date time stamp for each example. As with any real life data situations this data contains null values varying in intensity depending on the individuals features. This needs to be taken into consideration when investigating the data either through pre-processing or within the technique applied.
+Feature selection techniques are investigated as intelligent systems methods to rank features by their impact on overall yield. Baseline results from various feature selection methods using a simple kernel ridge classifier and 10-fold cross-validation are provided to guide initial analyses.
 
 ## Tags
 
-Classification, Feature selection, Manufacturing process data, Process monitoring, Semiconductor manufacturing, Sensor data, Yield prediction
+Classification, Feature selection, Missing values, Multivariate data, Semi-conductor manufacturing, Sensor data, Yield prediction
 
 ## References
 
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/SECOM)
+- [McCann, M. & Johnston, A. (2008). SECOM [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C54305)
+- [UCI SECOM Dataset](http://archive.ics.uci.edu/ml/datasets/SECOM)
 
 [⬅️ Back to Index](../README.md)

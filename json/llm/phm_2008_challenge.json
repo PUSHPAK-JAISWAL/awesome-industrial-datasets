@@ -11,19 +11,18 @@
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "NASA",
-  "Summary": "Information about the PHM 2008 Challenge dataset.",
-  "Description": "This page provides access to the PHM 2008 Challenge dataset. \n\nUnfortunately, the provided HTML content contains very limited information about the dataset itself. Further investigation is needed to fill out this information.",
+  "Summary": "Information not available",
+  "Description": "Information not available",
   "Additional Tags": [
-    "PHM Challenge",
-    "NASA Data",
-    "Open Data",
-    "Challenge dataset",
-    "Research dataset",
-    "Engineering"
+    "PHM challenge",
+    "Predictive maintenance",
+    "Prognostics",
+    "NASA dataset",
+    "Machine learning dataset"
   ],
   "References": [
     {
-      "Text": "NASA's Open Data Portal",
+      "Text": "NASA PHM 2008 Challenge",
       "Link": "https://data.nasa.gov/Raw-Data/PHM-2008-Challenge/nk8v-ckry/data"
     }
   ]

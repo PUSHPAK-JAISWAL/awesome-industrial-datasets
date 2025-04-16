@@ -11,18 +11,14 @@
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "NASA",
-  "Summary": "Information about the Milling Wear dataset.",
-  "Description": "This page provides access to the Milling Wear dataset hosted on NASA's Open Data Portal. \n\nMore information about the dataset can be found by exploring the available links and resources on the NASA Open Data Portal.",
+  "Summary": "Information not available",
+  "Description": "Information not available",
   "Additional Tags": [
-    "Milling process",
-    "Wear data",
-    "NASA dataset",
-    "Raw data",
-    "Open data"
+    "Information not available"
   ],
   "References": [
     {
-      "Text": "NASA's Open Data Portal",
+      "Text": "NASA Raw Data Portal - Milling Wear",
       "Link": "https://data.nasa.gov/Raw-Data/Milling-Wear/vjv9-9f3x/data"
     }
   ]

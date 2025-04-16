@@ -1,30 +1,39 @@
 {
   "Name": "NASA Bearing Dataset",
-  "Labeled": "Likely",
-  "Time Series": "Likely",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
   "Data Source": "Real",
   "Missing Values": "Information not available",
   "Dataset Characteristics": "Multivariate, Time-Series",
   "Feature Type": "Real",
-  "Associated Tasks": "Regression, Classification",
-  "Number of Instances": "Information not available",
+  "Associated Tasks": "Predictive Maintenance, Prognostics",
+  "Number of Instances": "9463 files (1-second vibration signal snapshots)",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "Kaggle",
-  "Summary": "This dataset contains bearing sensor data collected by NASA.",
-  "Description": "This dataset was collected by NASA.\n\nUnfortunately, this is all the information available on the page. More context would be needed to fully describe the dataset.",
+  "Source": "Kaggle, NASA Ames Prognostics Data Repository",
+  "Summary": "Prognostic dataset for predictive and preventive maintenance of bearings under controlled test-to-failure experiments.",
+  "Description": "Four Rexnord ZA-2115 double row bearings were installed on a shaft rotating at a constant speed of 2000 RPM with a radial load of 6000 lbs applied. The dataset consists of vibration signals captured using PCB 353B33 High Sensitivity Quartz ICP accelerometers installed on bearing housings. Data was collected from three test-to-failure experiments, where each file contains a 1-second vibration signal snapshot with 20,480 data points sampled at 20 kHz.\n\nThe dataset includes three sets of test data with varying numbers of channels and recording durations. File intervals are mostly every 10 minutes, and failures include inner and outer race defects across different bearings. The data is in ASCII format and provided with documentation including a README document.\n\nThis dataset is provided by the Center for Intelligent Maintenance Systems (IMS), University of Cincinnati and originally collected by NASA Ames Research Center. It is utilized for developing prognostic models for machine health and failure prediction.",
   "Additional Tags": [
-    "Bearing data",
-    "Sensor data",
-    "Vibration analysis",
-    "Rotating machinery",
-    "Fault detection",
-    "Predictive maintenance"
+    "Bearing vibration data",
+    "Predictive maintenance",
+    "Prognostics",
+    "Test-to-failure experiments",
+    "Time-series sensor data",
+    "Accelerometer signals",
+    "Rotating machinery"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "NASA Ames Prognostics Data Repository",
+      "Link": "http://ti.arc.nasa.gov/project/prognostic-data-repository"
+    },
+    {
+      "Text": "Kaggle Dataset - NASA Bearing Dataset",
       "Link": "https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset"
+    },
+    {
+      "Text": "IMS, University of Cincinnati Bearing Data Set",
+      "Link": "https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/"
     }
   ]
 }

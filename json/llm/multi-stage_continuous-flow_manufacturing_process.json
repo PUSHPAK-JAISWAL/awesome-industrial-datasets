@@ -1,31 +1,35 @@
 {
   "Name": "Multi-stage continuous-flow manufacturing process",
-  "Labeled": "Information not available",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
+  "Labeled": "Likely",
+  "Time Series": "Yes",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression",
   "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
+  "Number of Features": "116",
+  "Date Donated": "2019-03-06",
   "Source": "Kaggle",
-  "Summary": "Information not available",
-  "Description": "Information not available",
+  "Summary": "Real process data from a high-speed, continuous manufacturing line to predict output measurements from multiple stages.",
+  "Description": "This data was taken from an actual production line near Detroit, Michigan. The goal is to predict certain properties of the line's output from the various input data. The line is a high-speed, continuous manufacturing process with parallel and series stages.\n\nThe data comes from one production run spanning several hours. Liveline Technologies has a large quantity of this type of data from multiple production lines in various locations.\n\nThe process consists of multiple stages: In the first stage, Machines 1, 2, and 3 operate in parallel, feeding outputs into a combining step. Output from the combiner is measured in 15 locations around the material's outer surface, constituting the primary measurements to predict. Next, the output flows into a second stage where Machines 4 and 5 process the material in series. Measurements are again made in the same 15 locations after Machine 5, known as the secondary measurements to predict.",
   "Additional Tags": [
-    "Manufacturing process",
-    "Continuous flow",
-    "Industrial data",
-    "Process optimization",
-    "Multistage process",
-    "Kaggle dataset",
-    "Production data"
+    "Manufacturing Process",
+    "Continuous Flow",
+    "Multistage",
+    "Time-Series Data",
+    "Real Production Data",
+    "Regression Task",
+    "Process Control"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Kaggle Dataset",
       "Link": "https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process"
+    },
+    {
+      "Text": "Liveline Technologies",
+      "Link": "https://www.liveline.tech"
     }
   ]
 }

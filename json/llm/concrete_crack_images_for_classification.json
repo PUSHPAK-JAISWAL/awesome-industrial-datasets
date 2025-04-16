@@ -3,29 +3,33 @@
   "Labeled": "Yes",
   "Time Series": "No",
   "Data Source": "Real",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Image Classification",
-  "Feature Type": "Image",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Image, Multiclass",
+  "Feature Type": "Image (RGB)",
   "Associated Tasks": "Classification",
   "Number of Instances": "40000",
   "Number of Features": "Information not available",
   "Date Donated": "2018-01-15",
   "Source": "Mendeley Data",
-  "Summary": "The dataset contains concrete images with and without cracks, collected from METU Campus Buildings. It is divided into two classes, positive and negative crack images, for image classification.",
-  "Description": "The dataset contains concrete images having cracks. The data is collected from various METU Campus Buildings.\n\nThe dataset is divided into two as negative and positive crack images for image classification. Each class has 20000 images with a total of 40000 images with 227 x 227 pixels with RGB channels.\n\nThe dataset is generated from 458 high-resolution images (4032x3024 pixel) with the method proposed by Zhang et al (2016). High-resolution images have variance in terms of surface finish and illumination conditions. No data augmentation in terms of random rotation or flipping is applied.",
+  "Summary": "The dataset contains concrete images having cracks, divided into negative and positive crack images for image classification.",
+  "Description": "The dataset contains concrete images having cracks. The data is collected from various METU Campus Buildings.\n\nThe dataset is divided into two classes: negative and positive crack images for image classification. Each class has 20000 images with a total of 40000 images of size 227 x 227 pixels with RGB channels. The dataset is generated from 458 high-resolution images (4032x3024 pixel) with the method proposed by Zhang et al (2016). High-resolution images have variance in terms of surface finish and illumination conditions. No data augmentation in terms of random rotation or flipping is applied.\n\nLei Zhang, Fan Yang, Yimin Daniel Zhang, and Y. J. Z., Zhang, L., Yang, F., Zhang, Y. D., & Zhu, Y. J. (2016). Road Crack Detection Using Deep Convolutional Neural Network. In 2016 IEEE International Conference on Image Processing (ICIP). http://doi.org/10.1109/ICIP.2016.7533052",
   "Additional Tags": [
-    "Image data",
-    "Concrete structures",
+    "Concrete",
     "Crack detection",
-    "Defect classification",
-    "Civil engineering",
-    "METU Campus",
-    "Deep learning"
+    "Image classification",
+    "RGB images",
+    "High-resolution images",
+    "Machine learning",
+    "Structural health monitoring"
   ],
   "References": [
     {
-      "Text": "Mendeley Data",
+      "Text": "Mendeley Data Citation",
       "Link": "https://data.mendeley.com/datasets/5y9wdsg2zt/1"
+    },
+    {
+      "Text": "Zhang et al (2016) - Road Crack Detection Using Deep Convolutional Neural Network",
+      "Link": "http://doi.org/10.1109/ICIP.2016.7533052"
     }
   ]
 }

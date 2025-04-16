@@ -11,21 +11,25 @@
   "Number of Features": "Information not available",
   "Date Donated": "2019-04-14",
   "Source": "UCI Machine Learning Repository",
-  "Summary": "A chemical detection platform composed of 14 temperature-modulated metal oxide (MOX) gas sensors was exposed during 3 weeks to mixtures of carbon monoxide and humid synthetic air in a gas chamber. The acquired time series of the sensors and the measured values of CO concentration, humidity and temperature inside the gas chamber are provided.",
-  "Description": "A chemical detection platform composed of 14 temperature-modulated metal oxide semiconductor (MOX) gas sensors was exposed to dynamic mixtures of carbon monoxide (CO) and humid synthetic air in a gas chamber. The acquired time series of the sensors and the measured values of CO concentration, humidity and temperature inside the gas chamber are provided. \n\na) Chemical detection platform: \nThe chemical detection platform was composed of 14 MOX gas sensors that generate a time-dependent multivariate response to the different gas stimuli. The utilized sensors were made commercially available by Figaro Engineering (7 units of TGS 3870-A04) and FIS (7 units of SB-500-12).\n\nd) Experimental protocol: \nEach experiment consisted on 100 measurements: 10 experimental concentrations uniformly distributed in the range 0-20 ppm and 10 replicates per concentration. Each replicate had a relative humidity randomly chosen from a uniform distribution between 15% and 75% r.h. At the beginning of each experiment, the gas chamber was cleaned for 15 min using a stream of synthetic air at a flow rate of 240 mln/min.",
+  "Summary": "A chemical detection platform composed of 14 temperature-modulated metal oxide (MOX) gas sensors was exposed during 3 weeks to mixtures of carbon monoxide and humid synthetic air in a gas chamber.",
+  "Description": "A chemical detection platform composed of 14 temperature-modulated metal oxide semiconductor (MOX) gas sensors was exposed to dynamic mixtures of carbon monoxide (CO) and humid synthetic air in a gas chamber. The acquired time series of the sensors and the measured values of CO concentration, humidity and temperature inside the gas chamber are provided. \n\nThe chemical detection platform consists of 14 MOX gas sensors, 7 units of TGS 3870-A04 sensors by Figaro Engineering and 7 units of SB-500-12 by FIS. The operating temperature of the sensors was controlled by a modulated heater voltage cycling between 0.2-0.9 V. Sensors were pre-heated for one week before experiments. The sensors' output voltage was sampled at 3.5 Hz using an Agilent DAQ system.\n\nDynamic gas mixtures were generated with mass flow controllers controlling streams of CO, wet and dry air delivered into a small PTFE test chamber. The CO concentration ranged from 0 to 20 ppm with relative humidity between 15% and 75%. Each experiment included 100 measurements, lasting approximately 25 hours per experiment, replicated across 13 working days over 17 calendar days. The dataset is contained in 13 text files corresponding to each measurement day.",
   "Additional Tags": [
-    "Gas sensor array",
+    "Gas sensors",
     "Temperature modulation",
     "Metal oxide semiconductor sensors",
-    "Chemical detection",
-    "Carbon monoxide detection",
-    "Humidity measurement",
-    "Dynamic gas mixtures"
+    "Carbon monoxide",
+    "Humidity control",
+    "Time series data",
+    "Multivariate sensor data"
   ],
   "References": [
     {
-      "Text": "UCI Machine Learning Repository",
+      "Text": "UCI Machine Learning Repository Dataset Page",
       "Link": "https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation"
+    },
+    {
+      "Text": "Dataset DOI",
+      "Link": "https://doi.org/10.24432/C5S302"
     }
   ]
 }

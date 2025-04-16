@@ -1,14 +1,14 @@
 # PHM Data Challenge
 
-**Summary:** The PHM Data Challenge focuses on fault detection and prognostics in industrial plant monitoring. Participants are scored on their ability to detect plant faults and localize them in time.
+**Summary:** The PHM Data Challenge dataset focuses on fault detection and prognostics in industrial plant monitoring via time series sensor data and fault event records.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Fault Detection, Prognostics |
+| **Associated Tasks** | Classification, Regression |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
-| **Date Donated** | 2015-10-11 |
-| **Feature Type** | Real |
+| **Dataset Characteristics** | Multivariate, Time-Series, Fault Detection |
+| **Date Donated** | 2015-06-05 |
+| **Feature Type** | Real, Integer |
 | **Labeled** | Yes |
 | **Missing Values** | Yes |
 | **Name** | PHM Data Challenge |
@@ -19,20 +19,20 @@
 
 ## Description
 
-The PHM Data Challenge is a competition focused on fault detection and prognostics, a common problem in industrial plant monitoring. Participants are evaluated on their ability to detect plant faults from a set of potential faults and to precisely localize faults in time.
+The PHM Data Challenge is a competition centered on fault detection and prognostics in industrial plants, where participants use sensor and control signal time series data to predict future failure events and their timings. The data includes measurements from multiple plant components and zones, with fault events characterized by start time, end time, and fault code. The sampling frequency is roughly one sample every 15 minutes over approximately three to four years.
 
-Data includes time series of sensor measurements and control reference signals for plant components, additional measurements of plant zones, and plant fault events characterized by start time, end time, and failure code. The task is to predict future failure events and their time of occurrence from past data.
+Data sets include training data for approximately thirty plants and test data for about ten plants, with some fault data missing in the test set to simulate real-world prediction challenges. Physical plant model information provided explains feedback loop control systems and measurement zones. The dataset has inconsistencies such as variable sampling intervals and missing data, requiring careful preprocessing and analysis.
 
-The frequency of measurements is approximately one sample every 15 minutes, and the time series data spans a period of approximately three to four years.
+Participants submit predictions of faults for scoring based on detection accuracy with penalties for false positives and negatives. The data challenge facilitates collaboration among students, researchers, and industry professionals and aims to advance machine learning methods for prognostics and health management.
 
 ## Tags
 
-Control signals, Failure prediction, Fault detection, Industrial plant monitoring, Prognostics, Sensor data, Time-series data
+Fault detection, Industrial plant monitoring, Multivariate data, Open competition, Predictive maintenance, Prognostics, Time-series sensor data
 
 ## References
 
-- [PHM Data Challenge](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2015/phm-data-challenge-3/)
-- [Challenge forum](http://phmdatachallenge.freeforums.net/board/1/general-board)
-- [Questions and answers](https://www.dropbox.com/s/bow6ady5t7z7r4u/Q%26A.pdf?dl=0)
+- [PHM Society Data Challenge 2015](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2015/phm-data-challenge-3/)
+- [PHM Data Challenge Forum](http://phmdatachallenge.freeforums.net/board/1/general-board)
+- [PHM Data Challenge Q&A](https://www.dropbox.com/s/bow6ady5t7z7r4u/Q%26A.pdf?dl=0)
 
 [⬅️ Back to Index](../README.md)

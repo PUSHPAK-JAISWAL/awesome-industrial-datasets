@@ -1,38 +1,37 @@
 # Maintenance Action Recommendation
 
-**Summary:** The PHM Data Challenge is focused on maintenance action recommendation, a common problem in industrial remote monitoring and diagnostics. Participants are scored on their ability to accurately recommend confirmed problem types and not make any recommendations for historical nuisance cases.
+**Summary:** The data challenge focused on maintenance action recommendation from industrial remote monitoring and diagnostics data. Participants were tasked to recommend maintenance actions accurately based on cases and event data.
 
 | Parameter | Value |
 | --- | --- |
 | **Associated Tasks** | Classification, Recommendation |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | 2013-08-15 |
-| **Feature Type** | Real, Categorical |
+| **Dataset Characteristics** | Multivariate, Time-Series, Classification |
+| **Date Donated** | 2013-08-14 |
+| **Feature Type** | Integer, Real |
 | **Labeled** | Yes |
-| **Missing Values** | No |
+| **Missing Values** | Information not available |
 | **Name** | Maintenance Action Recommendation |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
 | **Source** | PHM Society |
-| **Time Series** | No |
+| **Time Series** | Likely |
 
 ## Description
 
-The PHM Data Challenge is a competition open to all potential conference attendees. This year the challenge is focused on maintenance action recommendation, a common problem in industrial remote monitoring and diagnostics. Participants will be scored on their ability to accurately recommend confirmed problem types and not make any recommendations for historical nuisance cases.
+The PHM Data Challenge was part of the 2013 Annual Conference of the Prognostics and Health Management Society. The challenge is centered on the problem of maintenance action recommendation, a common issue in industrial remote monitoring and diagnostics. Participants needed to recommend confirmed problem types while avoiding recommendations on historical nuisance cases.
 
-There are 4 data sets provided for the challenge. The Train – Case to Problem.csv file contains the different problems associated with each case, where a case can be created by an automated system or manually by an engineer. The problem is a number that specifies a particular maintenance action that should be implemented to correct the symptom/problem. The Train – Nuisance Cases.csv file contains a set of cases that were not instructive enough to be acted on, useful for determining what features are not useful for classifying problems.
+There are four data sets: 'Train – Case to Problem.csv' which links cases to maintenance actions, 'Train – Nuisance Cases.csv' which contains cases not instructive enough to require action, 'Train – Case to Events and Parameters.csv' which includes event codes and parameters for training, and 'Test – Case to Events and Parameters.csv' which holds test cases for evaluation. The data originates from an industrial piece of equipment where event codes are generated based on onboard conditions along with parameters snapshots.
 
-The Train – Case to Events and Parameters.csv file contains all of the event codes and parameters that are associated with all of the cases in the previous files and should be used to train/develop the recommender. The Test – Case to Events and Parameters.csv file contains all of the event codes and parameters for all of the test cases and should be used to generate the file that will be used to evaluate the recommender.
+Participants submitted CSV files with their recommendations that were scored based on the correctness and avoidance of nuisance outputs. The competition winners were invited to submit papers and present their results at the PHM conference and in the International Journal of Prognostics and Health Management (IJPHM).
 
 ## Tags
 
-Diagnostics, Event codes, Fault identification, Industrial remote monitoring, Maintenance action recommendation, Parameter data, Prognostics and Health Management
+Diagnostics, Event codes, Industrial equipment, Maintenance recommendation, PHM Society data challenge, Parameter data, Remote monitoring
 
 ## References
 
-- [PHM Data Challenge](https://www.phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2013/phm-data-challenge/)
-- [here](https://www.phmsociety.org/events/conference/phm/13/challenge)
-- [International Journal of Prognostics and Health Management(IJPHM)](https://www.phmsociety.org/journal)
+- [PHM Society Data Challenge 2013](https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2013/phm-data-challenge/)
+- [International Journal of Prognostics and Health Management](https://www.phmsociety.org/journal)
 
 [⬅️ Back to Index](../README.md)

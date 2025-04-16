@@ -10,16 +10,10 @@
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "HCI",
-  "Summary": "Information about HCI Industrial Optical Inspection dataset.",
-  "Description": "Information about the HCI Industrial Optical Inspection is not available from the provided content.",
-  "Additional Tags": [
-    "Industrial inspection",
-    "Optical inspection",
-    "HCI",
-    "Weakly-supervised learning",
-    "Image analysis"
-  ],
+  "Source": "Heidelberg Collaboratory for Image Processing (HCI)",
+  "Summary": "Information not available",
+  "Description": "Information not available",
+  "Additional Tags": [],
   "References": [
     {
       "Text": "HCI Industrial Optical Inspection",

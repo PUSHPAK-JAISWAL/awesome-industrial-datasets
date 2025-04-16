@@ -1,32 +1,36 @@
-# pump_sensor_data
+# Pump sensor data
 
-**Summary:** Information not available
+**Summary:** Pump sensor data for predictive maintenance, aiming to predict next failure before it happens based on sensor readings.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
-| **Data Source** | Information not available |
-| **Dataset Characteristics** | Information not available |
-| **Date Donated** | Information not available |
-| **Feature Type** | Information not available |
-| **Labeled** | Information not available |
+| **Associated Tasks** | Classification |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Multivariate, Time-Series |
+| **Date Donated** | 2019-03-04 |
+| **Feature Type** | Real |
+| **Labeled** | Yes |
 | **Missing Values** | Information not available |
-| **Name** | pump_sensor_data |
-| **Number of Features** | Information not available |
+| **Name** | Pump sensor data |
+| **Number of Features** | 55 |
 | **Number of Instances** | Information not available |
 | **Source** | Kaggle |
-| **Time Series** | Information not available |
+| **Time Series** | Likely |
 
 ## Description
 
-Information not available
+This dataset originates from a small team monitoring water pumps in a remote area. They experienced 7 system failures in the last year, which caused serious problems to local people and some families. They were unable to detect any pattern leading to these failures from the data alone.
+
+The dataset contains raw values from all available 52 sensors monitoring the pumps, along with timestamp data and machine status as the target label. The goal is to use this sensor data to predict pump failures to allow proactive maintenance and avoid negative impacts on the community.
+
+The data contains multivariate time series sensor readings collected over time to support predictive maintenance, and it is intended for classification tasks to identify possible failures.
 
 ## Tags
 
-Kaggle dataset, Pump sensor data
+Classification task, Industrial equipment, Multivariate time series, Predictive maintenance, Real-world data, Sensor data, Water pump monitoring
 
 ## References
 
-- [Kaggle](https://www.kaggle.com/nphantawee/pump-sensor-data)
+- [Kaggle Dataset - Pump sensor data](https://www.kaggle.com/nphantawee/pump-sensor-data)
 
 [⬅️ Back to Index](../README.md)

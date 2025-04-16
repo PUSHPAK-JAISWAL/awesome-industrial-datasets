@@ -1,59 +1,35 @@
 {
   "Name": "Asset Failure and Replacement",
   "Labeled": "Yes",
-  "Time Series": "Yes",
+  "Time Series": "Likely",
   "Data Source": "Real",
-  "Missing Values": "No",
+  "Missing Values": "Information not available",
   "Dataset Characteristics": "Multivariate, Time-Series",
-  "Feature Type": "Real, Integer",
-  "Associated Tasks": "Classification, Regression",
+  "Feature Type": "Real, Categorical",
+  "Associated Tasks": "Regression, Classification",
   "Number of Instances": "Information not available",
-  "Number of Features": "5",
-  "Date Donated": "2014-08-07",
+  "Number of Features": "Information not available",
+  "Date Donated": "2014",
   "Source": "PHM Society",
-  "Summary": "This dataset focuses on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are scored on their ability to generate a health score that accurately segments a population of assets into high and low risks of failure.",
-  "Description": "The PHM Data Challenge focuses on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are scored on their ability to generate a health score that accurately segments a population of assets into high and low risks of failure.\n\nThere are 5 data sets. Due to proprietary concerns we cannot provide a detailed description of the data and the domain. The datasets include Train \u2013 Part Consumption.csv, Train \u2013 Usage.csv, Train \u2013 Failures.csv, Test \u2013 Part Consumption.csv, Test \u2013 Usage.csv, Test Instances.csv, and Example Submission.csv.\n\nEach team is permitted one submission a week. A submission will be composed of a CSV file whose name is the team alias. The first line of the CSV file should be the value that segments the health scores into low and high risk.",
+  "Summary": "The PHM Data Challenge dataset focuses on asset health calculation in industrial remote monitoring and diagnostics. It includes records of asset part replacements, usage, and failures to generate health scores for assets.",
+  "Description": "The PHM Data Challenge is an open competition centered on asset health calculation, a common problem in industrial remote monitoring and diagnostics. Participants are evaluated on their ability to generate health scores that accurately segment assets into high and low failure risks.\n\nThe dataset consists of five data files: Train \u2013 Part Consumption, Train \u2013 Usage, Train \u2013 Failures, Test \u2013 Part Consumption, Test \u2013 Usage, and Test Instances. These files include information about asset part replacements with reasons, usage parameters resembling an odometer, and failure times. An example submission file is also provided.\n\nDue to proprietary concerns, detailed descriptions of the data and the domain are not provided. The challenge encourages collaboration among students, researchers, and professionals, with the top teams invited to present their findings at the PHM Society Conference.",
   "Additional Tags": [
     "Asset health",
-    "Remote monitoring",
-    "Diagnostics",
-    "Industrial data",
     "Failure prediction",
+    "Part replacement",
+    "Time-series data",
+    "Industrial monitoring",
     "Health score",
-    "Part replacement"
+    "Prognostics and health management"
   ],
   "References": [
     {
-      "Text": "PHM Data Challenge",
+      "Text": "PHM Society Data Challenge 2014",
       "Link": "https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2014/phm-data-challenge-2/"
     },
     {
-      "Text": "Train \u2013 Part Consumption.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Train - Part Consumption.zip"
-    },
-    {
-      "Text": "Train \u2013 Usage.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Train - Usage.zip"
-    },
-    {
-      "Text": "Train \u2013 Failures.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Train - Failures.zip"
-    },
-    {
-      "Text": "Test \u2013 Part Consumption.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Test - Part Consumption.zip"
-    },
-    {
-      "Text": "Test \u2013 Usage.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Test - Usage.zip"
-    },
-    {
-      "Text": "Test Instances.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Test Instances.zip"
-    },
-    {
-      "Text": "Example Submission.csv",
-      "Link": "https://www.phmsociety.org/sites/phmsociety.org/files/Example Submission.zip"
+      "Text": "PHM14 Data Challenge Flyer PDF",
+      "Link": "https://phmsociety.org/wp-content/uploads/2014/03/PHM14DataChallenge.pdf"
     }
   ]
 }

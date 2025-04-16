@@ -1,37 +1,37 @@
 # Li-ion Battery Aging Datasets
 
-**Summary:** This data set has been collected from a custom built battery prognostics testbed at the NASA Ames Prognostics Center of Excellence (PCoE). Li-ion batteries were run through 3 different operational profiles (charge, discharge and Electrochemical Impedance Spectroscopy) at different temperatures.
+**Summary:** This data set has been collected from a custom built battery prognostics testbed and includes Li-ion batteries run through different operational profiles at various temperatures and current loads until end-of-life.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Regression, Prognostics |
+| **Associated Tasks** | Prognostics, Remaining Useful Life prediction, Regression |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Time-Series |
+| **Dataset Characteristics** | Time-Series, Multivariate, Run-to-Failure |
 | **Date Donated** | 2010-09-13 |
 | **Feature Type** | Real |
-| **Labeled** | Yes |
-| **Missing Values** | No |
+| **Labeled** | Likely |
+| **Missing Values** | Information not available |
 | **Name** | Li-ion Battery Aging Datasets |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
-| **Source** | NASA |
+| **Source** | NASA Prognostics Center of Excellence (PCoE) |
 | **Time Series** | Yes |
 
 ## Description
 
-This data set has been collected from a custom built battery prognostics testbed at the NASA Ames Prognostics Center of Excellence (PCoE). Li-ion batteries were run through 3 different operational profiles (charge, discharge and Electrochemical Impedance Spectroscopy) at different temperatures. Discharges were carried out at different current load levels until the battery voltage fell to preset voltage thresholds. Some of these thresholds were lower than that recommended by the OEM (2.7 V) in order to induce deep discharge aging effects. Repeated charge and discharge cycles result in accelerated aging of the batteries. The experiments were stopped when the batteries reached the end-of-life (EOL) criteria of 30% fade in rated capacity (from 2 Ah to 1.4 Ah).
+The Li-ion Battery Aging Datasets were collected at the NASA Ames Prognostics Center of Excellence using a custom-built battery prognostics testbed. The batteries were subjected to charge, discharge, and Electrochemical Impedance Spectroscopy operations at different temperatures and varying current load levels. Discharge tests continued until the battery voltage dropped to preset thresholds, including some lower than recommended by the OEM to induce deep discharge aging effects. The experiments continued until the batteries reached end-of-life criteria of a 30% fade in rated capacity (from 2 Ah to 1.4 Ah).
 
-The testbed comprises commercially available Li-ion 18650 sized rechargeable batteries, a programmable 4-channel DC electronic load, a programmable 4-channel DC power supply, voltmeter, ammeter and thermocouple sensor suite, custom EIS equipment, environmental chamber to impose various operational conditions, PXI chassis based DAQ and experiment control. MATLAB based experiment control, data acquisition and prognostics algorithm evaluation setup (appx. data acquisition rate is 10Hz).
+The testbed setup included commercially available Li-ion 18650 rechargeable batteries, programmable electronic loads and power supplies, sensor suites (voltmeter, ammeter, thermocouples), custom EIS equipment, environmental chambers, and PXI chassis-based data acquisition and experiment control systems with MATLAB-based controls. The data acquisition rate is approximately 10Hz.
 
-The data sets can serve for a variety of purposes. Because these are essentially a large number of Run-to-Failure time series, the data can be set for development of prognostic algorithms. In particular, due to the differences in depth-of-discharge (DOD), the duration of rest periods and intrinsic variability, no two cells have the same state-of-life (SOL) at the same cycle index. The aim is to be able to manage this uncertainty, which is representative of actual usage, and make reliable predictions of Remaining Useful Life (RUL) in both the End-of-Discharge (EOD) and End-of-Life (EOL) contexts.
+The dataset structure includes cycle-based data with charge, discharge, and impedance operation types. Parameters recorded encompass battery terminal voltage, current, temperature, charger/load currents and voltages, capacity, and various impedance measurements with estimated electrolyte resistance and charge transfer resistance. These Run-to-Failure time series datasets serve for developing prognostic algorithms aimed at predicting Remaining Useful Life (RUL) under varying operational conditions and inherent variability among cells.
 
 ## Tags
 
-Aging data, Charge-discharge cycles, Electrochemical Impedance Spectroscopy, Li-ion batteries, Prognostics, Remaining Useful Life (RUL), Run-to-failure
+Battery aging, Electrochemical Impedance Spectroscopy, Li-ion batteries, NASA PCoE, Prognostics testbed, Remaining Useful Life prediction, Run-to-Failure data
 
 ## References
 
-- [Data set 1](http://ti.arc.nasa.gov/c/5/)
-- [http://ti.arc.nasa.gov/c/9/](/dashlink/static/media/http%3A//ti.arc.nasa.gov/c/9/)
+- [NASA Prognostics Center of Excellence Dataset](http://ti.arc.nasa.gov/c/5/)
+- [Supporting Documentation](http://ti.arc.nasa.gov/c/9/)
 
 [⬅️ Back to Index](../README.md)

@@ -1,35 +1,35 @@
 {
-  "Name": "GreenD",
-  "Labeled": "No",
+  "Name": "GREEND",
+  "Labeled": "Likely",
   "Time Series": "Yes",
   "Data Source": "Real",
   "Missing Values": "Information not available",
   "Dataset Characteristics": "Multivariate, Time-Series",
   "Feature Type": "Real",
-  "Associated Tasks": "Regression, Time Series Analysis",
+  "Associated Tasks": "Information not available",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "2014-10-31",
   "Source": "SourceForge",
   "Summary": "GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.",
-  "Description": "GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.\n\nWe expect to regularly provide snapshots of the dataset as more data is recorded and measurement platforms deployed.\n\nThe GREEND dataset is free to use in research and commercial applications. If you want to access the data, please fill out the brief form at http://goo.gl/rtXjxT which will eventually provide you with the credentials to open the dataset archive.",
+  "Description": "GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.\n\nThe dataset is expected to have regular snapshots as more data is recorded and measurement platforms are deployed.\n\nThe GREEND dataset is free to use in research and commercial applications. Access to the dataset is provided after filling a brief form to obtain credentials for the dataset archive. It is important to cite the original work when relying on this dataset in research.",
   "Additional Tags": [
     "Energy consumption",
-    "Household energy data",
-    "Power measurements",
+    "Household power measurements",
     "Austria",
     "Italy",
-    "Energy profiles",
-    "Device-level data"
+    "Time-series data",
+    "Per device energy profiles",
+    "High frequency sampling"
   ],
   "References": [
     {
-      "Text": "SourceForge",
-      "Link": "https://sourceforge.net/projects/greend/"
+      "Text": "GREEND dataset paper",
+      "Link": "http://goo.gl/rtXjxT"
     },
     {
-      "Text": "GREEND Web Site",
-      "Link": "https://greend.sourceforge.io"
+      "Text": "SourceForge Project - GREEND",
+      "Link": "https://sourceforge.net/projects/greend/"
     }
   ]
 }

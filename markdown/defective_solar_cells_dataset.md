@@ -1,16 +1,16 @@
 # Defective Solar Cells Dataset
 
-**Summary:** A dataset of functional and defective solar cells extracted from EL images of solar modules.
+**Summary:** A dataset of functional and defective solar cells extracted from electroluminescence (EL) images of solar modules.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
+| **Associated Tasks** | Classification, Anomaly detection |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Image |
+| **Dataset Characteristics** | Images, Classification |
 | **Date Donated** | Information not available |
 | **Feature Type** | Image |
 | **Labeled** | Likely |
-| **Missing Values** | No |
+| **Missing Values** | Information not available |
 | **Name** | Defective Solar Cells Dataset |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
@@ -19,18 +19,18 @@
 
 ## Description
 
-This dataset contains images of both functional and defective solar cells, extracted from electroluminescence (EL) images of solar modules. It is intended to facilitate the development of machine learning models for identifying defects in solar cells.
+This dataset contains images of solar cells that are either functional or defective, extracted from electroluminescence (EL) images of solar modules. The dataset is useful for machine learning tasks focused on the detection and classification of defects in solar cells, which is essential for quality control in photovoltaic manufacturing.
 
-The dataset is available on GitHub and is intended to promote research and development in the area of solar cell defect detection using computer vision and machine learning techniques.
+The images in the dataset capture different states of solar cells and can be used in developing computer vision models aimed at identifying anomalies and defects that affect the performance of solar panels. It serves as a valuable resource for research in photovoltaic systems and solar energy optimization.
 
-The dataset includes images of solar cells and associated labels indicating whether each cell is functional or defective.
+The dataset is available on GitHub, maintained by the organization zae-bayern. It supports work in the fields of machine learning, computer vision, and solar energy technology.
 
 ## Tags
 
-Computer vision, Defect detection, Electroluminescence images, Image classification, Machine learning, Renewable energy, Solar cells
+Anomaly detection, Computer vision, Defect detection, Electroluminescence images, Machine learning, Photovoltaic, Solar cells
 
 ## References
 
-- [GitHub Repository](https://github.com/zae-bayern/elpv-dataset)
+- [Defective Solar Cells Dataset GitHub Repository](https://github.com/zae-bayern/elpv-dataset)
 
 [⬅️ Back to Index](../README.md)

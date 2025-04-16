@@ -1,35 +1,39 @@
 {
   "Name": "AI4I 2020 Predictive Maintenance Dataset",
   "Labeled": "Yes",
-  "Time Series": "No",
+  "Time Series": "Yes",
   "Data Source": "Synthetic",
   "Missing Values": "No",
   "Dataset Characteristics": "Multivariate, Time-Series",
-  "Feature Type": "Real, Categorical, Integer",
+  "Feature Type": "Real",
   "Associated Tasks": "Classification, Regression, Causal-Discovery",
   "Number of Instances": "10000",
   "Number of Features": "6",
   "Date Donated": "2020-08-29",
   "Source": "UCI Machine Learning Repository",
-  "Summary": "The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry. It is provided to facilitate the development of machine learning methods for predictive maintenance.",
-  "Description": "The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry. Since real predictive maintenance datasets are generally difficult to obtain and in particular difficult to publish, a synthetic dataset is presented that reflects real predictive maintenance encountered in industry to the best of our knowledge.\n\nThis dataset consists of 10 000 data points stored as rows with 14 features in columns: UID, product ID, Type, Air temperature, Process temperature, Rotational speed, Torque, Tool wear, Machine failure, and TWF.\n\nThe machine failure consists of five independent failure modes: tool wear failure (TWF), heat dissipation failure (HDF), power failure (PWF), overstrain failure (OSF), and random failures (RNF). If at least one of the above failure modes is true, the process fails and the 'machine failure' label is set to 1.",
+  "Summary": "The AI4I 2020 Predictive Maintenance Dataset is a synthetic dataset that reflects real predictive maintenance data encountered in industry.",
+  "Description": "Since real predictive maintenance datasets are generally difficult to obtain and in particular difficult to publish, we present and provide a synthetic dataset that reflects real predictive maintenance encountered in industry to the best of our knowledge.\n\nThe dataset consists of 10,000 data points stored as rows with 14 features in columns. UID is a unique identifier ranging from 1 to 10000. Product ID consists of letter L, M, or H indicating product quality variants and variant-specific serial number. Air temperature [K] and Process temperature [K] are generated using a random walk process with normalization. Rotational speed [rpm] is calculated with noise, Torque [Nm] values are normally distributed. Tool wear [min] is modified according to product quality variant.\n\nThe machine failure label indicates if the machine has failed based on five independent failure modes: tool wear failure (TWF), heat dissipation failure (HDF), power failure (PWF), overstrain failure (OSF), and random failures (RNF). A failure occurs if any one of these modes is true and the machine failure label is set to 1. This makes it non-transparent to machine learning methods which failure mode caused the failure.",
   "Additional Tags": [
     "Predictive maintenance",
-    "Machine failure",
-    "Manufacturing process",
-    "Sensor data",
     "Synthetic data",
-    "Machine learning benchmark",
-    "Equipment maintenance"
+    "Machine failure detection",
+    "Time-series data",
+    "Multivariate data",
+    "Classification",
+    "Regression"
   ],
   "References": [
     {
-      "Text": "UCI Machine Learning Repository",
+      "Text": "AI4I 2020 Predictive Maintenance Dataset - UCI Machine Learning Repository",
       "Link": "https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset"
     },
     {
       "Text": "Explainable Artificial Intelligence for Predictive Maintenance Applications",
       "Link": "https://www.semanticscholar.org/paper/b609c8e9ec6a2b8c642810953ef6dffe5766f7c1"
+    },
+    {
+      "Text": "DOI: 10.24432/C5HS5C",
+      "Link": "https://doi.org/10.24432/C5HS5C"
     }
   ]
 }

@@ -1,15 +1,15 @@
 # Deep PCB
 
-**Summary:** This dataset is for surface defect detection on printed circuit boards (PCBs). It supports the development of machine learning algorithms for identifying defects on PCBs.
+**Summary:** The Deep PCB dataset is for surface defect detection on printed circuit boards (PCBs) consisting of labeled images highlighted for surface defects.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Defect Detection |
+| **Associated Tasks** | Classification |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
+| **Dataset Characteristics** | Image, Multiclass |
 | **Date Donated** | Information not available |
-| **Feature Type** | Real, Integer |
-| **Labeled** | Yes |
+| **Feature Type** | Image |
+| **Labeled** | Likely |
 | **Missing Values** | Information not available |
 | **Name** | Deep PCB |
 | **Number of Features** | Information not available |
@@ -19,18 +19,18 @@
 
 ## Description
 
-This repository on GitHub focuses on surface defect detection, specifically for PCBs.
+The Deep PCB dataset is intended for research and development in surface defect detection for printed circuit boards (PCBs). It contains images of PCBs where defects on the surface are labeled for use in machine learning tasks, particularly classification.
 
-The primary goal is to facilitate the development and experimentation of machine learning-based approaches for detecting and classifying defects that occur on the surface of PCBs.
+The dataset supports the development and evaluation of algorithms that can detect and classify surface defects in industrial PCB manufacturing processes, contributing to quality control and automation in electronics production. The dataset and related code are available on GitHub under the Surface-Defect-Detection repository.
 
-The provided link leads to a directory within a larger project related to surface defect detection, indicating that Deep PCB is a subset or component of a broader effort in this area.
+Users can leverage this dataset to build and benchmark machine learning models for defect detection, benefiting from the labeled real-world data of PCB surfaces provided in the repository.
 
 ## Tags
 
-Defect Classification, Image Recognition, Industrial Inspection, Machine Learning Benchmark, PCB, Printed Circuit Board, Surface Defect Detection
+Defect localization, Image classification, Industrial inspection, Machine learning dataset, Printed circuit boards, Real-world images, Surface defect detection
 
 ## References
 
-- [GitHub Repository](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)
+- [GitHub Repository - DeepPCB](https://github.com/Charmve/Surface-Defect-Detection/tree/master/DeepPCB)
 
 [⬅️ Back to Index](../README.md)

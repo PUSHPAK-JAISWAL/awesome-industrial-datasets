@@ -1,36 +1,36 @@
-# Mechanic Component Images
+# Mechanic Component Images ( Normal / Defected)
 
-**Summary:** This dataset contains images of mechanic components, both normal and defected, intended for use in image classification tasks.
+**Summary:** Dataset for quality recognition of a mechanic component called Piston, consisting of images categorized as Normal or Defected.
 
 | Parameter | Value |
 | --- | --- |
 | **Associated Tasks** | Classification |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate, Image |
-| **Date Donated** | Information not available |
+| **Dataset Characteristics** | Image, Multiclass Classification |
+| **Date Donated** | 2020-05-22 |
 | **Feature Type** | Image |
-| **Labeled** | Likely |
+| **Labeled** | Yes |
 | **Missing Values** | Information not available |
-| **Name** | Mechanic Component Images |
+| **Name** | Mechanic Component Images ( Normal / Defected) |
 | **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
+| **Number of Instances** | 285 files |
 | **Source** | Kaggle |
 | **Time Series** | No |
 
 ## Description
 
-This dataset contains images of mechanic components, which are classified as either 'normal' or 'defected'.
+As air conditioners are used regularly in homes, they consist of various mechanical components including pistons. These piston components are manufactured worldwide and quality operators traditionally inspect them for quality assurance. This dataset aims to automate the quality recognition process of the piston using AI, potentially replacing human quality operators.
 
-It is designed for use in image classification problems, specifically to train models to distinguish between normal and defected mechanic components using image data.
+The dataset contains three groups of folders containing images of pistons: Defected 1 (broken, shaped out, fallen pistons), Defected 2 (pistons with oily, grease, or rust stains), and Normal (perfectly normal pistons). The images were collected manually from different components.
 
-Further information about the data collection process, specific component types, and image resolution is not available from the provided HTML content.
+Upvoting this dataset motivates the author to collect more unique datasets from the environment. This dataset facilitates machine learning models to perform defect detection and classification in mechanical component images.
 
 ## Tags
 
-Computer vision, Defect detection, Image classification, Image data, Machine learning, Mechanic components, Normal vs Defected
+Computer vision, Defect detection, Image data, Manufacturing quality control, Mechanical components, Multiclass classification, Piston quality recognition
 
 ## References
 
-- [Kaggle](https://www.kaggle.com/satishpaladi11/mechanic-component-images-normal-defected)
+- [Kaggle Dataset - Mechanic Component Images ( Normal / Defected)](https://www.kaggle.com/satishpaladi11/mechanic-component-images-normal-defected)
 
 [⬅️ Back to Index](../README.md)

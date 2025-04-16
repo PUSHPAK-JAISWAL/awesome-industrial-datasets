@@ -1,6 +1,6 @@
 # PHM 2008 Challenge
 
-**Summary:** Information about the PHM 2008 Challenge dataset.
+**Summary:** Information not available
 
 | Parameter | Value |
 | --- | --- |
@@ -19,16 +19,14 @@
 
 ## Description
 
-This page provides access to the PHM 2008 Challenge dataset.
-
-Unfortunately, the provided HTML content contains very limited information about the dataset itself. Further investigation is needed to fill out this information.
+Information not available
 
 ## Tags
 
-Challenge dataset, Engineering, NASA Data, Open Data, PHM Challenge, Research dataset
+Machine learning dataset, NASA dataset, PHM challenge, Predictive maintenance, Prognostics
 
 ## References
 
-- [NASA's Open Data Portal](https://data.nasa.gov/Raw-Data/PHM-2008-Challenge/nk8v-ckry/data)
+- [NASA PHM 2008 Challenge](https://data.nasa.gov/Raw-Data/PHM-2008-Challenge/nk8v-ckry/data)
 
 [⬅️ Back to Index](../README.md)

@@ -10,22 +10,26 @@
   "Number of Instances": "1941",
   "Number of Features": "27",
   "Date Donated": "2010-10-25",
-  "Source": "UCI",
-  "Summary": "A dataset of steel plates faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.",
-  "Description": "A dataset of steel plates\u00c3\u00a2\u00e2\u0082\u00ac\u00e2\u0084\u00a2 faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.\n\nType of dependent variables (7 Types of Steel Plates Faults):\n1.Pastry\n2.Z_Scratch\n3.K_Scatch\n4.Stains\n5.Dirtiness\n6.Bumps\n7.Other_Faults\n\n27 independent variables:\nX_Minimum\nX_Maximum\nY_Minimum\nY_Maximum\nPixels_Areas\nX_Perimeter\nY_Perimeter\nSum_of_Luminosity\nMinimum_of_Luminosity\nMaximum_of_Luminosity\nLength_of_Conveyer\nTypeOfSteel_A300\nTypeOfSteel_A400\nSteel_Plate_Thickness\nEdges_Index\nEmpty_Index\nSquare_Index\nOutside_X_Index\nEdges_X_Index\nEdges_Y_Index\nOutside_Global_Index\nLogOfAreas\nLog_X_Index\nLog_Y_Index\nOrientation_Index\nLuminosity_Index\nSigmoidOfAreas",
+  "Source": "UCI Machine Learning Repository",
+  "Summary": "A dataset of steel plates\u2019 faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.",
+  "Description": "This dataset contains data on steel plates faults classified into seven types: Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, and Other_Faults. The dataset includes 27 independent variables with integer and real feature types.\n\nThe dataset aims to provide records to train machine learning models for automatic pattern recognition in fault detection on steel plates. The dataset contains no missing values and is based on real data.\n\nThe features describe various physical properties and measurements related to the steel plates, such as X_Minimum, X_Maximum, Y_Minimum, Y_Maximum, Pixels_Areas, X_Perimeter, Y_Perimeter, and Luminosity indices among others.",
   "Additional Tags": [
-    "Steel plate defects",
+    "Steel plates",
     "Fault classification",
-    "Image processing",
-    "Industrial application",
-    "Material science",
+    "Multivariate dataset",
+    "Integer features",
+    "Real features",
     "Pattern recognition",
-    "Manufacturing"
+    "No missing values"
   ],
   "References": [
     {
-      "Text": "UCI Machine Learning Repository",
+      "Text": "Buscema, M., Terzi, S., & Tastle, W. (2010). Steel Plates Faults [Dataset]. UCI Machine Learning Repository.",
       "Link": "https://doi.org/10.24432/C5J88N"
+    },
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/steel+plates+faults"
     }
   ]
 }

@@ -8,7 +8,7 @@
 | **Data Source** | Real |
 | **Dataset Characteristics** | Multivariate |
 | **Date Donated** | 2014-03-26 |
-| **Feature Type** | Real |
+| **Feature Type** | Information not available |
 | **Labeled** | Yes |
 | **Missing Values** | No |
 | **Name** | Urban Land Cover |
@@ -19,18 +19,19 @@
 
 ## Description
 
-Contains training and testing data for classifying a high resolution aerial image into 9 types of urban land cover. Multi-scale spectral, size, shape, and texture information are used for classification. There are a low number of training samples for each class (14-30) and a high number of classification variables (148), so it may be an interesting data set for testing feature selection methods.
-
-The testing data set is from a random sampling of the image.
+Contains training and testing data for classifying a high resolution aerial image into 9 types of urban land cover. Multi-scale spectral, size, shape, and texture information are used for classification. There are a low number of training samples for each class (14-30) and a high number of classification variables (148), so it may be an interesting data set for testing feature selection methods. The testing data set is from a random sampling of the image.
 
 Class is the target classification variable. The land cover classes are: trees, grass, soil, concrete, asphalt, buildings, cars, pools, shadows.
 
+Note: prior to December 2024, the names of some columns were switched. ("Mean_NIR" and "Mean_G"; "SD_NIR" and "SD_G"). Thanks to Lonny Chen (lonny.cl.chen@gmail.com) for noticing this issue.
+
 ## Tags
 
-Aerial imagery, Feature selection, Image analysis, Land cover classification, Remote sensing, Spectral data, Urban planning
+Classification, Feature selection, High resolution aerial imagery, Multivariate data, Spectral data, Texture analysis, Urban land cover
 
 ## References
 
+- [Johnson, B. (2013). Urban Land Cover [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C53S48)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Urban+Land+Cover)
 
 [⬅️ Back to Index](../README.md)

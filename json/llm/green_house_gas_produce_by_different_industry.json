@@ -2,27 +2,29 @@
   "Name": "Green House Gas Produce by Different Industry",
   "Labeled": "Likely",
   "Time Series": "Likely",
-  "Data Source": "Likely Real",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Likely Regression",
+  "Dataset Characteristics": "Multivariate, Time-Series, Environmental Data",
+  "Feature Type": "Real",
+  "Associated Tasks": "Regression, Analysis",
   "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
+  "Number of Features": "18",
   "Date Donated": "Information not available",
   "Source": "Kaggle",
-  "Summary": "This dataset likely contains data about greenhouse gas emissions from various industries.",
-  "Description": "Information not available",
+  "Summary": "Dataset containing data of different industries and types of greenhouse gas released by those industries in various regions worldwide since 2010.",
+  "Description": "Green house gases are a significant environmental problem, contributing to the increase in global temperatures. This dataset captures detailed information on different types of gases released by various industries across different regions of the Earth.\n\nThe data includes industry-specific greenhouse gas emissions categorized by gas types such as carbon dioxide, methane, nitrous oxide, fluorinated gases, and total greenhouse gases. It also contains ISO tests to measure the effects. These emissions data are tracked annually starting from 2010.\n\nThis dataset allows analysis of greenhouse gas production by industry sector and region, useful for environmental research, policy making, and industrial impact assessment. The dataset contains 18 columns covering country, industry, gas type, and emission values for multiple years.",
   "Additional Tags": [
-    "Greenhouse gas emissions",
-    "Industry data",
-    "Environmental impact",
-    "Climate change",
-    "Emission sources"
+    "Greenhouse Gas Emissions",
+    "Environmental Data",
+    "Industry Emissions",
+    "Multivariate",
+    "Time-Series",
+    "Carbon Footprint",
+    "ISO Measurement"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Green House Gas Produce by Different Industry - Kaggle",
       "Link": "https://www.kaggle.com/datasets/rafsunahmad/green-house-gas-produce-by-different-industry"
     }
   ]

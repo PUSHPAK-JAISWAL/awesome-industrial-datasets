@@ -1,6 +1,6 @@
 # HCI Industrial Optical Inspection
 
-**Summary:** Information about HCI Industrial Optical Inspection dataset.
+**Summary:** Information not available
 
 | Parameter | Value |
 | --- | --- |
@@ -14,16 +14,16 @@
 | **Name** | HCI Industrial Optical Inspection |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
-| **Source** | HCI |
+| **Source** | Heidelberg Collaboratory for Image Processing (HCI) |
 | **Time Series** | Information not available |
 
 ## Description
 
-Information about the HCI Industrial Optical Inspection is not available from the provided content.
+Information not available
 
 ## Tags
 
-HCI, Image analysis, Industrial inspection, Optical inspection, Weakly-supervised learning
+
 
 ## References
 

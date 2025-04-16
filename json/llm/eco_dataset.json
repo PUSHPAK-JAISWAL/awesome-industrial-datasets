@@ -3,45 +3,41 @@
   "Labeled": "Yes",
   "Time Series": "Yes",
   "Data Source": "Real",
-  "Missing Values": "No",
+  "Missing Values": "Information not available",
   "Dataset Characteristics": "Multivariate, Time-Series",
   "Feature Type": "Real",
-  "Associated Tasks": "Regression, Classification",
+  "Associated Tasks": "Non-intrusive load monitoring, Occupancy detection",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "ETH Zurich",
-  "Summary": "The ECO data set is a comprehensive dataset for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months.",
-  "Description": "The ECO data set provides access to electricity consumption and occupancy data collected in 6 Swiss households over 8 months. The dataset includes 1 Hz aggregate consumption data (current, voltage, and phase shift for each of the three phases), 1 Hz plug-level data from selected appliances, and occupancy information measured through a tablet computer (manual labeling) and passive infrared sensors. \n\nThe data was collected as part of the Smart Meter Services project and is related to the NILM-Eval framework. The ECO dataset has been used to evaluate non-intrusive load monitoring algorithms and for opportunistic occupancy sensing.\n\nThe dataset may be obtained from http://data-archive.ethz.ch/delivery/DeliveryManagerServlet?dps_pid=IE594964 or via its own DOI.",
+  "Summary": "The ECO data set is a comprehensive dataset for non-intrusive load monitoring and occupancy detection research, collected in 6 Swiss households over 8 months.",
+  "Description": "The ECO data set provides 1 Hz aggregate electricity consumption data including current, voltage, and phase shift for each of the three phases in the households. It also includes 1 Hz plug-level data from selected appliances and occupancy information measured via manual labeling on a tablet and passive infrared sensors in some households.\n\nThe data was collected in the context of the Smart Meter Services project at ETH Zurich and is related to the open source NILM-Eval framework used to evaluate non-intrusive load monitoring algorithms and work on opportunistic occupancy sensing. An interactive dashboard application is available for browsing and downloading chunks of the dataset.\n\nThe project acknowledges the support from Energie Thun and participating households, as well as contributions from several students in gathering, analyzing, and visualizing the data.",
   "Additional Tags": [
     "Electricity consumption",
     "Occupancy detection",
-    "Smart meter data",
     "Non-intrusive load monitoring",
-    "Appliance usage",
+    "Time-series data",
+    "Smart meter",
     "Swiss households",
     "Energy disaggregation"
   ],
   "References": [
     {
-      "Text": "ECO data set",
+      "Text": "ECO dataset main page",
       "Link": "http://vs.inf.ethz.ch/res/show.html?what=eco-data"
     },
     {
-      "Text": "Data set download",
+      "Text": "Household Occupancy Monitoring Using Electricity Meters (UbiComp 2015)",
+      "Link": "https://www.vs.inf.ethz.ch/publ/bibtex.html?file=papers/kleiminger_ubicomp2015"
+    },
+    {
+      "Text": "The ECO Data Set and the Performance of Non-Intrusive Load Monitoring Algorithms (BuildSys 2014)",
+      "Link": "https://www.vs.inf.ethz.ch/publ/bibtex.html?file=papers/beckel-2014-nilm"
+    },
+    {
+      "Text": "Dataset Download and DOI",
       "Link": "https://app.data-archive.ethz.ch/delivery/DeliveryManagerServlet?dps_pid=IE594964"
-    },
-    {
-      "Text": "DOI",
-      "Link": "http://doi.org/10.5905/ethz-1007-35"
-    },
-    {
-      "Text": "Smart Meter Services",
-      "Link": "https://www.vs.inf.ethz.ch/res/show.html?what=smart-meter-services"
-    },
-    {
-      "Text": "NILM-Eval",
-      "Link": "https://github.com/beckel/nilm-eval"
     }
   ]
 }

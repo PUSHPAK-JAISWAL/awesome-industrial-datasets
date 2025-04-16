@@ -1,29 +1,30 @@
 {
   "Name": "Predicting Manufacturing Defects Dataset",
-  "Labeled": "Likely",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
+  "Labeled": "Yes",
+  "Time Series": "No",
+  "Data Source": "Synthetic",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
+  "Dataset Characteristics": "Tabular, Multivariate",
+  "Feature Type": "Integer, Float, Binary",
   "Associated Tasks": "Classification",
   "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
+  "Number of Features": "17",
+  "Date Donated": "2024-06-17",
   "Source": "Kaggle",
-  "Summary": "Dataset for predicting manufacturing defects.",
-  "Description": "This dataset is for predicting manufacturing defects. \n\n More information can be found on Kaggle.",
+  "Summary": "This dataset provides insights into factors influencing defect rates in a manufacturing environment. It includes various production, supply chain, quality control, and workforce metrics aimed at predicting defect occurrences.",
+  "Description": "This dataset provides insights into factors influencing defect rates in a manufacturing environment. Each record represents various metrics crucial for predicting high or low defect occurrences in production processes.\n\nIt encompasses a comprehensive collection of metrics vital for predicting defect rates in manufacturing operations. It includes production volumes, supply chain quality, quality control assessments, maintenance schedules, inventory management details, workforce productivity metrics, energy consumption patterns, additive manufacturing specifics, and more.\n\nThe dataset is synthetic and was generated for educational purposes, making it ideal for data science and machine learning projects. It is original and made available under the CC BY 4.0 license with a DOI for proper attribution. The dataset is imbalanced, with a focus on defect instances because defects do not occur often; balancing is suggested before applying machine learning techniques.",
   "Additional Tags": [
     "Manufacturing",
-    "Defect prediction",
-    "Industrial application",
-    "Kaggle dataset",
-    "Quality control",
-    "Predictive modeling"
+    "Defect Prediction",
+    "Synthetic Data",
+    "Quality Control",
+    "Production Metrics",
+    "Supply Chain",
+    "Classification Dataset"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Kaggle Dataset Page",
       "Link": "https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset"
     }
   ]

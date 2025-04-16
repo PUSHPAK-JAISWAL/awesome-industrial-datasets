@@ -1,29 +1,39 @@
 {
   "Name": "Business and Industry Reports",
-  "Labeled": "Information not available",
-  "Time Series": "Information not available",
-  "Data Source": "Information not available",
+  "Labeled": "Likely",
+  "Time Series": "Yes",
+  "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Information not available",
-  "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Likely Regression, Time Series Analysis",
+  "Number of Instances": "10952 unique time series codes approximately",
+  "Number of Features": "18 columns",
+  "Date Donated": "2017-10-17",
   "Source": "Kaggle",
-  "Summary": "Information about business and industry reports.",
-  "Description": "Information about business and industry reports.\n\nMore information is not available on the provided webpage.",
+  "Summary": "7,000 economics time series from 16 US Census Bureau economic reports covering the period 1956-2017.",
+  "Description": "Along with their core mission of counting the US population, the United States Census Bureau gathers a wide range of economic data. This dataset comprises 16 different economic reports and surveys from the Census Bureau, covering numerous economic indicators.\n\nThe data is provided in a long format CSV, with a time_series_code column linking the data to a metadata CSV. The time series data includes error codes for some series, reflecting confidence intervals and other measures. Dates are stored as complete beginning of period dates, with series at monthly, quarterly, or annual resolutions. Multiple series exist under given categories, often split by states or tax types.\n\nValues with non-numeric entries, such as 'Less than .05 percent', should be filtered out for numerical analysis. The dataset has been reformatted from original Census Bureau presentations to enhance usability, and the data preparation script is also provided.",
   "Additional Tags": [
-    "Business reports",
-    "Industry reports",
-    "Kaggle datasets",
-    "Market analysis",
-    "Economic data"
+    "US Census Bureau",
+    "Economic reports",
+    "Time series data",
+    "Business and industry",
+    "Multivariate data",
+    "Monthly and quarterly data",
+    "Economic indicators"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "Kaggle Dataset Page",
       "Link": "https://www.kaggle.com/datasets/census/business-and-industry-reports"
+    },
+    {
+      "Text": "United States Census Bureau Original Data",
+      "Link": "https://www.census.gov/econ/currentdata/datasets/index"
+    },
+    {
+      "Text": "Data Preparation Script on GitHub",
+      "Link": "https://gist.github.com/SohierDane/2c1b36f653724fbc7d8f26501ef4b88d"
     }
   ]
 }

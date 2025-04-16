@@ -14,7 +14,7 @@
 | **Name** | AITEX |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
-| **Source** | AITEX |
+| **Source** | https://www.aitex.es/afid/ |
 | **Time Series** | Information not available |
 
 ## Description
@@ -23,10 +23,10 @@ Information not available
 
 ## Tags
 
-AITEX, Industrial Data, Research Data, Spain Research, Textile Technology Institute, Unknown Application
+Information not available
 
 ## References
 
-- [AITEX](https://www.aitex.es/afid/)
+- [AITEX AFID Dataset](https://www.aitex.es/afid/)
 
 [⬅️ Back to Index](../README.md)

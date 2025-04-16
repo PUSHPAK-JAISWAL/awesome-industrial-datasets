@@ -8,3 +8,4 @@ venv
 *.pyc
 backup
 .env
+process.log

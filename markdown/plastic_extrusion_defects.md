@@ -1,36 +1,36 @@
 # Plastic Extrusion Defects
 
-**Summary:** This dataset is for finding defects in the production extrusion line.
+**Summary:** Dataset describes the extrusion process of plastic films focusing on product parameters and defects detected visually to enable defect detection in production.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification |
+| **Associated Tasks** | Classification, Anomaly detection |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
-| **Date Donated** | Information not available |
-| **Feature Type** | Information not available |
-| **Labeled** | Likely |
+| **Dataset Characteristics** | Multivariate, Time-Series, Tabular |
+| **Date Donated** | 2018-06-25 |
+| **Feature Type** | Real, Categorical |
+| **Labeled** | Likely Yes |
 | **Missing Values** | Information not available |
 | **Name** | Plastic Extrusion Defects |
-| **Number of Features** | Information not available |
-| **Number of Instances** | Information not available |
+| **Number of Features** | 481 |
+| **Number of Instances** | 226536 |
 | **Source** | Kaggle |
-| **Time Series** | Likely |
+| **Time Series** | Likely Yes |
 
 ## Description
 
-This dataset appears to be for identifying defects in a plastic extrusion process.
+The extruder consists of three separate plants that take the granular raw material, and then stretch it into a plastic film by heating and drawing in three layers.
 
-Due to the limited information on the webpage, further details about the dataset's characteristics, feature types, number of instances, and specific data collection methods are not available.
+The quality of the output product is controlled in two aspects: product parameters, and its defects. Parameters such as film thickness and stretch are monitored by sensors, but defects are observed only visually by the operator, and not always in real time (there is a practice of determining the time of a defect by the length of the film and bookmark markers). Production technologists attribute these defects to several factors, including equipment malfunction and poor quality of incoming raw materials.
 
-The page indicates that the dataset is hosted on Kaggle.
+The most important type of defect is film breakage, and it is what the customer asks to minimize. It occurs for various reasons, some of a mechanical nature, for example, a speck that fell into the “head” of the extruder. Some are due to other types of defects; The 3 most common are holes on the canvas, non-melting of raw granules and the output of scale. At present, there is no practice of observing these defects on the installation data; laboratory tests of samples are the maximum. Such defects do not necessarily lead to cliffs.
 
 ## Tags
 
-Defect detection, Image data, Manufacturing, Plastic extrusion, Production line, Quality control
+Film breakage, Manufacturing defect detection, Multivariate data, Plastic extrusion, Process parameters, Time-series sensor data, Visual defect inspection
 
 ## References
 
-- [Kaggle](https://www.kaggle.com/podsyp/find-a-defect-in-the-production-extrusion-line/metadata)
+- [Plastic Extrusion Defects Dataset on Kaggle](https://www.kaggle.com/podsyp/find-a-defect-in-the-production-extrusion-line/metadata)
 
 [⬅️ Back to Index](../README.md)

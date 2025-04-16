@@ -1,30 +1,42 @@
 {
   "Name": "High Storage System Anomaly Detection",
-  "Labeled": "Likely",
-  "Time Series": "Information not available",
+  "Labeled": "Yes",
+  "Time Series": "Likely",
   "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Information not available",
-  "Feature Type": "Information not available",
-  "Associated Tasks": "Anomaly Detection",
+  "Dataset Characteristics": "Multivariate, Time-Series, Anomaly Detection",
+  "Feature Type": "Real",
+  "Associated Tasks": "Anomaly Detection, Energy Optimization",
   "Number of Instances": "Information not available",
-  "Number of Features": "Information not available",
-  "Date Donated": "Information not available",
+  "Number of Features": "80",
+  "Date Donated": "2018-07-19",
   "Source": "Kaggle",
-  "Summary": "Data for energy optimization of a high storage system. This dataset can be used for anomaly detection tasks.",
-  "Description": "This dataset appears to contain data related to a high storage system, with the aim of optimizing energy consumption. It is intended for use in anomaly detection tasks, suggesting that the dataset contains normal operational data as well as instances of anomalies or unusual behavior within the storage system.\n\nFurther details regarding the specifics of the data, such as the collection frequency, the nature of the measured parameters, or the exact context of the high storage system, are not provided in the given HTML content.\n\nThe anomaly detection focus implies the existence of labeled or potentially label-able anomalies within the dataset, which could be useful for training and evaluating machine learning models.",
+  "Summary": "Different datasets from correct running optimized system and runs with anomalies from a High Storage System focused on energy optimization and anomaly detection.",
+  "Description": "The high storage system is a demonstrator located in the Smartfactory in Lemgo, built for research purposes including data-driven energy optimization and anomaly detection using timed automata.\n\nIt consists of 4 short conveyor belts and 2 rails, with the middle two belts capable of vertical movement. Each conveyor belt has three induction sensors positioned at specific distances. The system is controlled by a SPS with Codesys V3 which corresponds to IEC61131-Standard. The dataset has four CSV files capturing both normal and anomalous runs, with optimized and non-optimized versions.\n\nThese files can be used to evaluate energy optimization processes and anomaly detection models. Anomalies are marked in a 'Label' column. The dataset is public under CC BY-NC-SA 4.0 license and is supported by research publications provided on the page.",
   "Additional Tags": [
-    "High storage system",
-    "Energy optimization",
-    "Anomaly detection",
-    "Kaggle dataset",
-    "System monitoring",
-    "Operational data",
-    "Unusual behavior"
+    "High Storage System",
+    "Energy Optimization",
+    "Anomaly Detection",
+    "Industry 4.0",
+    "Timed Automata",
+    "Conveyor Belt Sensors",
+    "Real-world Industrial Data"
   ],
   "References": [
     {
-      "Text": "Kaggle",
+      "Text": "von Birgelen, Alexander; Niggemann, Oliver: Using Self-Organizing Maps to Learn Hybrid Timed Automata in Absence of Discrete Events, ETFA 2017",
+      "Link": "https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3054/single.html"
+    },
+    {
+      "Text": "von Birgelen, Alexander; Niggemann, Oliver: Enable learning of Hybrid Timed Automata in Absence of Discrete Events through Self-Organizing Maps, Springer Vieweg, Aug 2018",
+      "Link": "https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/3369/single.html"
+    },
+    {
+      "Text": "Hranisavljevic, Nemanja; Niggemann, Oliver; Maier, Alexander: A Novel Anomaly Detection Algorithm for Hybrid Production Systems based on Deep Learning and Timed Automata, DX Workshop, Denver 2016",
+      "Link": "https://www.hs-owl.de/init/veroeffentlichungen/publikationen/a/filteroff/2881/single.html"
+    },
+    {
+      "Text": "Kaggle Dataset Page",
       "Link": "https://www.kaggle.com/inIT-OWL/high-storage-system-data-for-energy-optimization"
     }
   ]

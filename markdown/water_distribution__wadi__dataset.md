@@ -1,36 +1,37 @@
 # Water Distribution (WADI) Dataset
 
-**Summary:** The webpage indicates a suspicious attempt from the device and does not provide information on the Water Distribution (WADI) Dataset. Consequently, details about the dataset are not available.
+**Summary:** The WADI dataset includes 16 days of operation data in a water distribution testbed, including 14 days of normal operation and 2 days with attack scenarios, containing data from 123 sensors and actuators.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Information not available |
-| **Data Source** | Information not available |
-| **Dataset Characteristics** | Information not available |
+| **Associated Tasks** | Anomaly Detection, Classification |
+| **Data Source** | Real |
+| **Dataset Characteristics** | Multivariate, Time-Series |
 | **Date Donated** | Information not available |
-| **Feature Type** | Information not available |
-| **Labeled** | Information not available |
+| **Feature Type** | Real |
+| **Labeled** | Yes |
 | **Missing Values** | Information not available |
 | **Name** | Water Distribution (WADI) Dataset |
-| **Number of Features** | Information not available |
+| **Number of Features** | 123 |
 | **Number of Instances** | Information not available |
-| **Source** | Singapore University of Technology and Design (SUTD) |
-| **Time Series** | Information not available |
+| **Source** | iTrust, Singapore University of Technology and Design (SUTD) |
+| **Time Series** | Yes |
 
 ## Description
 
-The provided webpage content indicates a potential security issue. The message states that the page may not be viewable due to a 'suspicious attempt' detected from the user's device.
+The Water Distribution (WADI) dataset contains 16 days of continuous operational data from a water distribution testbed, with 14 days of normal operation and 2 days containing attack scenarios. The dataset records data collected from all 123 sensors and actuators in the system. The attack scenarios are derived from attack models developed by the research team at iTrust, considering the intent space of a Cyber-Physical System (CPS) as an attack model. During the 2 days of attacks, a total of 15 attacks were launched.
 
-It suggests reporting the error to the IT Service Desk at SUTD, providing details such as IP address, date and time, full URL, a description of the triggering activity, and the error code.
+The dataset was updated on 19 Dec 2019 (WADI.A2) to remove data affected during unstable plant operation periods and includes a corrected CSV file and label data indicating the presence or absence of attacks. This dataset is useful for research in designing secure cyber-physical systems, especially in anomaly detection and attack detection in critical infrastructure.
 
-Due to this error message, no information about the Water Distribution (WADI) Dataset is available from the given content.
+Researchers and practitioners are required to credit iTrust, Centre for Research in Cyber Security, Singapore University of Technology and Design when using the dataset in published works. Access to the dataset is controlled and requires requesting permission from iTrust.
 
 ## Tags
 
-Cybersecurity, Dataset error, Industrial control system, Network security, SCADA, SUTD iTrust, Water distribution
+Anomaly detection, Attack scenarios, Critical infrastructure, Cyber-Physical Systems, Sensor data, Time-series data, Water distribution
 
 ## References
 
-- [SUTD iTrust Labs](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)
+- [WaDi: a water distribution testbed for research in the design of secure cyber physical systems](https://dl.acm.org/doi/10.1145/3055366.3055375)
+- [iTrust Labs Dataset Information](https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/)
 
 [⬅️ Back to Index](../README.md)

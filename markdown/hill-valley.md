@@ -1,11 +1,11 @@
 # Hill-Valley
 
-**Summary:** Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a âbumpâ in the terrain) or a Valley (a âdipâ in the terrain).
+**Summary:** Each record represents 100 points on a two-dimensional graph that create either a Hill (a bump) or a Valley (a dip) when plotted in order as the Y coordinate.
 
 | Parameter | Value |
 | --- | --- |
 | **Associated Tasks** | Classification |
-| **Data Source** | Real |
+| **Data Source** | Information not available |
 | **Dataset Characteristics** | Sequential |
 | **Date Donated** | 2008-03-19 |
 | **Feature Type** | Real |
@@ -15,31 +15,23 @@
 | **Number of Features** | 101 |
 | **Number of Instances** | 606 |
 | **Source** | UCI Machine Learning Repository |
-| **Time Series** | No |
+| **Time Series** | Likely |
 
 ## Description
 
-Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a âbumpâ in the terrain) or a Valley (a âdipâ in the terrain).
+The Hill-Valley dataset contains several files representing hill or valley terrain shapes. There are six files, including two training/testing sets without noise where the hills or valleys have a smooth transition, and two training/testing sets with noise where the terrain is uneven making the hill or valley less obvious. Additionally, a sample ARFF file is provided for setting up experiments, and a graphic showing example instances from the data.
 
-There are six files, as follows:
-(a) Hill_Valley_without_noise_Training.data
-(b) Hill_Valley_without_noise_Testing.data
-These first two datasets (without noise) are a training/testing set pair where the hills or valleys have a smooth transition.
+Each record consists of 100 floating point values labeled as "X##" representing coordinates, followed by a binary class label {0, 1} representing valley or hill respectively. The dataset contains 606 instances with 101 features. It is intended for classification tasks, and does not contain missing values.
 
-(c) Hill_Valley_with_noise_Training.data
-(d) Hill_Valley_with_noise_Testing.data
-These next two datasets (with noise) are a training/testing set pair where the terrain is uneven, and the hill or valley is not as obvious when viewed closely.
-(e) Hill_Valley_sample_arff.text
-The sample ARFF file is useful for setting up experiments, but is not necessary.
-(f) Hill_Valley_visual_examples.jpg
-This graphic file shows two example instances from the data.
+This dataset is provided under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, allowing sharing and adaptation with appropriate credit.
 
 ## Tags
 
-Computer Vision, Curve classification, Hill detection, Sequential data, Terrain analysis, Two-dimensional graph, Valley detection
+Binary classification, Creative Commons licensed, Hill and valley classification, No noise and noise variations, Real-valued features, Sequential data, Terrain data
 
 ## References
 
+- [Graham, L. & Oppacher, F. (2008). Hill-Valley [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5JC8P.](https://doi.org/10.24432/C5JC8P)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)
 
 [⬅️ Back to Index](../README.md)

@@ -1,30 +1,30 @@
 {
   "Name": "NEU Surface Defect Dataset",
-  "Labeled": "Yes",
+  "Labeled": "Information not available",
   "Time Series": "No",
   "Data Source": "Real",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Univariate, Image",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Image, Multiclass",
   "Feature Type": "Image",
-  "Associated Tasks": "Classification, Defect Detection",
+  "Associated Tasks": "Classification",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
-  "Source": "Northeastern University, China",
-  "Summary": "This dataset is used for surface defect detection, likely containing images of steel or metal surfaces with various types of defects.",
-  "Description": "Information not available\n\nInformation not available\n\nInformation not available",
+  "Source": "Northeastern University",
+  "Summary": "The NEU Surface Defect Dataset contains images for surface defect detection and classification of hot-rolled steel strips collected by Northeastern University.",
+  "Description": "The NEU Surface Defect Dataset is a collection of six common surface defects on hot-rolled steel strips.\n\nThe dataset is intended for the purpose of machine learning research on surface defect detection and classification in industrial steel production. It provides labeled image data that include typical surface defects such as crazing, inclusion, patches, pitted surface, rolled-in scale, and scratches.\n\nThe dataset can be used to develop and test image classification algorithms, helping improve the quality inspection process in steel manufacturing.",
   "Additional Tags": [
     "Surface defect detection",
-    "Steel defect images",
-    "Image classification",
-    "Industrial inspection",
-    "Metal surface defects",
-    "Computer vision",
-    "Texture analysis"
+    "Steel strip images",
+    "Industrial defect classification",
+    "Image dataset",
+    "Hot-rolled steel",
+    "Machine learning",
+    "Computer vision"
   ],
   "References": [
     {
-      "Text": "NEU Surface Defect Dataset",
+      "Text": "NEU Surface Defect Database",
       "Link": "http://faculty.neu.edu.cn/yunhyan/NEU_surface_defect_database.html"
     }
   ]

@@ -3,32 +3,32 @@
   "Labeled": "Yes",
   "Time Series": "Likely",
   "Data Source": "Synthetic",
-  "Missing Values": "No",
-  "Dataset Characteristics": "Multivariate",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Multivariate, Time-Series",
   "Feature Type": "Real",
   "Associated Tasks": "Classification",
   "Number of Instances": "3500",
   "Number of Features": "84",
   "Date Donated": "2020-04-29",
   "Source": "Mendeley Data",
-  "Summary": "The objective of this dataset is the fault diagnosis in diesel engines to assist the predictive maintenance. The database is expected to emulate all operating scenarios under study, for possible diesel machine faults and system conditions variations.",
-  "Description": "The objective of this dataset is the fault diagnosis in diesel engines to assist the predictive maintenance, through the analysis of the variation of the pressure curves inside the cylinders and the torsional vibration response of the crankshaft. Hence a fault simulation model based on a zero-dimensional thermodynamic model was developed. \n\nThe adopted feature vectors were chosen from the thermodynamic model and obtained from processing signals as pressure and temperature inside the cylinder, as well as, torsional vibration of the engine\u2019s flywheel. These vectors are used as input of the machine learning technique in order to discriminate among several machine conditions. \n\nThe entire database comprises a total of 3500 different fault scenarios for 4 distinct operational conditions. 250 of which from the normal class, 250 from ``pressure reduction in the intake manifold\" class, 1500 from ``compression ratio reduction in the cylinders\" class and 1500 from the ``reduction of amount of fuel injected into the cylinders\" class. This database is named 3500-DEFault database.",
+  "Summary": "The objective of this dataset is the fault diagnosis in diesel engines to assist predictive maintenance through analysis of pressure curves and torsional vibration responses.",
+  "Description": "The dataset was developed for fault diagnosis in diesel engines to assist predictive maintenance by analyzing variations in pressure curves inside cylinders and torsional vibration response of the crankshaft. A fault simulation model based on a zero-dimensional thermodynamic model was developed to generate the data.\n\nFeature vectors were chosen from the thermodynamic model and processed signals such as pressure and temperature inside the cylinder, and torsional vibration of the engine\u2019s flywheel. These vectors serve as input for machine learning techniques to discriminate among several machine conditions.\n\nThe dataset comprises 3500 different fault scenarios covering four distinct operational conditions \u2014 Normal, Pressure reduction in the intake manifold, Compression ratio reduction in the cylinders, and Reduction of amount of fuel injected into the cylinders. The feature vector consists of 84 columns representing pressure and vibration features, with 3500 rows of samples.",
   "Additional Tags": [
-    "Fault diagnosis",
     "Diesel engine",
+    "Fault diagnosis",
     "Predictive maintenance",
-    "Thermodynamic model",
     "Pressure curves",
     "Torsional vibration",
-    "Machine learning"
+    "Thermodynamic model",
+    "Synthetic data"
   ],
   "References": [
     {
-      "Text": "Mendeley Data",
+      "Text": "Mendeley Data - Diesel Engine Faults Features (3500-DEFault)",
       "Link": "https://data.mendeley.com/datasets/k22zxz29kr/1"
     },
     {
-      "Text": "https://link.springer.com/chapter/10.1007/978-3-319-99268-6_6",
+      "Text": "Related Article on Springer",
       "Link": "https://link.springer.com/chapter/10.1007/978-3-319-99268-6_6"
     }
   ]

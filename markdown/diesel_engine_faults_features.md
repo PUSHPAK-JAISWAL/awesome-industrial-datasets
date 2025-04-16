@@ -1,16 +1,16 @@
 # Diesel Engine Faults Features
 
-**Summary:** The objective of this dataset is the fault diagnosis in diesel engines to assist the predictive maintenance. The database is expected to emulate all operating scenarios under study, for possible diesel machine faults and system conditions variations.
+**Summary:** The objective of this dataset is the fault diagnosis in diesel engines to assist predictive maintenance through analysis of pressure curves and torsional vibration responses.
 
 | Parameter | Value |
 | --- | --- |
 | **Associated Tasks** | Classification |
 | **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate |
+| **Dataset Characteristics** | Multivariate, Time-Series |
 | **Date Donated** | 2020-04-29 |
 | **Feature Type** | Real |
 | **Labeled** | Yes |
-| **Missing Values** | No |
+| **Missing Values** | Information not available |
 | **Name** | Diesel Engine Faults Features |
 | **Number of Features** | 84 |
 | **Number of Instances** | 3500 |
@@ -19,19 +19,19 @@
 
 ## Description
 
-The objective of this dataset is the fault diagnosis in diesel engines to assist the predictive maintenance, through the analysis of the variation of the pressure curves inside the cylinders and the torsional vibration response of the crankshaft. Hence a fault simulation model based on a zero-dimensional thermodynamic model was developed.
+The dataset was developed for fault diagnosis in diesel engines to assist predictive maintenance by analyzing variations in pressure curves inside cylinders and torsional vibration response of the crankshaft. A fault simulation model based on a zero-dimensional thermodynamic model was developed to generate the data.
 
-The adopted feature vectors were chosen from the thermodynamic model and obtained from processing signals as pressure and temperature inside the cylinder, as well as, torsional vibration of the engine’s flywheel. These vectors are used as input of the machine learning technique in order to discriminate among several machine conditions.
+Feature vectors were chosen from the thermodynamic model and processed signals such as pressure and temperature inside the cylinder, and torsional vibration of the engine’s flywheel. These vectors serve as input for machine learning techniques to discriminate among several machine conditions.
 
-The entire database comprises a total of 3500 different fault scenarios for 4 distinct operational conditions. 250 of which from the normal class, 250 from ``pressure reduction in the intake manifold" class, 1500 from ``compression ratio reduction in the cylinders" class and 1500 from the ``reduction of amount of fuel injected into the cylinders" class. This database is named 3500-DEFault database.
+The dataset comprises 3500 different fault scenarios covering four distinct operational conditions — Normal, Pressure reduction in the intake manifold, Compression ratio reduction in the cylinders, and Reduction of amount of fuel injected into the cylinders. The feature vector consists of 84 columns representing pressure and vibration features, with 3500 rows of samples.
 
 ## Tags
 
-Diesel engine, Fault diagnosis, Machine learning, Predictive maintenance, Pressure curves, Thermodynamic model, Torsional vibration
+Diesel engine, Fault diagnosis, Predictive maintenance, Pressure curves, Synthetic data, Thermodynamic model, Torsional vibration
 
 ## References
 
-- [Mendeley Data](https://data.mendeley.com/datasets/k22zxz29kr/1)
-- [https://link.springer.com/chapter/10.1007/978-3-319-99268-6_6](https://link.springer.com/chapter/10.1007/978-3-319-99268-6_6)
+- [Mendeley Data - Diesel Engine Faults Features (3500-DEFault)](https://data.mendeley.com/datasets/k22zxz29kr/1)
+- [Related Article on Springer](https://link.springer.com/chapter/10.1007/978-3-319-99268-6_6)
 
 [⬅️ Back to Index](../README.md)

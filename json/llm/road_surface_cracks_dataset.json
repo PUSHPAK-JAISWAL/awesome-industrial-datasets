@@ -1,29 +1,30 @@
 {
   "Name": "Road Surface Cracks Dataset",
-  "Labeled": "Yes",
-  "Time Series": "Information not available",
+  "Labeled": "Information not available",
+  "Time Series": "No",
   "Data Source": "Real",
   "Missing Values": "Information not available",
-  "Dataset Characteristics": "Multivariate",
-  "Feature Type": "Real",
-  "Associated Tasks": "Classification, Object Detection",
+  "Dataset Characteristics": "Image data",
+  "Feature Type": "Image",
+  "Associated Tasks": "Likely Classification, Segmentation",
   "Number of Instances": "Information not available",
   "Number of Features": "Information not available",
   "Date Donated": "Information not available",
   "Source": "GitHub",
-  "Summary": "This dataset contains images of road surfaces with cracks, intended for developing machine learning models for crack detection and classification.",
-  "Description": "This dataset contains images of road surfaces with cracks. It is intended to support the development of machine learning-based approaches for detecting and classifying cracks in road surfaces.\n\nThe dataset is hosted on GitHub and available for public use. However, the GitHub page does not provide a detailed description of the dataset's characteristics, such as the number of images, resolution, or labeling scheme.\n\nMore information may be found within the repository's files or associated research papers.",
+  "Summary": "Dataset related to road surface cracks provided in the CrackForest-dataset GitHub repository.",
+  "Description": "The Road Surface Cracks Dataset is hosted on GitHub under the repository CrackForest-dataset by user cuilimeng. The repository contains data related to road surface cracks.\n\nNo additional detailed description or website is provided on the repository page. The dataset likely contains images of road surfaces with cracks for analysis and model development.\n\nThe GitHub page does not publish releases or packages for this dataset, and further metadata such as instance or feature count, labeling details, or missing values information is not explicitly provided.",
   "Additional Tags": [
-    "Road surface",
+    "Road surface cracks",
+    "Image data",
     "Crack detection",
-    "Image analysis",
-    "Computer vision",
-    "Defect detection",
-    "Transportation infrastructure"
+    "Material defects",
+    "Infrastructure monitoring",
+    "GitHub dataset",
+    "Computer vision"
   ],
   "References": [
     {
-      "Text": "GitHub Repository",
+      "Text": "CrackForest-dataset GitHub repository",
       "Link": "https://github.com/cuilimeng/CrackForest-dataset"
     }
   ]

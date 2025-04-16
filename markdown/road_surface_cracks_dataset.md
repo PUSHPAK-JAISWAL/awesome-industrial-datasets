@@ -1,36 +1,36 @@
 # Road Surface Cracks Dataset
 
-**Summary:** This dataset contains images of road surfaces with cracks, intended for developing machine learning models for crack detection and classification.
+**Summary:** Dataset related to road surface cracks provided in the CrackForest-dataset GitHub repository.
 
 | Parameter | Value |
 | --- | --- |
-| **Associated Tasks** | Classification, Object Detection |
+| **Associated Tasks** | Likely Classification, Segmentation |
 | **Data Source** | Real |
-| **Dataset Characteristics** | Multivariate |
+| **Dataset Characteristics** | Image data |
 | **Date Donated** | Information not available |
-| **Feature Type** | Real |
-| **Labeled** | Yes |
+| **Feature Type** | Image |
+| **Labeled** | Information not available |
 | **Missing Values** | Information not available |
 | **Name** | Road Surface Cracks Dataset |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
 | **Source** | GitHub |
-| **Time Series** | Information not available |
+| **Time Series** | No |
 
 ## Description
 
-This dataset contains images of road surfaces with cracks. It is intended to support the development of machine learning-based approaches for detecting and classifying cracks in road surfaces.
+The Road Surface Cracks Dataset is hosted on GitHub under the repository CrackForest-dataset by user cuilimeng. The repository contains data related to road surface cracks.
 
-The dataset is hosted on GitHub and available for public use. However, the GitHub page does not provide a detailed description of the dataset's characteristics, such as the number of images, resolution, or labeling scheme.
+No additional detailed description or website is provided on the repository page. The dataset likely contains images of road surfaces with cracks for analysis and model development.
 
-More information may be found within the repository's files or associated research papers.
+The GitHub page does not publish releases or packages for this dataset, and further metadata such as instance or feature count, labeling details, or missing values information is not explicitly provided.
 
 ## Tags
 
-Computer vision, Crack detection, Defect detection, Image analysis, Road surface, Transportation infrastructure
+Computer vision, Crack detection, GitHub dataset, Image data, Infrastructure monitoring, Material defects, Road surface cracks
 
 ## References
 
-- [GitHub Repository](https://github.com/cuilimeng/CrackForest-dataset)
+- [CrackForest-dataset GitHub repository](https://github.com/cuilimeng/CrackForest-dataset)
 
 [⬅️ Back to Index](../README.md)

@@ -1,6 +1,6 @@
 # Gas sensor array under dynamic gas mixtures
 
-**Summary:** The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.
+**Summary:** The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations, acquired continuously during 12 hours.
 
 | Parameter | Value |
 | --- | --- |
@@ -19,18 +19,20 @@
 
 ## Description
 
-This data set contains the acquired time series from 16 chemical sensors exposed to gas mixtures at varying concentration levels. In particular, we generated two gas mixtures: Ethylene and Methane in air, and Ethylene and CO in air. Each measurement was constructed by the continuous acquisition of the 16-sensor array signals for a duration of about 12 hours without interruption.
+This data set contains the acquired time series from 16 chemical sensors exposed to gas mixtures at varying concentration levels. Two gas mixtures were generated: Ethylene and Methane in air, and Ethylene and CO in air. Each measurement was constructed by the continuous acquisition of the 16-sensor array signals for about 12 hours without interruption.
 
-The data set was collected in a gas delivery platform facility at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. The measurement system platform provides versatility for obtaining the desired concentrations of the chemical substances of interest with high accuracy and in a highly reproducible manner.
+The data set was collected at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. The sensor array consisted of 16 chemical sensors of 4 different types (TGS-2600, TGS-2602, TGS-2610, TGS-2620), with sensors integrated with customized signal conditioning and control electronics. Sensor conductivities were acquired continuously at 100 Hz sampling frequency within a 60 ml measurement chamber with a constant gas flow.
 
-The primary purpose of making this data set freely accessible on-line is to provide extensive and continuous time series acquired from chemical sensors to the sensor and artificial intelligence research communities to develop and test strategies to solve a wide variety of tasks. In particular, the data set may be useful to develop algorithms for continuous monitoring or improve response time of sensory systems.
+Concentration transitions were set randomly to simulate varying gas levels with all possible transitions included. Concentration ranges were chosen to induce similar sensor response magnitudes for Ethylene (0-20 ppm), CO (0-600 ppm), and Methane (0-300 ppm). The dataset aims to aid development of methods for continuous monitoring, sensor variability studies, sensor failure analysis, and calibration transfer research.
 
 ## Tags
 
-Chemical sensors, Concentration levels, Dynamic gas mixtures, Ethylene and CO, Ethylene and Methane, Gas mixtures, Sensor array, Time series data
+Artificial intelligence research, Chemical sensors, Continuous acquisition, Gas mixture analysis, Multivariate sensor data, Sensor array, Time series data
 
 ## References
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures)
+- [Dataset DOI](https://doi.org/10.24432/C5WP4C)
+- [Citation: Fonollosa, J. (2015). Gas sensor array under dynamic gas mixtures [Dataset]. UCI Machine Learning Repository.](https://doi.org/10.24432/C5WP4C)
 
 [⬅️ Back to Index](../README.md)

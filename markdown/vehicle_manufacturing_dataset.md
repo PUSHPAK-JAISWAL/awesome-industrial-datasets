@@ -1,6 +1,6 @@
 # Vehicle Manufacturing Dataset
 
-**Summary:** Information about this dataset is not available from the provided source.
+**Summary:** Information not available
 
 | Parameter | Value |
 | --- | --- |
@@ -9,13 +9,13 @@
 | **Dataset Characteristics** | Information not available |
 | **Date Donated** | Information not available |
 | **Feature Type** | Information not available |
-| **Labeled** | Likely |
+| **Labeled** | Information not available |
 | **Missing Values** | Information not available |
 | **Name** | Vehicle Manufacturing Dataset |
 | **Number of Features** | Information not available |
 | **Number of Instances** | Information not available |
 | **Source** | Kaggle |
-| **Time Series** | No |
+| **Time Series** | Information not available |
 
 ## Description
 
@@ -23,10 +23,10 @@ Information not available
 
 ## Tags
 
-Automotive industry, Industrial data, Manufacturing processes, Production data, Vehicle manufacturing
+
 
 ## References
 
-- [Kaggle](https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset)
+- [Kaggle Vehicle Manufacturing Dataset](https://www.kaggle.com/datasets/arnavsmayan/vehicle-manufacturing-dataset)
 
 [⬅️ Back to Index](../README.md)
