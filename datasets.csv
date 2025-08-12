@@ -9,6 +9,7 @@ Anemometer Fault Detection,https://phmsociety.org/phm_competition/2011-phm-socie
 Appliances energy prediction,https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
 APS Failure at Scania Trucks Data Set,https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
 Asset Failure and Replacement,https://phmsociety.org/conference/annual-conference-of-the-phm-society/annual-conference-of-the-prognostics-and-health-management-society-2014/phm-data-challenge-2/
+AssetOpsBench, https://github.com/IBM/AssetOpsBench
 Athabasca Oil Sands Dataset (McMurray Formation),https://ags.aer.ca/publication/spe-006
 Bearing,https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/
 Beijing PM2.5 Data,https://archive.ics.uci.edu/dataset/381/beijing+pm2+5+data
@@ -44,6 +45,7 @@ ECO dataset,http://vs.inf.ethz.ch/res/show.html?what=eco-data
 Electrical Grid Stability Simulated Data,https://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data
 Electricity Load Diagrams 2011-2014,https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
 Energy efficiency,https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
+FailureSensorIQ, https://github.com/IBM/FailureSensorIQ
 Gas Sensor Array Drift at Different Concentrations,https://archive.ics.uci.edu/dataset/270/gas+sensor+array+drift+dataset+at+different+concentrations
 Gas sensor array temperature modulation,https://archive.ics.uci.edu/dataset/487/gas+sensor+array+temperature+modulation
 Gas sensor array under dynamic gas mixtures,https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures

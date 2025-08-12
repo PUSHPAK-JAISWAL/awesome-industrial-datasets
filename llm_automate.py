@@ -190,7 +190,7 @@ def try_generate_with_fallback(name, url, uci_example, general_examples, generat
     return dataset_json, evaluation
 
 def main():
-    input_csv = 'datasets.csv'
+    input_csv = 'datasets copy.csv'
     output_dir = 'json/llm'
     os.makedirs(output_dir, exist_ok=True)
 

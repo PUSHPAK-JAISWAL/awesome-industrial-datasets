@@ -1,38 +1,38 @@
 {
   "Name": "Air Quality",
-  "Labeled": "Likely",
+  "Labeled": "Yes",
   "Time Series": "Yes",
   "Data Source": "Real",
   "Missing Values": "Yes",
   "Dataset Characteristics": "Multivariate, Time-Series",
-  "Feature Type": "Real",
+  "Feature Type": "Real, Integer, Categorical, Date",
   "Associated Tasks": "Regression",
   "Number of Instances": "9358",
   "Number of Features": "15",
   "Date Donated": "2016-03-22",
   "Source": "UCI Machine Learning Repository",
   "Summary": "Contains the responses of a gas multisensor device deployed on the field in an Italian city. Hourly responses averages are recorded along with gas concentrations references from a certified analyzer.",
-  "Description": "The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to February 2005 (one year) representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses. Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer.\n\nEvidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value. This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.\n\nThe data include features such as date, time, true hourly averaged concentrations of various gases, hourly averaged sensor responses, temperature, relative humidity, and absolute humidity.",
+  "Description": "The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to February 2005 (one year) representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses.\n\nGround Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer. Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value.\n\nThis dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.",
   "Additional Tags": [
-    "Air Quality Monitoring",
-    "Gas Sensor Data",
-    "Multivariate Time-Series",
-    "Environmental Sensor",
-    "Chemical Sensors",
-    "Pollution Measurement",
-    "Cross-sensitivity and Sensor Drift"
+    "Air quality monitoring",
+    "Chemical sensors",
+    "Time series data",
+    "Metal oxide sensors",
+    "Pollution measurement",
+    "Italian city data",
+    "Gas concentration"
   ],
   "References": [
+    {
+      "Text": "On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario",
+      "Link": "https://www.semanticscholar.org/paper/a90a54a39ff934772df57771a0012981f355949d"
+    },
     {
       "Text": "UCI Machine Learning Repository",
       "Link": "https://archive.ics.uci.edu/ml/datasets/Air+Quality"
     },
     {
-      "Text": "On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario - Sensors and Actuators B: Chemical, 2008",
-      "Link": "https://www.semanticscholar.org/paper/a90a54a39ff934772df57771a0012981f355949d"
-    },
-    {
-      "Text": "DOI: 10.24432/C59K5F",
+      "Text": "Dataset DOI",
       "Link": "https://doi.org/10.24432/C59K5F"
     }
   ]

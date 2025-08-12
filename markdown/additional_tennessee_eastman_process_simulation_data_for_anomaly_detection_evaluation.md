@@ -1,12 +1,12 @@
 # Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation
 
-**Summary:** This dataset provides additional simulation data from the Tennessee Eastman Process designed for evaluating anomaly detection methods.
+**Summary:** This dataset provides additional simulation data for the Tennessee Eastman Process to evaluate anomaly detection methods in industrial process control.
 
 | Parameter | Value |
 | --- | --- |
 | **Associated Tasks** | Anomaly Detection, Classification |
 | **Data Source** | Synthetic |
-| **Dataset Characteristics** | Multivariate, Time-Series |
+| **Dataset Characteristics** | Time-Series, Multivariate |
 | **Date Donated** | Information not available |
 | **Feature Type** | Real |
 | **Labeled** | Yes |
@@ -19,18 +19,16 @@
 
 ## Description
 
-This dataset contains additional simulation data generated using the Tennessee Eastman Process, a widely used benchmark in process control and fault detection research. It is aimed at evaluating anomaly detection approaches by providing a comprehensive set of simulated faults.
+The dataset supplements the Tennessee Eastman Process simulation data with additional scenarios for anomaly detection evaluation. It aims to support the development and benchmarking of machine learning models designed to detect faults and anomalies in chemical process control systems. The data simulates multivariate time series signals representing sensor measurements and process variables under various operational and fault conditions.
 
-The data includes multiple types of fault scenarios and normal operational data, reflecting a complex industrial chemical process. The Tennessee Eastman Process simulation is synthetic but based on realistic industrial process dynamics. This dataset serves as a benchmark to compare different anomaly detection algorithms and improve their performance.
-
-Researchers can utilize this dataset to develop and test machine learning models designed to detect and classify process anomalies accurately. It supports efforts in predictive maintenance and fault diagnosis in industrial settings.
+The data is generated using a high-fidelity simulation of the Tennessee Eastman Process, a well-known benchmark in process monitoring and fault detection studies. This additional dataset extends the original by providing new and varied fault scenarios, enhancing the scope for testing robust anomaly detection algorithms. It is particularly useful for researchers and practitioners involved in industrial process control and predictive maintenance, offering realistic and complex data for model training and evaluation.
 
 ## Tags
 
-Anomaly detection, Chemical process, Fault detection, Machine learning benchmark, Process simulation, Synthetic data, Tennessee Eastman Process
+Anomaly detection, Chemical process control, Fault detection, Industrial process simulation, Machine learning benchmark, Tennessee Eastman Process, Time-series data
 
 ## References
 
-- [Harvard Dataverse: Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1)
+- [Harvard Dataverse - Additional Tennessee Eastman Process Simulation Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1)
 
 [⬅️ Back to Index](../README.md)

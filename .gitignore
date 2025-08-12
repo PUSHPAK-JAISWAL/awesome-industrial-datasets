@@ -9,3 +9,4 @@ venv
 backup
 .env
 process.log
+statistics.py

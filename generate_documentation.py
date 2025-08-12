@@ -86,8 +86,9 @@ def update_readme_with_data(combined_data, readme_file, md_folder_path):
     df = pd.DataFrame(datasets)
     df.fillna('', inplace=True)
     df.sort_values(by='Dataset Name', inplace=True)
-    df['Link'] = df['Link'].apply(lambda x: f"[{x.replace('_', ' ').title()}]({md_folder_path}/{x}.md)")
-    df['Dataset Name'] = df.apply(lambda x: x['Link'], axis=1)
+    # Preserve original capitalization of dataset name from JSON 'Name' field in link text
+    df['Link'] = df.apply(lambda row: f"[{row['Dataset Name']}]({md_folder_path}/{row['Link']}.md)", axis=1)
+    df['Dataset Name'] = df['Link']
     df.drop(['Link', 'Description'], axis=1, inplace=True)
     markdown_table = df.to_markdown(index=False)
 

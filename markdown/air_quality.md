@@ -8,8 +8,8 @@
 | **Data Source** | Real |
 | **Dataset Characteristics** | Multivariate, Time-Series |
 | **Date Donated** | 2016-03-22 |
-| **Feature Type** | Real |
-| **Labeled** | Likely |
+| **Feature Type** | Real, Integer, Categorical, Date |
+| **Labeled** | Yes |
 | **Missing Values** | Yes |
 | **Name** | Air Quality |
 | **Number of Features** | 15 |
@@ -19,20 +19,20 @@
 
 ## Description
 
-The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to February 2005 (one year) representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses. Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer.
+The dataset contains 9358 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device. The device was located on the field in a significantly polluted area, at road level, within an Italian city. Data were recorded from March 2004 to February 2005 (one year) representing the longest freely available recordings of on field deployed air quality chemical sensor devices responses.
 
-Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value. This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.
+Ground Truth hourly averaged concentrations for CO, Non Metanic Hydrocarbons, Benzene, Total Nitrogen Oxides (NOx) and Nitrogen Dioxide (NO2) were provided by a co-located reference certified analyzer. Evidences of cross-sensitivities as well as both concept and sensor drifts are present as described in De Vito et al., Sens. And Act. B, Vol. 129,2,2008 (citation required) eventually affecting sensors concentration estimation capabilities. Missing values are tagged with -200 value.
 
-The data include features such as date, time, true hourly averaged concentrations of various gases, hourly averaged sensor responses, temperature, relative humidity, and absolute humidity.
+This dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.
 
 ## Tags
 
-Air Quality Monitoring, Chemical Sensors, Cross-sensitivity and Sensor Drift, Environmental Sensor, Gas Sensor Data, Multivariate Time-Series, Pollution Measurement
+Air quality monitoring, Chemical sensors, Gas concentration, Italian city data, Metal oxide sensors, Pollution measurement, Time series data
 
 ## References
 
+- [On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario](https://www.semanticscholar.org/paper/a90a54a39ff934772df57771a0012981f355949d)
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
-- [On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario - Sensors and Actuators B: Chemical, 2008](https://www.semanticscholar.org/paper/a90a54a39ff934772df57771a0012981f355949d)
-- [DOI: 10.24432/C59K5F](https://doi.org/10.24432/C59K5F)
+- [Dataset DOI](https://doi.org/10.24432/C59K5F)
 
 [⬅️ Back to Index](../README.md)

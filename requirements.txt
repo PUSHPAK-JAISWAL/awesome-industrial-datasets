@@ -4,3 +4,4 @@ beautifulsoup4
 dotenv
 pandas
 tabulate
+selenium

@@ -1,24 +1,24 @@
 {
   "Name": "3D Printer",
   "Labeled": "Likely",
-  "Time Series": "No",
+  "Time Series": "Likely",
   "Data Source": "Real",
   "Missing Values": "Information not available",
   "Dataset Characteristics": "Multivariate",
   "Feature Type": "Real, Categorical",
-  "Associated Tasks": "Classification, Regression",
+  "Associated Tasks": "Regression, Classification",
   "Number of Instances": "Information not available",
   "Number of Features": "12",
   "Date Donated": "2018-09-14",
   "Source": "Kaggle",
-  "Summary": "Dataset to find relations between the input parameters of 3D printers, aiming to determine how adjustment parameters affect print quality, accuracy, and strength.",
-  "Description": "This dataset comes from research by TR/Selcuk University Mechanical Engineering department. The aim of the study is to determine how much of the adjustment parameters in 3D printers affect the print quality, accuracy, and strength. There are nine setting parameters and three measured output parameters.\n\nThe input setting parameters include Layer Height (mm), Wall Thickness (mm), Infill Density (%), Infill Pattern (), Nozzle Temperature (C\u00ba), Bed Temperature (C\u00ba), Print Speed (mm/s), Material (), and Fan Speed (%).\n\nThe output parameters measured are Roughness (\u00b5m), Tension (ultimate) Strength (MPa), and Elongation (%). The work is based on the Ultimaker S5 3-D printer settings and filaments. Material and strength tests were carried out on a Sincotec GMBH tester capable of pulling 20 kN. The study attempts to estimate which material is used from the input and output parameters using kNN and DNN algorithms.",
+  "Summary": "This dataset comes from research by TR/Selcuk University Mechanical Engineering department. The aim is to determine how the adjustment parameters in 3D printers affect print quality, accuracy, and strength.",
+  "Description": "The dataset is based on the Ultimaker S5 3D printer settings and filaments, with materials and strength tests carried out on a Sincotec GMBH tester capable of pulling 20 kN.\n\nIt comprises nine setting parameters including layer height, wall thickness, infill density and pattern, nozzle and bed temperature, print speed, material, and fan speed. The measured output parameters are roughness, tension (ultimate) strength, and elongation.\n\nThe study attempts to estimate which material is used based on input and output parameters using kNN and DNN algorithms. This dataset supports mechanical engineering research and machine learning analysis for 3D printing parameters.",
   "Additional Tags": [
-    "3D printing",
-    "Mechanical engineering",
-    "Printer settings",
-    "Material strength",
-    "Print quality",
+    "3D Printing",
+    "Mechanical Engineering",
+    "Material Strength",
+    "Print Quality",
+    "Ultimaker S5",
     "Regression",
     "Classification"
   ],
@@ -28,7 +28,7 @@
       "Link": "https://www.kaggle.com/datasets/afumetto/3dprinter"
     },
     {
-      "Text": "Research blog (Turkish)",
+      "Text": "TR/Selcuk University Mechanical Engineering department research",
       "Link": "https://medium.com/@ahmet17/makina-m%C3%BChendisleri-i%C3%A7in-derin-%C3%B6%C4%9Frenme-3d-printer-veri-setinin-i%CC%87ncelenmesi-6fe1f48e0cdb"
     }
   ]
