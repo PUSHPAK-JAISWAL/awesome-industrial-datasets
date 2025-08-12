@@ -23,7 +23,7 @@ load_dotenv()
 # model = "gemini-2.0-flash"
 # provider = "google"
 
-model = "gpt-4.1-mini-2025-04-14"
+model = "o4-mini-2025-04-16"
 provider = "openai"
 
 if provider == "openai":
@@ -63,7 +63,8 @@ def fetch_webpage_content(url, allow_selenium=True):
         response.raise_for_status()
         cleaned = clean_html(response.text)
 
-        if "kaggle.com" in url or len(cleaned) < 300:
+        # Use Selenium for Kaggle or GitHub pages or if content is too short
+        if "kaggle.com" in url or "github.com" in url or len(cleaned) < 300:
             if allow_selenium:
                 return use_selenium(url)
         return cleaned
@@ -121,17 +122,19 @@ URL: "{url}"
 Below is the filtered content of the webpage:
 {page_content}
 
-You must use the webpage content above to create a JSON file that follows exactly the format of the examples provided. The webpages I provide are not always from the UCI Machine Learning Repository, so you need to read the webpage, extract the relevant information, and fill the fields accordingly. The confidence of the presented information must be high.
+Instructions:
+1. Use only content present on the webpage to fill each field. Do not add any speculative or meta commentary about missing information or your uncertainty.
+2. If a data field cannot be confirmed from the page, set it to "Information not available" but do not mention it in the "Description" or "Summary".
+3. Do not include sentences about what is not available (e.g., avoid phrases like "While detailed metadata... is not disclosed").
+4. Follow the exact keys and structure from the examples with no extra keys.
 
-Keep the exact same keys used in the examples. If you do not find specific information, fill it with "Information not available". If you are not certain but it is likely, use the term "Likely".
+For the "Summary", provide one or two factual sentences summarizing the dataset based solely on page content.
 
-In the "Summary", provide one or two sentences summarizing the dataset. Try to extract these sentences directly from the webpage; if not available, summarize the information you find.
+For the "Description", include a factual, multi-paragraph narrative (2 or 3 paragraphs) drawn strictly from the page. Do not speculate or comment on missing data.
 
-For the "Description", include a longer description of 2 or 3 paragraphs. Use only the information given on the page. To break a paragraph, insert `\\n\\n`.
+For "References", list each source with its link text and URL exactly as displayed on the page.
 
-For the references, include the provided original reference of the dataset and any additional relevant references that you find on the webpage. Ensure that the URL and the name of the references indicate the same href element.
-
-For "Additional Tags", create between 5 and 7 useful tags that would help someone quickly identify the dataset among many options, considering that experts in the domain will be searching for specific datasets for machine learning applications.
+For "Additional Tags", generate 5 to 7 concise domain-specific tags drawn directly from page context or visible keywords.
 
 Your answer should consist of two parts:
 1. The JSON content exactly following the examples provided, with no extra text and with no markdown formatting (do not use triple backticks or any markdown).
@@ -173,6 +176,7 @@ Do not include any other text.
 
 def try_generate_with_fallback(name, url, uci_example, general_examples, generate_fn):
     page_content = fetch_webpage_content(url, allow_selenium=False)
+    print(page_content)
     dataset_json, evaluation = generate_fn(name, url, uci_example, general_examples, page_content)
     score = extract_score(evaluation)
 
@@ -190,7 +194,7 @@ def try_generate_with_fallback(name, url, uci_example, general_examples, generat
     return dataset_json, evaluation
 
 def main():
-    input_csv = 'datasets copy.csv'
+    input_csv = 'datasets.csv'
     output_dir = 'json/llm'
     os.makedirs(output_dir, exist_ok=True)
 
