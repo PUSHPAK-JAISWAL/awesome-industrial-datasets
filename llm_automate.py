@@ -176,7 +176,6 @@ Do not include any other text.
 
 def try_generate_with_fallback(name, url, uci_example, general_examples, generate_fn):
     page_content = fetch_webpage_content(url, allow_selenium=False)
-    print(page_content)
     dataset_json, evaluation = generate_fn(name, url, uci_example, general_examples, page_content)
     score = extract_score(evaluation)
 
