@@ -1,6 +1,7 @@
 import json
 import os
 import pandas as pd
+import re
 
 # Define folders
 json_folder_path_manual = 'json/manual'
@@ -95,6 +96,23 @@ def update_readme_with_data(combined_data, readme_file, md_folder_path):
     with open(readme_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
+    # Update dataset count in the statistics section
+    dataset_count = len(datasets)
+    
+    stats_start = content.find("<!-- STATS_START -->")
+    stats_end = content.find("<!-- STATS_END -->")
+    
+    if stats_start != -1 and stats_end != -1:
+        # Replace the content between the placeholders
+        stats_content = f"**Total Datasets:** {dataset_count}"
+        content = content[:stats_start + len("<!-- STATS_START -->")] + "\n" + stats_content + "\n" + content[stats_end:]
+    else:
+        # If no statistics section exists, add it before the table
+        table_start = content.find("## Datasets Table")
+        if table_start != -1:
+            stats_section = f"\n## 📊 Dataset Statistics\n\n<!-- STATS_START -->\n**Total Datasets:** {dataset_count}\n<!-- STATS_END -->\n\n"
+            content = content[:table_start] + stats_section + content[table_start:]
+
     table_start = content.find("<!-- TABLE_START -->")
     table_end = content.find("<!-- TABLE_END -->")
     if table_start == -1 or table_end == -1:
@@ -111,7 +129,7 @@ def update_readme_with_data(combined_data, readme_file, md_folder_path):
     with open(readme_file, 'w', encoding='utf-8') as file:
         file.write(updated_content)
 
-    print("Updated README with the new Markdown table.")
+    print(f"Updated README with the new Markdown table and dataset count: {dataset_count}")
 
 def json_to_markdown_and_html(filename, data):
     link_name = filename.replace('.json', '').replace(' ', '_').replace('.', '_').lower()

@@ -1,0 +1,30 @@
+{
+  "Name": "N-CMAPSS_DL",
+  "Labeled": "Information not available",
+  "Time Series": "Information not available",
+  "Data Source": "Information not available",
+  "Missing Values": "Information not available",
+  "Dataset Characteristics": "Information not available",
+  "Feature Type": "Information not available",
+  "Associated Tasks": "Information not available",
+  "Number of Instances": "Information not available",
+  "Number of Features": "Information not available",
+  "Date Donated": "Information not available",
+  "Source": "GitHub",
+  "Summary": "N-CMAPSS data preparation for Machine Learning and Deep Learning models provided as Python source code for a new CMAPSS dataset.",
+  "Description": "This repository contains Python code to preprocess and generate the N-CMAPSS dataset, a variant of the commercial modular aero-propulsion system simulation data set for predictive maintenance modeling.\n\nThe code implements data preparation steps for machine learning and deep learning, supporting tasks such as remaining useful life prediction on turbofan engine sensor data.\n\nUsers can leverage the provided scripts to reproduce the new CMAPSS dataset and integrate it into prognostic modeling workflows.",
+  "Additional Tags": [
+    "machine-learning",
+    "deep-learning",
+    "predictive-maintenance",
+    "remaining-useful-life",
+    "turbofan-engine",
+    "prognostics"
+  ],
+  "References": [
+    {
+      "Text": "GitHub Repository",
+      "Link": "https://github.com/mohyunho/N-CMAPSS_DL"
+    }
+  ]
+}

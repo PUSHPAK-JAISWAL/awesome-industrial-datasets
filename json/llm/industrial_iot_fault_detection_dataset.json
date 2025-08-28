@@ -1,0 +1,31 @@
+{
+  "Name": "Industrial IoT Fault Detection Dataset",
+  "Labeled": "Yes",
+  "Time Series": "Yes",
+  "Data Source": "Real",
+  "Missing Values": "No",
+  "Dataset Characteristics": "Multivariate, Time-Series",
+  "Feature Type": "Real",
+  "Associated Tasks": "Classification",
+  "Number of Instances": "1000",
+  "Number of Features": "7",
+  "Date Donated": "Information not available",
+  "Source": "Kaggle",
+  "Summary": "This dataset contains sensor measurements of vibration, temperature, and pressure from industrial machinery along with derived features and a fault label indicating machine health for predictive maintenance.",
+  "Description": "The Industrial IoT Fault Detection Dataset for Predictive Maintenance in Automation contains 1000 entries of sensor data collected from machinery in an industrial automation environment. The dataset includes three key sensor measurements: vibration (in mm/s), temperature (in \u00b0C), and pressure (in bar), which are crucial for monitoring the health of industrial equipment. It also provides two derived features: RMS vibration and mean temperature, to enhance fault classification.\n\nThe Fault Label column indicates the type of fault present, with possible values 0 for No Fault, 1 for Bearing Fault, and 2 for Overheating. Timestamped at one-minute intervals, the dataset supports time-series analysis and modeling for early detection of equipment failures in industrial IoT applications.",
+  "Additional Tags": [
+    "Industrial IoT",
+    "Predictive Maintenance",
+    "Vibration Analysis",
+    "Temperature Monitoring",
+    "Pressure Sensing",
+    "Fault Detection",
+    "Time-Series Data"
+  ],
+  "References": [
+    {
+      "Text": "Kaggle Dataset",
+      "Link": "https://www.kaggle.com/datasets/ziya07/industrial-iot-fault-detection-dataset"
+    }
+  ]
+}
